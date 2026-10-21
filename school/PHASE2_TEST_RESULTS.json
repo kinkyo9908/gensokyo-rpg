@@ -1,0 +1,119 @@
+{
+  "schoolAnchors": {
+    "arrival": true,
+    "talk": true,
+    "path": 4,
+    "residents": 5
+  },
+  "entry": true,
+  "normal": {
+    "npc": [
+      880,
+      228,
+      360,
+      510
+    ],
+    "player": [
+      200,
+      228,
+      360,
+      510
+    ],
+    "box": [
+      270,
+      748,
+      900,
+      234
+    ],
+    "safe": true,
+    "src": "school/assets/keine_dialogue_normal.png"
+  },
+  "smile": {
+    "npc": [
+      880,
+      228,
+      360,
+      510
+    ],
+    "player": [
+      200,
+      228,
+      360,
+      510
+    ],
+    "box": [
+      270,
+      748,
+      900,
+      234
+    ],
+    "safe": true,
+    "src": "school/assets/keine_dialogue_smile.png"
+  },
+  "menu": {
+    "npc": [
+      880,
+      128,
+      360,
+      510
+    ],
+    "player": [
+      200,
+      128,
+      360,
+      510
+    ],
+    "box": [
+      270,
+      648,
+      900,
+      334
+    ],
+    "safe": true,
+    "src": "school/assets/keine_dialogue_smile.png"
+  },
+  "mobile": {
+    "npc": [
+      210.3125,
+      170.28125,
+      167.6875,
+      320.71875
+    ],
+    "player": [
+      12,
+      170.28125,
+      167.6875,
+      320.71875
+    ],
+    "box": [
+      12,
+      509,
+      366,
+      325
+    ],
+    "safe": true,
+    "src": "school/assets/keine_dialogue_smile.png",
+    "buttons": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ]
+  },
+  "rollbackAndCleanup": true,
+  "saveUnchanged": true,
+  "collision": {
+    "aisle": true,
+    "desks": [
+      true,
+      true,
+      true,
+      true
+    ]
+  },
+  "otherNpcDialogue": true,
+  "exit": true,
+  "reloadPreserved": true,
+  "errors": []
+}

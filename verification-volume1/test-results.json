@@ -1,0 +1,896 @@
+{
+  "passed": true,
+  "actualVolume1Cases": [
+    {
+      "ordinal": 1,
+      "spelling": "評価",
+      "reading": "ひょうか",
+      "meaning": "평가",
+      "expectedReading": true,
+      "expectedMeaning": true,
+      "passed": true
+    },
+    {
+      "ordinal": 1,
+      "spelling": "評価",
+      "reading": "hyouka",
+      "meaning": "평가",
+      "expectedReading": true,
+      "expectedMeaning": true,
+      "passed": true
+    },
+    {
+      "ordinal": 1,
+      "spelling": "評価",
+      "reading": "hyōka",
+      "meaning": "평가",
+      "expectedReading": true,
+      "expectedMeaning": true,
+      "passed": true
+    },
+    {
+      "ordinal": 1,
+      "spelling": "評価",
+      "reading": "HYOUKA",
+      "meaning": "평가",
+      "expectedReading": true,
+      "expectedMeaning": true,
+      "passed": true
+    },
+    {
+      "ordinal": 1,
+      "spelling": "評価",
+      "reading": "hyoka",
+      "meaning": "평가",
+      "expectedReading": false,
+      "expectedMeaning": true,
+      "passed": true
+    },
+    {
+      "ordinal": 1,
+      "spelling": "評価",
+      "reading": "hyooka",
+      "meaning": "평가",
+      "expectedReading": false,
+      "expectedMeaning": true,
+      "passed": true
+    },
+    {
+      "ordinal": 1,
+      "spelling": "評価",
+      "reading": "hyouka",
+      "meaning": "틀린 뜻",
+      "expectedReading": true,
+      "expectedMeaning": false,
+      "passed": true
+    },
+    {
+      "ordinal": 2,
+      "spelling": "客",
+      "reading": "きゃく",
+      "meaning": "손님",
+      "expectedReading": true,
+      "expectedMeaning": true,
+      "passed": true
+    },
+    {
+      "ordinal": 2,
+      "spelling": "客",
+      "reading": "kyaku",
+      "meaning": "손님",
+      "expectedReading": true,
+      "expectedMeaning": true,
+      "passed": true
+    },
+    {
+      "ordinal": 2,
+      "spelling": "客",
+      "reading": "KYAKU",
+      "meaning": "손님",
+      "expectedReading": true,
+      "expectedMeaning": true,
+      "passed": true
+    },
+    {
+      "ordinal": 2,
+      "spelling": "客",
+      "reading": "kaku",
+      "meaning": "손님",
+      "expectedReading": false,
+      "expectedMeaning": true,
+      "passed": true
+    },
+    {
+      "ordinal": 2,
+      "spelling": "客",
+      "reading": "kyaku",
+      "meaning": "고객",
+      "expectedReading": true,
+      "expectedMeaning": true,
+      "passed": true
+    },
+    {
+      "ordinal": 2,
+      "spelling": "客",
+      "reading": "kyaku",
+      "meaning": "틀린 뜻",
+      "expectedReading": true,
+      "expectedMeaning": false,
+      "passed": true
+    },
+    {
+      "ordinal": 3,
+      "spelling": "入学",
+      "reading": "にゅうがく",
+      "meaning": "입학",
+      "expectedReading": true,
+      "expectedMeaning": true,
+      "passed": true
+    },
+    {
+      "ordinal": 3,
+      "spelling": "入学",
+      "reading": "nyuugaku",
+      "meaning": "입학",
+      "expectedReading": true,
+      "expectedMeaning": true,
+      "passed": true
+    },
+    {
+      "ordinal": 3,
+      "spelling": "入学",
+      "reading": "nyūgaku",
+      "meaning": "입학",
+      "expectedReading": true,
+      "expectedMeaning": true,
+      "passed": true
+    },
+    {
+      "ordinal": 3,
+      "spelling": "入学",
+      "reading": "NYUUGAKU",
+      "meaning": "입학",
+      "expectedReading": true,
+      "expectedMeaning": true,
+      "passed": true
+    },
+    {
+      "ordinal": 3,
+      "spelling": "入学",
+      "reading": "nyugaku",
+      "meaning": "입학",
+      "expectedReading": false,
+      "expectedMeaning": true,
+      "passed": true
+    },
+    {
+      "ordinal": 3,
+      "spelling": "入学",
+      "reading": "nyuugaku",
+      "meaning": "틀린 뜻",
+      "expectedReading": true,
+      "expectedMeaning": false,
+      "passed": true
+    },
+    {
+      "ordinal": 4,
+      "spelling": "注意",
+      "reading": "ちゅうい",
+      "meaning": "주의",
+      "expectedReading": true,
+      "expectedMeaning": true,
+      "passed": true
+    },
+    {
+      "ordinal": 4,
+      "spelling": "注意",
+      "reading": "chuui",
+      "meaning": "주의",
+      "expectedReading": true,
+      "expectedMeaning": true,
+      "passed": true
+    },
+    {
+      "ordinal": 4,
+      "spelling": "注意",
+      "reading": "chūi",
+      "meaning": "주의",
+      "expectedReading": true,
+      "expectedMeaning": true,
+      "passed": true
+    },
+    {
+      "ordinal": 4,
+      "spelling": "注意",
+      "reading": "CHUUI",
+      "meaning": "주의",
+      "expectedReading": true,
+      "expectedMeaning": true,
+      "passed": true
+    },
+    {
+      "ordinal": 4,
+      "spelling": "注意",
+      "reading": "chui",
+      "meaning": "주의",
+      "expectedReading": false,
+      "expectedMeaning": true,
+      "passed": true
+    },
+    {
+      "ordinal": 4,
+      "spelling": "注意",
+      "reading": "tyuui",
+      "meaning": "주의",
+      "expectedReading": false,
+      "expectedMeaning": true,
+      "passed": true
+    },
+    {
+      "ordinal": 4,
+      "spelling": "注意",
+      "reading": "chuui",
+      "meaning": "틀린 뜻",
+      "expectedReading": true,
+      "expectedMeaning": false,
+      "passed": true
+    },
+    {
+      "ordinal": 5,
+      "spelling": "料理",
+      "reading": "りょうり",
+      "meaning": "요리",
+      "expectedReading": true,
+      "expectedMeaning": true,
+      "passed": true
+    },
+    {
+      "ordinal": 5,
+      "spelling": "料理",
+      "reading": "ryouri",
+      "meaning": "요리",
+      "expectedReading": true,
+      "expectedMeaning": true,
+      "passed": true
+    },
+    {
+      "ordinal": 5,
+      "spelling": "料理",
+      "reading": "ryōri",
+      "meaning": "요리",
+      "expectedReading": true,
+      "expectedMeaning": true,
+      "passed": true
+    },
+    {
+      "ordinal": 5,
+      "spelling": "料理",
+      "reading": "RYOURI",
+      "meaning": "요리",
+      "expectedReading": true,
+      "expectedMeaning": true,
+      "passed": true
+    },
+    {
+      "ordinal": 5,
+      "spelling": "料理",
+      "reading": "ryori",
+      "meaning": "요리",
+      "expectedReading": false,
+      "expectedMeaning": true,
+      "passed": true
+    },
+    {
+      "ordinal": 5,
+      "spelling": "料理",
+      "reading": "ryoori",
+      "meaning": "요리",
+      "expectedReading": false,
+      "expectedMeaning": true,
+      "passed": true
+    },
+    {
+      "ordinal": 5,
+      "spelling": "料理",
+      "reading": "ryouri",
+      "meaning": "틀린 뜻",
+      "expectedReading": true,
+      "expectedMeaning": false,
+      "passed": true
+    },
+    {
+      "ordinal": 6,
+      "spelling": "会社",
+      "reading": "かいしゃ",
+      "meaning": "회사",
+      "expectedReading": true,
+      "expectedMeaning": true,
+      "passed": true
+    },
+    {
+      "ordinal": 6,
+      "spelling": "会社",
+      "reading": "kaisha",
+      "meaning": "회사",
+      "expectedReading": true,
+      "expectedMeaning": true,
+      "passed": true
+    },
+    {
+      "ordinal": 6,
+      "spelling": "会社",
+      "reading": "KAISHA",
+      "meaning": "회사",
+      "expectedReading": true,
+      "expectedMeaning": true,
+      "passed": true
+    },
+    {
+      "ordinal": 6,
+      "spelling": "会社",
+      "reading": "kaisa",
+      "meaning": "회사",
+      "expectedReading": false,
+      "expectedMeaning": true,
+      "passed": true
+    },
+    {
+      "ordinal": 6,
+      "spelling": "会社",
+      "reading": "kaisya",
+      "meaning": "회사",
+      "expectedReading": false,
+      "expectedMeaning": true,
+      "passed": true
+    },
+    {
+      "ordinal": 6,
+      "spelling": "会社",
+      "reading": "kaisha",
+      "meaning": "틀린 뜻",
+      "expectedReading": true,
+      "expectedMeaning": false,
+      "passed": true
+    },
+    {
+      "ordinal": 7,
+      "spelling": "お茶",
+      "reading": "おちゃ",
+      "meaning": "차",
+      "expectedReading": true,
+      "expectedMeaning": true,
+      "passed": true
+    },
+    {
+      "ordinal": 7,
+      "spelling": "お茶",
+      "reading": "ocha",
+      "meaning": "차",
+      "expectedReading": true,
+      "expectedMeaning": true,
+      "passed": true
+    },
+    {
+      "ordinal": 7,
+      "spelling": "お茶",
+      "reading": "OCHA",
+      "meaning": "차",
+      "expectedReading": true,
+      "expectedMeaning": true,
+      "passed": true
+    },
+    {
+      "ordinal": 7,
+      "spelling": "お茶",
+      "reading": "oca",
+      "meaning": "차",
+      "expectedReading": false,
+      "expectedMeaning": true,
+      "passed": true
+    },
+    {
+      "ordinal": 7,
+      "spelling": "お茶",
+      "reading": "otya",
+      "meaning": "차",
+      "expectedReading": false,
+      "expectedMeaning": true,
+      "passed": true
+    },
+    {
+      "ordinal": 7,
+      "spelling": "お茶",
+      "reading": "ocha",
+      "meaning": "틀린 뜻",
+      "expectedReading": true,
+      "expectedMeaning": false,
+      "passed": true
+    },
+    {
+      "ordinal": 8,
+      "spelling": "修理",
+      "reading": "しゅうり",
+      "meaning": "수리",
+      "expectedReading": true,
+      "expectedMeaning": true,
+      "passed": true
+    },
+    {
+      "ordinal": 8,
+      "spelling": "修理",
+      "reading": "shuuri",
+      "meaning": "수리",
+      "expectedReading": true,
+      "expectedMeaning": true,
+      "passed": true
+    },
+    {
+      "ordinal": 8,
+      "spelling": "修理",
+      "reading": "shūri",
+      "meaning": "수리",
+      "expectedReading": true,
+      "expectedMeaning": true,
+      "passed": true
+    },
+    {
+      "ordinal": 8,
+      "spelling": "修理",
+      "reading": "SHUURI",
+      "meaning": "수리",
+      "expectedReading": true,
+      "expectedMeaning": true,
+      "passed": true
+    },
+    {
+      "ordinal": 8,
+      "spelling": "修理",
+      "reading": "shuri",
+      "meaning": "수리",
+      "expectedReading": false,
+      "expectedMeaning": true,
+      "passed": true
+    },
+    {
+      "ordinal": 8,
+      "spelling": "修理",
+      "reading": "syuuri",
+      "meaning": "수리",
+      "expectedReading": false,
+      "expectedMeaning": true,
+      "passed": true
+    },
+    {
+      "ordinal": 8,
+      "spelling": "修理",
+      "reading": "shuuri",
+      "meaning": "틀린 뜻",
+      "expectedReading": true,
+      "expectedMeaning": false,
+      "passed": true
+    },
+    {
+      "ordinal": 9,
+      "spelling": "物価",
+      "reading": "ぶっか",
+      "meaning": "물가",
+      "expectedReading": true,
+      "expectedMeaning": true,
+      "passed": true
+    },
+    {
+      "ordinal": 9,
+      "spelling": "物価",
+      "reading": "bukka",
+      "meaning": "물가",
+      "expectedReading": true,
+      "expectedMeaning": true,
+      "passed": true
+    },
+    {
+      "ordinal": 9,
+      "spelling": "物価",
+      "reading": "BUKKA",
+      "meaning": "물가",
+      "expectedReading": true,
+      "expectedMeaning": true,
+      "passed": true
+    },
+    {
+      "ordinal": 9,
+      "spelling": "物価",
+      "reading": "buka",
+      "meaning": "물가",
+      "expectedReading": false,
+      "expectedMeaning": true,
+      "passed": true
+    },
+    {
+      "ordinal": 9,
+      "spelling": "物価",
+      "reading": "bukka",
+      "meaning": "틀린 뜻",
+      "expectedReading": true,
+      "expectedMeaning": false,
+      "passed": true
+    },
+    {
+      "ordinal": 10,
+      "spelling": "距離",
+      "reading": "きょり",
+      "meaning": "거리",
+      "expectedReading": true,
+      "expectedMeaning": true,
+      "passed": true
+    },
+    {
+      "ordinal": 10,
+      "spelling": "距離",
+      "reading": "kyori",
+      "meaning": "거리",
+      "expectedReading": true,
+      "expectedMeaning": true,
+      "passed": true
+    },
+    {
+      "ordinal": 10,
+      "spelling": "距離",
+      "reading": "KYORI",
+      "meaning": "거리",
+      "expectedReading": true,
+      "expectedMeaning": true,
+      "passed": true
+    },
+    {
+      "ordinal": 10,
+      "spelling": "距離",
+      "reading": "kyouri",
+      "meaning": "거리",
+      "expectedReading": false,
+      "expectedMeaning": true,
+      "passed": true
+    },
+    {
+      "ordinal": 10,
+      "spelling": "距離",
+      "reading": "kyori",
+      "meaning": "틀린 뜻",
+      "expectedReading": true,
+      "expectedMeaning": false,
+      "passed": true
+    },
+    {
+      "ordinal": 1,
+      "spelling": "評価",
+      "reading": "hyouka",
+      "meaning": "평가",
+      "expectedReading": true,
+      "expectedMeaning": true,
+      "passed": true
+    },
+    {
+      "ordinal": 1,
+      "spelling": "評価",
+      "reading": "hyouka",
+      "meaning": "평가",
+      "expectedReading": true,
+      "expectedMeaning": true,
+      "passed": true
+    }
+  ],
+  "actualVolume1CaseCount": 64,
+  "sourceOrder": [
+    "評価",
+    "客",
+    "入学",
+    "注意",
+    "料理",
+    "会社",
+    "お茶",
+    "修理",
+    "物価",
+    "距離"
+  ],
+  "caseBoundary": "Stops after 10; remaining 91 not connected",
+  "cases": [
+    {
+      "word": "学校",
+      "input": "がっこう",
+      "meaning": "학교",
+      "expectedReading": true,
+      "expectedMeaning": true,
+      "passed": true
+    },
+    {
+      "word": "学校",
+      "input": "gakkou",
+      "meaning": "학교",
+      "expectedReading": true,
+      "expectedMeaning": true,
+      "passed": true
+    },
+    {
+      "word": "学校",
+      "input": "gakkō",
+      "meaning": "학교",
+      "expectedReading": true,
+      "expectedMeaning": true,
+      "passed": true
+    },
+    {
+      "word": "学校",
+      "input": "GAKKOU",
+      "meaning": "학교",
+      "expectedReading": true,
+      "expectedMeaning": true,
+      "passed": true
+    },
+    {
+      "word": "学校",
+      "input": "GaKkŌ",
+      "meaning": "학교",
+      "expectedReading": true,
+      "expectedMeaning": true,
+      "passed": true
+    },
+    {
+      "word": "学校",
+      "input": "gakkō",
+      "meaning": "학교",
+      "expectedReading": true,
+      "expectedMeaning": true,
+      "passed": true
+    },
+    {
+      "word": "学校",
+      "input": "gakko",
+      "meaning": "학교",
+      "expectedReading": false,
+      "expectedMeaning": true,
+      "passed": true
+    },
+    {
+      "word": "学校",
+      "input": "gakou",
+      "meaning": "학교",
+      "expectedReading": false,
+      "expectedMeaning": true,
+      "passed": true
+    },
+    {
+      "word": "学校",
+      "input": "gako",
+      "meaning": "학교",
+      "expectedReading": false,
+      "expectedMeaning": true,
+      "passed": true
+    },
+    {
+      "word": "学校",
+      "input": "がこう",
+      "meaning": "학교",
+      "expectedReading": false,
+      "expectedMeaning": true,
+      "passed": true
+    },
+    {
+      "word": "学校",
+      "input": "がっこ",
+      "meaning": "학교",
+      "expectedReading": false,
+      "expectedMeaning": true,
+      "passed": true
+    },
+    {
+      "word": "学校",
+      "input": "g a k k o u",
+      "meaning": "학교",
+      "expectedReading": false,
+      "expectedMeaning": true,
+      "passed": true
+    },
+    {
+      "word": "学校",
+      "input": "gakk0u",
+      "meaning": "학교",
+      "expectedReading": false,
+      "expectedMeaning": true,
+      "passed": true
+    },
+    {
+      "word": "学校",
+      "input": "gakkó",
+      "meaning": "학교",
+      "expectedReading": false,
+      "expectedMeaning": true,
+      "passed": true
+    },
+    {
+      "word": "学校",
+      "input": "gakkou",
+      "meaning": "틀린 뜻",
+      "expectedReading": true,
+      "expectedMeaning": false,
+      "passed": true
+    },
+    {
+      "word": "学校",
+      "input": "wrong",
+      "meaning": "틀린 뜻",
+      "expectedReading": false,
+      "expectedMeaning": false,
+      "passed": true
+    },
+    {
+      "word": "先生",
+      "input": "せんせい",
+      "meaning": "선생님",
+      "expectedReading": true,
+      "expectedMeaning": true,
+      "passed": true
+    },
+    {
+      "word": "先生",
+      "input": "sensei",
+      "meaning": "선생님",
+      "expectedReading": true,
+      "expectedMeaning": true,
+      "passed": true
+    },
+    {
+      "word": "先生",
+      "input": "SENSEI",
+      "meaning": "선생님",
+      "expectedReading": true,
+      "expectedMeaning": true,
+      "passed": true
+    },
+    {
+      "word": "先生",
+      "input": "sense",
+      "meaning": "선생님",
+      "expectedReading": false,
+      "expectedMeaning": true,
+      "passed": true
+    },
+    {
+      "word": "先生",
+      "input": "sensi",
+      "meaning": "선생님",
+      "expectedReading": false,
+      "expectedMeaning": true,
+      "passed": true
+    },
+    {
+      "word": "先生",
+      "input": "sensee",
+      "meaning": "선생님",
+      "expectedReading": false,
+      "expectedMeaning": true,
+      "passed": true
+    },
+    {
+      "word": "先生",
+      "input": "せんせ",
+      "meaning": "선생님",
+      "expectedReading": false,
+      "expectedMeaning": true,
+      "passed": true
+    },
+    {
+      "word": "先生",
+      "input": "sensei",
+      "meaning": "틀린 뜻",
+      "expectedReading": true,
+      "expectedMeaning": false,
+      "passed": true
+    },
+    {
+      "word": "先生",
+      "input": "wrong",
+      "meaning": "틀린 뜻",
+      "expectedReading": false,
+      "expectedMeaning": false,
+      "passed": true
+    },
+    {
+      "word": "本",
+      "input": "ほん",
+      "meaning": "책",
+      "expectedReading": true,
+      "expectedMeaning": true,
+      "passed": true
+    },
+    {
+      "word": "本",
+      "input": "hon",
+      "meaning": "책",
+      "expectedReading": true,
+      "expectedMeaning": true,
+      "passed": true
+    },
+    {
+      "word": "本",
+      "input": "HON",
+      "meaning": "책",
+      "expectedReading": true,
+      "expectedMeaning": true,
+      "passed": true
+    },
+    {
+      "word": "本",
+      "input": "ho",
+      "meaning": "책",
+      "expectedReading": false,
+      "expectedMeaning": true,
+      "passed": true
+    },
+    {
+      "word": "本",
+      "input": "honn",
+      "meaning": "책",
+      "expectedReading": false,
+      "expectedMeaning": true,
+      "passed": true
+    },
+    {
+      "word": "本",
+      "input": "ほ",
+      "meaning": "책",
+      "expectedReading": false,
+      "expectedMeaning": true,
+      "passed": true
+    },
+    {
+      "word": "本",
+      "input": "hon",
+      "meaning": "틀린 뜻",
+      "expectedReading": true,
+      "expectedMeaning": false,
+      "passed": true
+    },
+    {
+      "word": "本",
+      "input": "wrong",
+      "meaning": "틀린 뜻",
+      "expectedReading": false,
+      "expectedMeaning": false,
+      "passed": true
+    }
+  ],
+  "readingCases": 33,
+  "kanaUiFixture": "passed: meaning-only input, correct/incorrect results include spelling/hiragana/romaji/meaning; fixture not shipped",
+  "regression": [
+    "Actual school entry, path, F conversation and lesson menu → bookshelf → select volume → demo",
+    "5 actual volumes/10 slots; no fabricated completion",
+    "100-volume fixture: 10 buttons per page, previous/next and direct jump to volume 100",
+    "Invalid number and unregistered volume errors",
+    "Read-only progress adapter statuses; no default fake completion",
+    "Every actual volume opens the explicitly labeled 3-word demo",
+    "No reading or romaji answer leak in quiz",
+    "All 3 demo words; relearn, next, finish, restart",
+    "Typing does not move player; IME Enter guard",
+    "390×844 and 844×390 no horizontal clipping, submit and result fields",
+    "Escape restores parent menu and focus; normal school exit",
+    "Lesson leaves save snapshot unchanged",
+    "Local reload preserves resources, riceball, farm, dungeons and vocabulary"
+  ],
+  "layouts": [
+    {
+      "width": 390,
+      "overflow": false,
+      "bookTop": 16
+    },
+    {
+      "width": 844,
+      "overflow": false,
+      "bookTop": 28
+    }
+  ],
+  "errors": [],
+  "unverified": [
+    "Live Google login/Firestore network sync",
+    "All stages, EXTRA and farming/shop actions end to end",
+    "Physical mobile IME and Windows launcher"
+  ]
+}

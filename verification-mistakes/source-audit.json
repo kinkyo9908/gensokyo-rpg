@@ -1,0 +1,14 @@
+{
+  "changed": [
+    "cloud/sync-core.mjs",
+    "gensokyo_rpg.html",
+    "school/terakoya.css",
+    "school/terakoya.js"
+  ],
+  "added": [
+    "school/mistake-review.mjs"
+  ],
+  "removed": [],
+  "unchanged": 256,
+  "allArtAssetsUnchanged": true
+}

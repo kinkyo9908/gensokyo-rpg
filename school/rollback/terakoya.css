@@ -1,0 +1,12 @@
+/* Uses the existing resident dialogue frame; only the classroom menu layout is local. */
+#schoolLessonChoices[hidden]{display:none!important}
+#schoolLessonChoices{grid-template-columns:repeat(2,minmax(0,1fr));gap:8px;margin-top:10px}
+#schoolLessonChoices button{min-height:43px;font:inherit}
+#schoolLessonChoices button:last-child{grid-column:1/-1}
+.school-conversation #residentNpcPortrait{image-rendering:pixelated;object-fit:contain}
+.school-conversation .yujin-vn-portrait.right{max-height:62vh}
+.school-conversation .yujin-vn-box{max-height:none;overflow:visible}
+@media(max-width:600px){#schoolLessonChoices{gap:6px}#schoolLessonChoices button{font-size:13px;min-height:40px}.school-conversation .yujin-vn-box{max-height:none}}
+@media(prefers-reduced-motion:reduce){.school-conversation *{animation:none!important}}
+
+.school-conversation #schoolLessonChoices{max-height:min(40vh,280px);overflow-y:auto}

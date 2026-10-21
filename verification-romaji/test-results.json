@@ -1,0 +1,299 @@
+{
+  "passed": true,
+  "cases": [
+    {
+      "word": "学校",
+      "input": "がっこう",
+      "meaning": "학교",
+      "expectedReading": true,
+      "expectedMeaning": true,
+      "passed": true
+    },
+    {
+      "word": "学校",
+      "input": "gakkou",
+      "meaning": "학교",
+      "expectedReading": true,
+      "expectedMeaning": true,
+      "passed": true
+    },
+    {
+      "word": "学校",
+      "input": "gakkō",
+      "meaning": "학교",
+      "expectedReading": true,
+      "expectedMeaning": true,
+      "passed": true
+    },
+    {
+      "word": "学校",
+      "input": "GAKKOU",
+      "meaning": "학교",
+      "expectedReading": true,
+      "expectedMeaning": true,
+      "passed": true
+    },
+    {
+      "word": "学校",
+      "input": "GaKkŌ",
+      "meaning": "학교",
+      "expectedReading": true,
+      "expectedMeaning": true,
+      "passed": true
+    },
+    {
+      "word": "学校",
+      "input": "gakkō",
+      "meaning": "학교",
+      "expectedReading": true,
+      "expectedMeaning": true,
+      "passed": true
+    },
+    {
+      "word": "学校",
+      "input": "gakko",
+      "meaning": "학교",
+      "expectedReading": false,
+      "expectedMeaning": true,
+      "passed": true
+    },
+    {
+      "word": "学校",
+      "input": "gakou",
+      "meaning": "학교",
+      "expectedReading": false,
+      "expectedMeaning": true,
+      "passed": true
+    },
+    {
+      "word": "学校",
+      "input": "gako",
+      "meaning": "학교",
+      "expectedReading": false,
+      "expectedMeaning": true,
+      "passed": true
+    },
+    {
+      "word": "学校",
+      "input": "がこう",
+      "meaning": "학교",
+      "expectedReading": false,
+      "expectedMeaning": true,
+      "passed": true
+    },
+    {
+      "word": "学校",
+      "input": "がっこ",
+      "meaning": "학교",
+      "expectedReading": false,
+      "expectedMeaning": true,
+      "passed": true
+    },
+    {
+      "word": "学校",
+      "input": "g a k k o u",
+      "meaning": "학교",
+      "expectedReading": false,
+      "expectedMeaning": true,
+      "passed": true
+    },
+    {
+      "word": "学校",
+      "input": "gakk0u",
+      "meaning": "학교",
+      "expectedReading": false,
+      "expectedMeaning": true,
+      "passed": true
+    },
+    {
+      "word": "学校",
+      "input": "gakkó",
+      "meaning": "학교",
+      "expectedReading": false,
+      "expectedMeaning": true,
+      "passed": true
+    },
+    {
+      "word": "学校",
+      "input": "gakkou",
+      "meaning": "틀린 뜻",
+      "expectedReading": true,
+      "expectedMeaning": false,
+      "passed": true
+    },
+    {
+      "word": "学校",
+      "input": "wrong",
+      "meaning": "틀린 뜻",
+      "expectedReading": false,
+      "expectedMeaning": false,
+      "passed": true
+    },
+    {
+      "word": "先生",
+      "input": "せんせい",
+      "meaning": "선생님",
+      "expectedReading": true,
+      "expectedMeaning": true,
+      "passed": true
+    },
+    {
+      "word": "先生",
+      "input": "sensei",
+      "meaning": "선생님",
+      "expectedReading": true,
+      "expectedMeaning": true,
+      "passed": true
+    },
+    {
+      "word": "先生",
+      "input": "SENSEI",
+      "meaning": "선생님",
+      "expectedReading": true,
+      "expectedMeaning": true,
+      "passed": true
+    },
+    {
+      "word": "先生",
+      "input": "sense",
+      "meaning": "선생님",
+      "expectedReading": false,
+      "expectedMeaning": true,
+      "passed": true
+    },
+    {
+      "word": "先生",
+      "input": "sensi",
+      "meaning": "선생님",
+      "expectedReading": false,
+      "expectedMeaning": true,
+      "passed": true
+    },
+    {
+      "word": "先生",
+      "input": "sensee",
+      "meaning": "선생님",
+      "expectedReading": false,
+      "expectedMeaning": true,
+      "passed": true
+    },
+    {
+      "word": "先生",
+      "input": "せんせ",
+      "meaning": "선생님",
+      "expectedReading": false,
+      "expectedMeaning": true,
+      "passed": true
+    },
+    {
+      "word": "先生",
+      "input": "sensei",
+      "meaning": "틀린 뜻",
+      "expectedReading": true,
+      "expectedMeaning": false,
+      "passed": true
+    },
+    {
+      "word": "先生",
+      "input": "wrong",
+      "meaning": "틀린 뜻",
+      "expectedReading": false,
+      "expectedMeaning": false,
+      "passed": true
+    },
+    {
+      "word": "本",
+      "input": "ほん",
+      "meaning": "책",
+      "expectedReading": true,
+      "expectedMeaning": true,
+      "passed": true
+    },
+    {
+      "word": "本",
+      "input": "hon",
+      "meaning": "책",
+      "expectedReading": true,
+      "expectedMeaning": true,
+      "passed": true
+    },
+    {
+      "word": "本",
+      "input": "HON",
+      "meaning": "책",
+      "expectedReading": true,
+      "expectedMeaning": true,
+      "passed": true
+    },
+    {
+      "word": "本",
+      "input": "ho",
+      "meaning": "책",
+      "expectedReading": false,
+      "expectedMeaning": true,
+      "passed": true
+    },
+    {
+      "word": "本",
+      "input": "honn",
+      "meaning": "책",
+      "expectedReading": false,
+      "expectedMeaning": true,
+      "passed": true
+    },
+    {
+      "word": "本",
+      "input": "ほ",
+      "meaning": "책",
+      "expectedReading": false,
+      "expectedMeaning": true,
+      "passed": true
+    },
+    {
+      "word": "本",
+      "input": "hon",
+      "meaning": "틀린 뜻",
+      "expectedReading": true,
+      "expectedMeaning": false,
+      "passed": true
+    },
+    {
+      "word": "本",
+      "input": "wrong",
+      "meaning": "틀린 뜻",
+      "expectedReading": false,
+      "expectedMeaning": false,
+      "passed": true
+    }
+  ],
+  "readingCases": 33,
+  "kanaUiFixture": "passed: meaning-only input, correct/incorrect results include spelling/hiragana/romaji/meaning; fixture not shipped",
+  "regression": [
+    "Actual school entry, path, F conversation and lesson menu",
+    "No reading or romaji answer leak in quiz",
+    "All 3 demo words; relearn, next, finish, restart",
+    "Typing does not move player; IME Enter guard",
+    "390×844 and 844×390 no horizontal clipping, submit and result fields",
+    "Escape restores parent menu and focus; normal school exit",
+    "Lesson leaves save snapshot unchanged",
+    "Local reload preserves resources, riceball, farm, dungeons and vocabulary"
+  ],
+  "layouts": [
+    {
+      "width": 390,
+      "overflow": false,
+      "bookTop": 16
+    },
+    {
+      "width": 844,
+      "overflow": false,
+      "bookTop": 28
+    }
+  ],
+  "errors": [],
+  "unverified": [
+    "Live Google login/Firestore network sync",
+    "All stages, EXTRA and farming/shop actions end to end",
+    "Physical mobile IME and Windows launcher"
+  ]
+}

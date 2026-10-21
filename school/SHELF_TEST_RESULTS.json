@@ -1,0 +1,24 @@
+{
+  "onlyShelfPlacementDataChanged": true,
+  "entry": true,
+  "shelf": {
+    "x": 725.516,
+    "y": 366.808,
+    "width": 113,
+    "depthY": 366.808,
+    "delta": [
+      34.75599999999997,
+      -25.007000000000005
+    ],
+    "depthMatchesAnchor": true,
+    "oldAreaReleased": true,
+    "newCollision": true
+  },
+  "path": 2,
+  "dialogueAndMenu": true,
+  "inventory": true,
+  "exit": true,
+  "saveUnchanged": true,
+  "reloadPreserved": true,
+  "errors": []
+}

@@ -1,0 +1,321 @@
+{
+  "model": {
+    "passed": true,
+    "sourceWords": 450,
+    "eligibleFixture": 30,
+    "roundsTested": 20,
+    "sameRoundDuplicates": 0,
+    "adjacentRoundRepeatPrevented": true,
+    "singleItemRepeats": true,
+    "dynamicPoolChanges": true,
+    "unlimitedRetries": 150,
+    "outcomes": [
+      "first_correct",
+      "retry_correct",
+      "revealed"
+    ],
+    "kanaAndMultipleAnswers": true,
+    "learningRecordsUnchanged": true,
+    "sessionHistoryBounded": true
+  },
+  "browser": {
+    "passed": true,
+    "questionsReviewed": 90,
+    "eligibleWords": 30,
+    "rounds": 3,
+    "checks": [
+      "No graded words → guidance and New Learning; Escape returns to Keine menu",
+      "Three complete 30-item cycles: learned items only, cross-volume mixing, no duplicates or boundary repeats; three outcomes and all learning/save fields unchanged",
+      "Continue remains volume 2 word 11; volume 1 20/101 preserved; five-volume shelf intact",
+      "Reload preserves all learning data; session review outcomes intentionally reset",
+      "One-word repetition, repeated wrong answers, empty-field handling and stale submit guard",
+      "IME guard, mobile portrait/landscape layout, and exit from resolved/unresolved states"
+    ],
+    "outcomeCounts": {
+      "first_correct": 30,
+      "retry_correct": 30,
+      "revealed": 30
+    },
+    "javascriptErrors": [],
+    "learningAndSaveUnchanged": true,
+    "liveFirebaseTested": false
+  },
+  "visual": {
+    "passed": true,
+    "layouts": [
+      {
+        "viewport": [
+          1920,
+          1080
+        ],
+        "bounds": {
+          "workspace": {
+            "x": 0.515625,
+            "y": 0,
+            "width": 1918.96875,
+            "height": 1079.984375
+          },
+          "paper": {
+            "x": 849.5321655273438,
+            "y": 599.902587890625,
+            "width": 220.93572998046875,
+            "height": 452.58544921875
+          },
+          "hand-left": {
+            "x": 403.484375,
+            "y": 632.765625,
+            "width": 537.296875,
+            "height": 479.609375
+          },
+          "hand-right": {
+            "x": 880.82275390625,
+            "y": 203.01101684570312,
+            "width": 1011.66748046875,
+            "height": 1017.364013671875
+          },
+          "teacher": {
+            "x": 192.40625,
+            "y": 43.1875,
+            "width": 460.546875,
+            "height": 575.625
+          },
+          "controls": {
+            "x": 1343.8125,
+            "y": 529.1875,
+            "width": 518.109375,
+            "height": 268.5
+          },
+          "scene": {
+            "x": 0.515625,
+            "y": 0,
+            "width": 1918.96875,
+            "height": 1079.984375
+          }
+        }
+      },
+      {
+        "viewport": [
+          1366,
+          768
+        ],
+        "bounds": {
+          "workspace": {
+            "x": 0.703125,
+            "y": 0,
+            "width": 1364.59375,
+            "height": 767.984375
+          },
+          "paper": {
+            "x": 604.4506225585938,
+            "y": 426.5934753417969,
+            "width": 157.0987548828125,
+            "height": 321.8130187988281
+          },
+          "hand-left": {
+            "x": 287.265625,
+            "y": 449.96875,
+            "width": 382.078125,
+            "height": 341.046875
+          },
+          "hand-right": {
+            "x": 626.6932373046875,
+            "y": 144.37664794921875,
+            "width": 719.3922119140625,
+            "height": 723.4358520507812
+          },
+          "teacher": {
+            "x": 137.15625,
+            "y": 30.71875,
+            "width": 327.5,
+            "height": 409.328125
+          },
+          "controls": {
+            "x": 955.921875,
+            "y": 376.296875,
+            "width": 368.4375,
+            "height": 232.390625
+          },
+          "scene": {
+            "x": 0.703125,
+            "y": 0,
+            "width": 1364.59375,
+            "height": 767.984375
+          }
+        },
+        "noHorizontalOverflow": true,
+        "inputUnobstructed": true
+      },
+      {
+        "viewport": [
+          1024,
+          768
+        ],
+        "bounds": {
+          "workspace": {
+            "x": 0,
+            "y": 0,
+            "width": 1024,
+            "height": 1008.546875
+          },
+          "paper": {
+            "x": 417.1685791015625,
+            "y": 295.81195068359375,
+            "width": 189.662841796875,
+            "height": 388.5323486328125
+          },
+          "hand-left": {
+            "x": 0,
+            "y": 436.515625,
+            "width": 340,
+            "height": 303.484375
+          },
+          "hand-right": {
+            "x": 817.1295166015625,
+            "y": 270.3561096191406,
+            "width": 437.1878662109375,
+            "height": 439.6438903808594
+          },
+          "teacher": {
+            "x": 0,
+            "y": 0,
+            "width": 1024,
+            "height": 280
+          },
+          "controls": {
+            "x": 232,
+            "y": 702.15625,
+            "width": 560,
+            "height": 240.390625
+          },
+          "scene": {
+            "x": 0,
+            "y": 0,
+            "width": 1024,
+            "height": 280
+          }
+        },
+        "noHorizontalOverflow": true,
+        "inputUnobstructed": true
+      },
+      {
+        "viewport": [
+          390,
+          844
+        ],
+        "bounds": {
+          "workspace": {
+            "x": 0,
+            "y": -19,
+            "width": 390,
+            "height": 948.03125
+          },
+          "paper": {
+            "x": 100.16857147216797,
+            "y": 216.2963104248047,
+            "width": 189.662841796875,
+            "height": 388.5323486328125
+          },
+          "hand-left": {
+            "x": 0,
+            "y": 444.65625,
+            "width": 241.796875,
+            "height": 215.828125
+          },
+          "hand-right": {
+            "x": 205.67588806152344,
+            "y": 317.8245849609375,
+            "width": 310.9134521484375,
+            "height": 312.6597900390625
+          },
+          "teacher": {
+            "x": 0,
+            "y": -19,
+            "width": 390,
+            "height": 219.484375
+          },
+          "controls": {
+            "x": 14,
+            "y": 622.640625,
+            "width": 362,
+            "height": 240.390625
+          },
+          "scene": {
+            "x": 0,
+            "y": -19,
+            "width": 390,
+            "height": 219.484375
+          }
+        },
+        "noHorizontalOverflow": true,
+        "inputUnobstructed": true
+      },
+      {
+        "viewport": [
+          844,
+          390
+        ],
+        "bounds": {
+          "workspace": {
+            "x": 0,
+            "y": 0,
+            "width": 844,
+            "height": 1008.546875
+          },
+          "paper": {
+            "x": 327.1685791015625,
+            "y": 295.81195068359375,
+            "width": 189.662841796875,
+            "height": 388.5323486328125
+          },
+          "hand-left": {
+            "x": 0,
+            "y": 436.515625,
+            "width": 340,
+            "height": 303.484375
+          },
+          "hand-right": {
+            "x": 617.3326416015625,
+            "y": 270.3561096191406,
+            "width": 437.1878662109375,
+            "height": 439.6438903808594
+          },
+          "teacher": {
+            "x": 0,
+            "y": 0,
+            "width": 844,
+            "height": 280
+          },
+          "controls": {
+            "x": 142,
+            "y": 702.15625,
+            "width": 560,
+            "height": 240.390625
+          },
+          "scene": {
+            "x": 0,
+            "y": 0,
+            "width": 844,
+            "height": 280
+          }
+        },
+        "noHorizontalOverflow": true,
+        "inputUnobstructed": true
+      }
+    ],
+    "correctOnlySeal": true,
+    "portraitStable": true,
+    "wrongNoAnswerReveal": true,
+    "reducedMotion": true,
+    "saveUnchanged": true,
+    "errors": []
+  },
+  "regression": {
+    "passed": true,
+    "ordinaryLearningGradeStillPersists": true,
+    "newlyGradedTargetIncluded": 31,
+    "fullyLearnedTargetCount": 450,
+    "longWordFits": true,
+    "learningAfterReviewPreserved": true,
+    "javascriptErrors": []
+  }
+}

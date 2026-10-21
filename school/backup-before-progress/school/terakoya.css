@@ -1,0 +1,100 @@
+/* Uses the existing resident dialogue frame; only the classroom menu layout is local. */
+#schoolLessonChoices[hidden]{display:none!important}
+#schoolLessonChoices{grid-template-columns:repeat(2,minmax(0,1fr));gap:8px;margin-top:10px}
+#schoolLessonChoices button{min-height:43px;font:inherit}
+#schoolLessonChoices button:last-child{grid-column:1/-1}
+.school-conversation #residentNpcPortrait{image-rendering:pixelated;object-fit:contain}
+.school-conversation .yujin-vn-portrait.right{max-height:62vh}
+.school-conversation .yujin-vn-box{max-height:none;overflow:visible}
+@media(max-width:600px){#schoolLessonChoices{gap:6px}#schoolLessonChoices button{font-size:13px;min-height:40px}.school-conversation .yujin-vn-box{max-height:none}}
+@media(prefers-reduced-motion:reduce){.school-conversation *{animation:none!important}}
+
+.school-conversation #schoolLessonChoices{max-height:min(40vh,280px);overflow-y:auto}
+
+/* School-only phase 2 trial. Original dialogue DOM and global styles stay intact. */
+#residentDialogue.school-dialogue-trial .yujin-vn-stage{width:100%;overflow:visible}
+#residentDialogue.school-dialogue-trial .yujin-vn-box{width:min(900px,calc(100vw - 48px));box-sizing:border-box;max-height:50dvh;overflow-y:auto;padding:26px 28px 18px}
+#residentDialogue.school-dialogue-trial .yujin-vn-portrait{bottom:calc(var(--school-box-height,240px) + 28px);height:min(52dvh,510px);width:32vw;max-width:360px;max-height:calc(100dvh - var(--school-box-height,240px) - 65px);opacity:1;filter:none;transform:none;transition:none}
+#residentDialogue.school-dialogue-trial .yujin-vn-portrait.left{left:max(24px,calc(50% - 520px))}
+#residentDialogue.school-dialogue-trial .yujin-vn-portrait.right{right:max(24px,calc(50% - 520px))}
+#residentDialogue.school-dialogue-trial .yujin-vn-portrait img{width:100%;height:100%;max-width:100%;max-height:100%;object-fit:contain;object-position:center bottom;transform:none}
+#residentDialogue.school-dialogue-trial .yujin-vn-name{position:relative;left:auto;top:auto;display:table;margin:-10px 0 12px;padding:6px 16px;max-width:100%;box-sizing:border-box}
+#residentDialogue.school-dialogue-trial .yujin-vn-text{min-height:54px}
+#residentDialogue.school-dialogue-trial #schoolLessonChoices{max-height:none;overflow:visible}
+@media(max-width:600px){
+ #residentDialogue.school-dialogue-trial .yujin-vn-box{width:calc(100vw - 24px);padding:20px 16px 14px;max-height:54dvh}
+ #residentDialogue.school-dialogue-trial .yujin-vn-portrait{width:43vw;height:38dvh;max-height:calc(100dvh - var(--school-box-height,260px) - 60px)}
+ #residentDialogue.school-dialogue-trial .yujin-vn-portrait.left{left:12px}
+ #residentDialogue.school-dialogue-trial .yujin-vn-portrait.right{right:12px}
+ #residentDialogue.school-dialogue-trial .yujin-vn-name{font-size:16px;letter-spacing:0}
+ #residentDialogue.school-dialogue-trial .yujin-vn-name small{display:block;margin:3px 0 0}
+ #residentDialogue.school-dialogue-trial .yujin-vn-text{font-size:16px;line-height:1.65}
+}
+
+/* Lesson prototype: entirely scoped, independent of world and save UI. */
+.school-book-overlay[hidden]{display:none!important}
+.school-book-overlay,.school-book-overlay *{box-sizing:border-box}
+.school-book-open{overflow:hidden}
+.school-book-overlay{position:fixed;inset:0;z-index:20000;overflow-y:auto;overscroll-behavior:contain;display:flex;align-items:flex-start;justify-content:center;padding:28px;background:rgba(24,17,15,.73);backdrop-filter:blur(3px);color:#422b22;font-family:'Noto Sans KR','Malgun Gothic',sans-serif;line-height:1.65}
+.lesson-book{position:relative;flex-shrink:0;margin-block:auto;width:min(1120px,100%);padding:24px 30px 16px;background:repeating-linear-gradient(0deg,#613d2b 0px,#613d2b 3px,#704a32 4px,#704a32 8px);border:3px solid #c39b50;border-radius:14px 16px 18px 14px;box-shadow:0 0 0 6px #35231c,0 0 0 8px #987442,0 20px 65px #080605c9;isolation:isolate}
+.lesson-book:before,.lesson-book:after{content:'✦';position:absolute;color:#e3bd70;font-size:22px;top:8px;pointer-events:none}.lesson-book:before{left:8px}.lesson-book:after{right:8px}
+.lesson-header{display:flex;align-items:center;justify-content:space-between;gap:18px;padding:0 12px 18px;color:#f6e9ca}
+.lesson-series{display:block;color:#d9bd86;font-size:12px;letter-spacing:.12em}
+.lesson-header h1{font-family:serif;font-size:clamp(22px,2.2vw,30px);font-weight:700;margin:3px 0 0;letter-spacing:.06em;color:#fff2cf;line-height:1.4}
+.lesson-bookmark{position:absolute;top:-6px;right:22%;width:22px;height:55px;background:#a82e36;border:1px solid #d2826c;clip-path:polygon(0 0,100% 0,100% 100%,50% 80%,0 100%);z-index:-1}
+.lesson-progress{display:flex;justify-content:center;gap:4px;padding:8px 12px;border:1px solid #b18d58;border-bottom:0;background:#e7d5ae;box-shadow:inset 0 2px #fff0ce;font-size:12px;color:#7c654c}
+.lesson-progress span{padding:3px 20px;border-radius:2px}.lesson-progress .is-current{background:#7d3e36;color:#fff3d3;box-shadow:inset 0 0 0 1px #b57a58}
+.lesson-spread{display:grid;grid-template-columns:1fr 1fr;min-height:490px;background:#f1e2bf;border:1px solid #c2a26b;box-shadow:3px 4px 0 #c4ac80,5px 6px 0 #8d704d,0 8px 16px #24140d88;position:relative}
+.lesson-spread:after{content:'';position:absolute;top:0;bottom:0;left:50%;width:24px;transform:translateX(-50%);background:linear-gradient(90deg,transparent,#6d462e35 48%,#65432b50 50%,#fff4dc88 55%,transparent);pointer-events:none}
+.lesson-page{min-width:0;padding:25px 36px 28px;background-image:repeating-linear-gradient(0deg,transparent 0px,transparent 3px,#8d653b06 4px),radial-gradient(ellipse at top,#fff5de80,transparent);overflow-wrap:anywhere}
+.lesson-page:first-child{border-right:1px solid #98764455}
+.lesson-kicker{font-size:11px;letter-spacing:.09em;color:#866745;border-bottom:1px solid #b99a6366;margin:0 0 20px;padding-bottom:10px}
+.lesson-page h2{font-family:serif;font-size:24px;line-height:1.55;letter-spacing:.01em;margin:7px 0 14px;color:#4e3025}
+.lesson-page h2.lesson-word{font-family:'Noto Sans JP','Yu Mincho',serif;font-size:clamp(44px,5vw,66px);font-weight:700;text-align:center;letter-spacing:.12em;line-height:1.3;margin:4px 0 7px;color:#3c2924}
+.lesson-reading{text-align:center;font-size:21px;letter-spacing:.16em;color:#82543e;margin:0 0 13px}
+.lesson-meaning{text-align:center;font-family:serif;font-size:27px;margin:0 0 20px;padding-bottom:16px;border-bottom:1px solid #b89a6b80;color:#7f3b32}
+.lesson-copy{font-size:14px;line-height:1.95;margin:12px 0 18px}
+.lesson-note{margin-top:22px;padding:14px 17px;background:#d9c39933;border:1px solid #b79b6b77;border-left:3px solid #9d674b}
+.lesson-note small{font-size:11px;color:#916b46}.lesson-note p{margin:4px 0;font-size:13px}.lesson-note p.lesson-example{font-size:19px;color:#49362b}
+.lesson-teacher{font-size:14px;line-height:1.95;white-space:pre-line;background:#dac8a13b;border-top:1px solid #b99b6b;border-bottom:1px solid #b99b6b;padding:17px 14px;margin:22px 0;color:#73513b}
+.lesson-button{font:inherit;font-size:13px;line-height:1.5;cursor:pointer;min-height:44px;border:1px solid #a78550;border-radius:3px;padding:10px 18px;color:#573e2d;background:linear-gradient(#fff0cf,#e0c793);box-shadow:0 2px 0 #9c7447;text-align:center;transition:filter .12s}
+.lesson-button:hover{filter:brightness(1.06)}.lesson-button:active{transform:translateY(1px);box-shadow:none}.lesson-button:focus-visible,.lesson-form input:focus-visible{outline:3px solid #ad7137;outline-offset:3px}
+.lesson-button.lesson-primary{background:linear-gradient(#925044,#723c35);color:#fff0d1;border-color:#b28a55;box-shadow:0 2px 0 #47251f}
+.lesson-header>.lesson-button{background:#3c2a21;color:#e6d1a4;border-color:#b09155;flex-shrink:0;font-size:12px;box-shadow:none}
+.lesson-question{font-size:36px!important;font-family:'Noto Sans JP','Yu Mincho',serif!important;letter-spacing:.1em}
+.lesson-form label{display:block;font-size:12px;color:#7b593d;margin:14px 0}
+.lesson-form input{display:block;margin-top:6px;width:100%;min-width:0;min-height:44px;padding:10px 12px;border:1px solid #ad8b58;border-radius:3px;background:#fff8e8;color:#3f2d25;font-family:inherit;font-size:18px;box-shadow:inset 0 2px 4px #72523018}
+.lesson-actions{display:flex;flex-wrap:wrap;gap:10px;margin:20px 0 5px}.lesson-validation{font-size:13px;color:#913e32;min-height:1em;margin:8px 0}
+.lesson-success{color:#486346!important}.lesson-retry{color:#8c4338!important}
+.lesson-answers{font-size:14px;margin:12px 0}.lesson-answers dt{font-size:11px;font-weight:700;color:#8c6a45;margin:14px 0 3px;padding-top:9px;border-top:1px solid #bea47366}.lesson-answers dd{margin:3px 0}.lesson-given{color:#7c6953}.lesson-correct{font-size:18px;color:#492f26}
+.lesson-footer{display:flex;justify-content:space-between;gap:10px;color:#e0c99c;font-size:11px;padding:17px 6px 0}
+@media(max-width:700px){.school-book-overlay{padding:16px 12px;align-items:flex-start}.lesson-book{padding:17px 12px 13px;border-radius:9px}.lesson-header{padding:0 5px 14px;gap:8px}.lesson-series{font-size:10px;letter-spacing:0}.lesson-header h1{font-size:20px}.lesson-header>.lesson-button{padding:8px 10px;min-height:40px;font-size:11px}.lesson-spread{min-height:0;grid-template-columns:1fr}.lesson-spread:after{display:none}.lesson-page{padding:21px 23px}.lesson-page:first-child{border-right:0;border-bottom:2px solid #ae8d5a}.lesson-kicker{margin-bottom:12px}.lesson-page h2{font-size:21px}.lesson-copy{font-size:14px}.lesson-page h2.lesson-word{font-size:48px}.lesson-reading{font-size:19px}.lesson-teacher{margin:15px 0;padding:13px}.lesson-note{margin-top:16px}.lesson-progress{padding:6px 0}.lesson-progress span{padding:3px 13px}.lesson-footer{font-size:10px;flex-wrap:wrap}.lesson-bookmark{right:43%;height:40px}.lesson-question{font-size:33px!important}}
+@media(prefers-reduced-motion:reduce){.school-book-overlay *{transition:none!important}}
+
+/* Reading confirmation: fixed reference fields, independent of answer format. */
+.lesson-reference{display:grid;grid-template-columns:minmax(90px,auto) 1fr;gap:9px 18px;margin:22px 0;padding:18px 0;border-top:1px solid #bea47388;border-bottom:1px solid #bea47388;align-items:baseline}
+.lesson-reference dt{font-size:12px;color:#866345}.lesson-reference dd{min-width:0;margin:0;font-size:21px;color:#493127;overflow-wrap:anywhere}
+.lesson-allowed{font-size:12px;color:#7a5c42;margin:5px 0 14px}
+.lesson-answers dt.lesson-field-correct{color:#486346}.lesson-answers dt.lesson-field-wrong{color:#963e33}
+.lesson-answers .lesson-given{font-size:17px;color:#493127;white-space:pre-wrap;overflow-wrap:anywhere}
+
+/* Catalog shelf: ten registered-volume slots; no fabricated future books. */
+.school-shelf{max-width:1120px}.shelf-paper{padding:25px 30px;background:#f0e1bd;border:1px solid #c2a26b;box-shadow:inset 0 0 22px #a77e4822,3px 4px 0 #bd9f6e}
+.shelf-titleline{display:flex;justify-content:space-between;align-items:center;gap:12px}.shelf-titleline h2{font-family:serif;font-size:25px;margin:0;color:#4c3224}.shelf-titleline>span{font-size:12px;color:#886642;white-space:nowrap}.shelf-caption{font-size:12px;line-height:1.8;color:#87684b;margin:9px 0 14px}
+.shelf-nav{display:flex;justify-content:space-between;align-items:center;gap:10px;margin:17px 0 13px}.shelf-page-count{font-size:13px;color:#694b33}.school-shelf button:disabled{opacity:.42;cursor:default;filter:none;transform:none}
+.shelf-rack{display:grid;grid-template-columns:repeat(10,minmax(0,1fr));gap:6px;padding:18px 16px 0;background:linear-gradient(90deg,#33261e,#513725 50%,#30231c);border:8px solid #775235;border-bottom-width:18px;box-shadow:inset 0 8px 20px #0007,0 3px 0 #b28b51,0 6px 8px #684b3a44;align-items:end}
+.shelf-volume{position:relative;display:flex;flex-direction:column;align-items:center;justify-content:space-between;gap:8px;width:100%;min-width:0;min-height:218px;padding:12px 3px 13px;cursor:pointer;color:#fae6bd;background:linear-gradient(90deg,#382c26aa,transparent 15%,#ffffff0c 85%,#28190d88),#635346;border:1px solid #b99a61;border-radius:3px 5px 1px 1px;box-shadow:3px 0 0 #1f160b66,inset 0 0 0 3px #3e251f55;font-family:inherit;line-height:1.5;text-align:center}
+.shelf-volume[data-tone="1"]{background-color:#556252;min-height:231px}.shelf-volume[data-tone="2"]{background-color:#805345;min-height:214px}.shelf-volume[data-tone="3"]{background-color:#65566b;min-height:235px}.shelf-volume[data-tone="4"]{background-color:#836b42;min-height:224px}
+.shelf-volume[aria-pressed="true"]{outline:3px solid #f0ce80;outline-offset:3px;z-index:1}.shelf-volume:focus-visible{outline:3px solid #fff5ca;outline-offset:3px}.shelf-volume:hover{filter:brightness(1.14)}
+.shelf-spine-label{writing-mode:vertical-rl;text-orientation:upright;font-family:serif;font-size:24px;font-weight:700;letter-spacing:.15em;line-height:1.3;padding:6px 3px;border-top:1px solid #dec084;border-bottom:1px solid #dec084;text-shadow:1px 1px #20140a}
+.shelf-word-count{font-size:10px;white-space:nowrap;color:#e4c99a}.shelf-volume-status{font-size:10px;line-height:1.4;border:1px solid #e3c58477;padding:3px 2px;border-radius:2px;background:#271b1555;overflow-wrap:anywhere}
+.shelf-empty{height:200px;border-left:1px solid #c3a27615;border-right:1px solid #c3a27615;display:flex;align-items:end;justify-content:center;padding:0 0 17px;font-size:10px;color:#d0b59255}
+.shelf-jump{display:flex;align-items:center;gap:10px;flex-wrap:wrap;margin:23px 0 18px;font-size:13px;color:#745136}.shelf-jump input{width:90px;min-width:0;min-height:44px;border:1px solid #af8b59;border-radius:3px;padding:8px 12px;font:inherit;background:#fff8e7;color:#493124}.shelf-jump input:focus-visible{outline:3px solid #ad7137;outline-offset:3px}.shelf-error{flex-basis:100%;font-size:13px;color:#923b33;margin:0}.shelf-selection{border:1px solid #b69a6a;border-left:4px solid #8c5540;padding:18px 21px;background:#fff4dc77}.shelf-selection .lesson-kicker{margin:0 0 8px;padding-bottom:8px}.shelf-selection h2{font:700 27px/1.4 serif;margin:0 0 8px;color:#5d3a29}.shelf-meta{font-size:14px;color:#664730;margin:8px 0}.shelf-demo-notice{font-size:13px;line-height:1.8;color:#734b39;max-width:760px;margin:12px 0 17px}
+@media(max-width:700px){.shelf-paper{padding:20px 15px}.shelf-titleline{align-items:flex-start;flex-direction:column;gap:4px}.shelf-titleline h2{font-size:22px}.shelf-rack{grid-template-columns:repeat(5,minmax(0,1fr));gap:15px 5px;padding:12px 10px 8px;border-width:6px;border-bottom-width:12px}.shelf-volume,.shelf-volume[data-tone]{min-height:172px;padding:9px 2px}.shelf-spine-label{font-size:20px;padding:4px 2px}.shelf-empty{height:155px}.shelf-volume-status,.shelf-word-count{font-size:9px}.shelf-nav .lesson-button{padding:9px 10px;font-size:12px}.shelf-page-count{font-size:11px}.shelf-jump{gap:8px}.shelf-jump input{width:65px}.shelf-selection{padding:15px}.shelf-selection h2{font-size:25px}}
+
+.lesson-missing{font-size:12px;color:#8b765d;border-top:1px dashed #b89b7277;padding-top:15px;margin-top:22px}
+.shelf-selection>.lesson-button{margin-right:10px;margin-bottom:6px}
+
+/* Local, subsetted OFL font: Japanese lesson glyphs never depend on OS language packs. */
+@font-face{font-family:'School Lesson JP';src:url('assets/lesson-jp.woff') format('woff');font-style:normal;font-weight:400;font-display:swap}
+.school-book-overlay [lang="ja"]{font-family:'School Lesson JP','Noto Sans JP','Yu Mincho',sans-serif}

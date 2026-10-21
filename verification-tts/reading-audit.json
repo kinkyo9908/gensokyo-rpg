@@ -1,0 +1,123 @@
+{
+  "books": {
+    "1": 101,
+    "2": 105,
+    "3": 82,
+    "4": 82,
+    "5": 80
+  },
+  "entryCount": 450,
+  "readingCount": 462,
+  "unavailableOrAmbiguous": [],
+  "multipleRegisteredReadings": [
+    {
+      "book": 2,
+      "position": 14,
+      "spelling": "良い",
+      "readings": [
+        "よい",
+        "いい"
+      ]
+    },
+    {
+      "book": 2,
+      "position": 39,
+      "spelling": "明日",
+      "readings": [
+        "あした",
+        "あす"
+      ]
+    },
+    {
+      "book": 2,
+      "position": 63,
+      "spelling": "分",
+      "readings": [
+        "ふん",
+        "ぷん"
+      ]
+    },
+    {
+      "book": 2,
+      "position": 64,
+      "spelling": "行く",
+      "readings": [
+        "いく",
+        "ゆく"
+      ]
+    },
+    {
+      "book": 2,
+      "position": 92,
+      "spelling": "皆",
+      "readings": [
+        "みな",
+        "みんな"
+      ]
+    },
+    {
+      "book": 2,
+      "position": 94,
+      "spelling": "何",
+      "readings": [
+        "なに",
+        "なん"
+      ]
+    },
+    {
+      "book": 2,
+      "position": 101,
+      "spelling": "日本人",
+      "readings": [
+        "にほんじん",
+        "にっぽんじん"
+      ]
+    },
+    {
+      "book": 3,
+      "position": 7,
+      "spelling": "～分",
+      "readings": [
+        "ふん",
+        "ぷん"
+      ]
+    },
+    {
+      "book": 3,
+      "position": 14,
+      "spelling": "～くらい／ぐらい",
+      "readings": [
+        "くらい",
+        "ぐらい"
+      ]
+    },
+    {
+      "book": 3,
+      "position": 17,
+      "spelling": "～階",
+      "readings": [
+        "かい",
+        "がい"
+      ]
+    },
+    {
+      "book": 3,
+      "position": 37,
+      "spelling": "いいえ／いえ",
+      "readings": [
+        "いいえ",
+        "いえ"
+      ]
+    },
+    {
+      "book": 4,
+      "position": 36,
+      "spelling": "どちら／どっち",
+      "readings": [
+        "どちら",
+        "どっち"
+      ]
+    }
+  ],
+  "actualAudiblePronunciationTested": false
+}

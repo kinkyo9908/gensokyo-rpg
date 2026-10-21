@@ -1,0 +1,9 @@
+{
+  "results": [
+    {
+      "name": "injected browser save failure retains IDs and shows retry above book; retry persists safely",
+      "passed": true
+    }
+  ],
+  "errors": []
+}

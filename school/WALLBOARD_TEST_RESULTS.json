@@ -1,0 +1,32 @@
+{
+  "roomExceptBoardUnchanged": true,
+  "entry": true,
+  "board": {
+    "count": 1,
+    "id": "blackboard-wall",
+    "wallAnchor": [
+      920,
+      220
+    ],
+    "sourceAnchor": [
+      280,
+      110
+    ],
+    "uniformScale": 0.25,
+    "behindAllActors": true
+  },
+  "collision": {
+    "teacherApproach": true,
+    "teacherDesk": true,
+    "studentDesks": true,
+    "aisle": true
+  },
+  "walkToTeacher": 2,
+  "dialogueAndMenu": true,
+  "inventory": true,
+  "walkToExit": 2,
+  "exit": true,
+  "saveUnchanged": true,
+  "reloadPreserved": true,
+  "errors": []
+}

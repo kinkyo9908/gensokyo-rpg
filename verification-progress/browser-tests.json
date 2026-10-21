@@ -1,0 +1,561 @@
+{
+  "passed": true,
+  "checks": [
+    "Opening and unsubmitted quiz do not advance progress",
+    "10-word milestone stop; new page resumes 11 without replay",
+    "23 graded → reload → menu Continue starts word 24",
+    "Leaving word 24 before submitting resumes word 24; New Learning never resets",
+    "Quota failure rolls back and retry commits exactly once",
+    "All 101 ordered entries graded; kana meaning-only; separate identical spelling entries; no reward or old-stat changes",
+    "Review and position lookup preserve progress/results; completed shelf status; mobile layouts",
+    "Completed record survives reload and Continue never resets it",
+    "Cloud install lock and other-tab stale-write guard preserve local record"
+  ],
+  "mainOrder": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    61,
+    62,
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80,
+    81,
+    82,
+    83,
+    84,
+    85,
+    86,
+    87,
+    88,
+    89,
+    90,
+    91,
+    92,
+    93,
+    94,
+    95,
+    96,
+    97,
+    98,
+    99,
+    100,
+    101
+  ],
+  "milestones": [
+    10,
+    20,
+    30,
+    40,
+    50,
+    60,
+    70,
+    80,
+    90,
+    100
+  ],
+  "completedBook": {
+    "bookId": "volume-1",
+    "total": 101,
+    "lastGradedIndex": 101,
+    "completed": true,
+    "milestonesSeen": [
+      10,
+      20,
+      30,
+      40,
+      50,
+      60,
+      70,
+      80,
+      90,
+      100
+    ],
+    "results": {
+      "1": {
+        "readingCorrect": false,
+        "meaningCorrect": true
+      },
+      "2": {
+        "readingCorrect": true,
+        "meaningCorrect": true
+      },
+      "3": {
+        "readingCorrect": true,
+        "meaningCorrect": true
+      },
+      "4": {
+        "readingCorrect": true,
+        "meaningCorrect": true
+      },
+      "5": {
+        "readingCorrect": true,
+        "meaningCorrect": true
+      },
+      "6": {
+        "readingCorrect": true,
+        "meaningCorrect": true
+      },
+      "7": {
+        "readingCorrect": true,
+        "meaningCorrect": false
+      },
+      "8": {
+        "readingCorrect": true,
+        "meaningCorrect": true
+      },
+      "9": {
+        "readingCorrect": true,
+        "meaningCorrect": true
+      },
+      "10": {
+        "readingCorrect": true,
+        "meaningCorrect": true
+      },
+      "11": {
+        "readingCorrect": true,
+        "meaningCorrect": true
+      },
+      "12": {
+        "readingCorrect": null,
+        "meaningCorrect": true
+      },
+      "13": {
+        "readingCorrect": true,
+        "meaningCorrect": true
+      },
+      "14": {
+        "readingCorrect": true,
+        "meaningCorrect": false
+      },
+      "15": {
+        "readingCorrect": true,
+        "meaningCorrect": true
+      },
+      "16": {
+        "readingCorrect": true,
+        "meaningCorrect": true
+      },
+      "17": {
+        "readingCorrect": true,
+        "meaningCorrect": true
+      },
+      "18": {
+        "readingCorrect": true,
+        "meaningCorrect": true
+      },
+      "19": {
+        "readingCorrect": true,
+        "meaningCorrect": true
+      },
+      "20": {
+        "readingCorrect": true,
+        "meaningCorrect": true
+      },
+      "21": {
+        "readingCorrect": true,
+        "meaningCorrect": false
+      },
+      "22": {
+        "readingCorrect": true,
+        "meaningCorrect": true
+      },
+      "23": {
+        "readingCorrect": true,
+        "meaningCorrect": true
+      },
+      "24": {
+        "readingCorrect": true,
+        "meaningCorrect": true
+      },
+      "25": {
+        "readingCorrect": true,
+        "meaningCorrect": true
+      },
+      "26": {
+        "readingCorrect": true,
+        "meaningCorrect": true
+      },
+      "27": {
+        "readingCorrect": null,
+        "meaningCorrect": true
+      },
+      "28": {
+        "readingCorrect": null,
+        "meaningCorrect": false
+      },
+      "29": {
+        "readingCorrect": true,
+        "meaningCorrect": true
+      },
+      "30": {
+        "readingCorrect": true,
+        "meaningCorrect": true
+      },
+      "31": {
+        "readingCorrect": true,
+        "meaningCorrect": true
+      },
+      "32": {
+        "readingCorrect": true,
+        "meaningCorrect": true
+      },
+      "33": {
+        "readingCorrect": true,
+        "meaningCorrect": true
+      },
+      "34": {
+        "readingCorrect": true,
+        "meaningCorrect": true
+      },
+      "35": {
+        "readingCorrect": null,
+        "meaningCorrect": false
+      },
+      "36": {
+        "readingCorrect": null,
+        "meaningCorrect": true
+      },
+      "37": {
+        "readingCorrect": true,
+        "meaningCorrect": true
+      },
+      "38": {
+        "readingCorrect": true,
+        "meaningCorrect": true
+      },
+      "39": {
+        "readingCorrect": true,
+        "meaningCorrect": true
+      },
+      "40": {
+        "readingCorrect": true,
+        "meaningCorrect": true
+      },
+      "41": {
+        "readingCorrect": true,
+        "meaningCorrect": true
+      },
+      "42": {
+        "readingCorrect": true,
+        "meaningCorrect": false
+      },
+      "43": {
+        "readingCorrect": true,
+        "meaningCorrect": true
+      },
+      "44": {
+        "readingCorrect": true,
+        "meaningCorrect": true
+      },
+      "45": {
+        "readingCorrect": true,
+        "meaningCorrect": true
+      },
+      "46": {
+        "readingCorrect": true,
+        "meaningCorrect": true
+      },
+      "47": {
+        "readingCorrect": true,
+        "meaningCorrect": true
+      },
+      "48": {
+        "readingCorrect": true,
+        "meaningCorrect": true
+      },
+      "49": {
+        "readingCorrect": null,
+        "meaningCorrect": false
+      },
+      "50": {
+        "readingCorrect": true,
+        "meaningCorrect": true
+      },
+      "51": {
+        "readingCorrect": true,
+        "meaningCorrect": true
+      },
+      "52": {
+        "readingCorrect": true,
+        "meaningCorrect": true
+      },
+      "53": {
+        "readingCorrect": true,
+        "meaningCorrect": true
+      },
+      "54": {
+        "readingCorrect": true,
+        "meaningCorrect": true
+      },
+      "55": {
+        "readingCorrect": true,
+        "meaningCorrect": true
+      },
+      "56": {
+        "readingCorrect": true,
+        "meaningCorrect": false
+      },
+      "57": {
+        "readingCorrect": true,
+        "meaningCorrect": true
+      },
+      "58": {
+        "readingCorrect": true,
+        "meaningCorrect": true
+      },
+      "59": {
+        "readingCorrect": true,
+        "meaningCorrect": true
+      },
+      "60": {
+        "readingCorrect": true,
+        "meaningCorrect": true
+      },
+      "61": {
+        "readingCorrect": true,
+        "meaningCorrect": true
+      },
+      "62": {
+        "readingCorrect": true,
+        "meaningCorrect": true
+      },
+      "63": {
+        "readingCorrect": true,
+        "meaningCorrect": false
+      },
+      "64": {
+        "readingCorrect": true,
+        "meaningCorrect": true
+      },
+      "65": {
+        "readingCorrect": true,
+        "meaningCorrect": true
+      },
+      "66": {
+        "readingCorrect": true,
+        "meaningCorrect": true
+      },
+      "67": {
+        "readingCorrect": true,
+        "meaningCorrect": true
+      },
+      "68": {
+        "readingCorrect": true,
+        "meaningCorrect": true
+      },
+      "69": {
+        "readingCorrect": true,
+        "meaningCorrect": true
+      },
+      "70": {
+        "readingCorrect": true,
+        "meaningCorrect": false
+      },
+      "71": {
+        "readingCorrect": true,
+        "meaningCorrect": true
+      },
+      "72": {
+        "readingCorrect": true,
+        "meaningCorrect": true
+      },
+      "73": {
+        "readingCorrect": true,
+        "meaningCorrect": true
+      },
+      "74": {
+        "readingCorrect": true,
+        "meaningCorrect": true
+      },
+      "75": {
+        "readingCorrect": true,
+        "meaningCorrect": true
+      },
+      "76": {
+        "readingCorrect": true,
+        "meaningCorrect": true
+      },
+      "77": {
+        "readingCorrect": true,
+        "meaningCorrect": false
+      },
+      "78": {
+        "readingCorrect": true,
+        "meaningCorrect": true
+      },
+      "79": {
+        "readingCorrect": true,
+        "meaningCorrect": true
+      },
+      "80": {
+        "readingCorrect": true,
+        "meaningCorrect": true
+      },
+      "81": {
+        "readingCorrect": true,
+        "meaningCorrect": true
+      },
+      "82": {
+        "readingCorrect": true,
+        "meaningCorrect": true
+      },
+      "83": {
+        "readingCorrect": true,
+        "meaningCorrect": true
+      },
+      "84": {
+        "readingCorrect": true,
+        "meaningCorrect": false
+      },
+      "85": {
+        "readingCorrect": true,
+        "meaningCorrect": true
+      },
+      "86": {
+        "readingCorrect": true,
+        "meaningCorrect": true
+      },
+      "87": {
+        "readingCorrect": true,
+        "meaningCorrect": true
+      },
+      "88": {
+        "readingCorrect": true,
+        "meaningCorrect": true
+      },
+      "89": {
+        "readingCorrect": true,
+        "meaningCorrect": true
+      },
+      "90": {
+        "readingCorrect": true,
+        "meaningCorrect": true
+      },
+      "91": {
+        "readingCorrect": true,
+        "meaningCorrect": false
+      },
+      "92": {
+        "readingCorrect": true,
+        "meaningCorrect": true
+      },
+      "93": {
+        "readingCorrect": true,
+        "meaningCorrect": true
+      },
+      "94": {
+        "readingCorrect": true,
+        "meaningCorrect": true
+      },
+      "95": {
+        "readingCorrect": true,
+        "meaningCorrect": true
+      },
+      "96": {
+        "readingCorrect": true,
+        "meaningCorrect": true
+      },
+      "97": {
+        "readingCorrect": true,
+        "meaningCorrect": true
+      },
+      "98": {
+        "readingCorrect": true,
+        "meaningCorrect": false
+      },
+      "99": {
+        "readingCorrect": null,
+        "meaningCorrect": true
+      },
+      "100": {
+        "readingCorrect": true,
+        "meaningCorrect": true
+      },
+      "101": {
+        "readingCorrect": true,
+        "meaningCorrect": true
+      }
+    }
+  },
+  "saveBytes": 20502,
+  "errors": [],
+  "liveFirebaseTested": false,
+  "unverified": [
+    "Live Google login and Firestore network",
+    "All stage/EXTRA battles and all farm/shop operations end to end",
+    "Physical mobile IME and Windows launcher"
+  ]
+}

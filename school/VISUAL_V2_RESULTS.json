@@ -1,0 +1,134 @@
+{
+  "baseline": "school phase 1 development copy",
+  "changedRuntimeFiles": [
+    "school/terakoya.js"
+  ],
+  "allExistingImageAndAudioAssetsByteIdentical": true,
+  "unchangedAssetFileCount": 128,
+  "htmlAndCloudFilesUnchanged": true,
+  "collisionAndWorldCoordinatesUnchanged": true,
+  "adjustments": {
+    "deskWidthBefore": 181,
+    "deskWidthAfter": 154,
+    "deskRenderOffsetY": 12,
+    "studentOldWidthAndHeight": [
+      94,
+      104
+    ],
+    "studentHeightAfter": 140,
+    "studentAspectRatioPreserved": true,
+    "studentAndChairRenderOffsetUV": [
+      0,
+      -38
+    ],
+    "deskBookToolsShareSingleSprite": true,
+    "depthSortOffsetMatchesDeskRenderOffset": true
+  },
+  "schoolQa": {
+    "boot": true,
+    "geometry": {
+      "residents": [
+        "school-keine",
+        "school-student-1",
+        "school-student-2",
+        "school-student-3",
+        "school-student-4"
+      ],
+      "arrivalValid": true,
+      "talkValid": true,
+      "exitValid": true,
+      "villageReturnValid": true,
+      "doorValid": true,
+      "toTalk": [
+        {
+          "x": 876,
+          "y": 672
+        },
+        {
+          "x": 948,
+          "y": 696
+        },
+        {
+          "x": 1068,
+          "y": 672
+        },
+        {
+          "id": "school-keine",
+          "kind": "npc",
+          "x": 1130.94,
+          "y": 628.34,
+          "visual": {
+            "x": 1209.34,
+            "y": 500.72
+          },
+          "rangeX": 94,
+          "rangeY": 66,
+          "hitX": 68,
+          "hitY": 92,
+          "label": "케이네 선생님"
+        }
+      ],
+      "door": {
+        "id": "terakoya-door",
+        "kind": "travel",
+        "x": 1491.4501891551072,
+        "y": 1465.62421185372,
+        "visual": {
+          "x": 1436.5699873896594,
+          "y": 1342.950819672131
+        },
+        "label": "케이네의 서당",
+        "text": "테라코야의 문 너머로 아이들이 글 읽는 소리가 들린다. 오늘은 수업 중인 모양이다.",
+        "to": "terakoya",
+        "arrival": {
+          "x": 542.6499999999999,
+          "y": 696.15,
+          "dir": 2
+        },
+        "rx": 0,
+        "ry": 0,
+        "rangeX": 120,
+        "rangeY": 95,
+        "hitX": 55,
+        "hitY": 62
+      }
+    },
+    "ordinaryFEntry": true,
+    "walkToTeacher": true,
+    "existingDialogueFrame": true,
+    "fiveMenuHooks": true,
+    "menuNoLearningWrites": true,
+    "deskCollision": true,
+    "noTunneling": true,
+    "exit": true,
+    "snapshotUnchanged": true,
+    "pageErrors": []
+  },
+  "regression": {
+    "legacySaveRestored": true,
+    "inventoryKey": true,
+    "centralAisle": true,
+    "sharedFootpointDepthQueue": true,
+    "mobileRoomAndMenu": true,
+    "miyoiMenu": true,
+    "minorikoDialogue": true,
+    "individualFarmPlotAndSeedPicker": true,
+    "saveReloadAfterSchool": true,
+    "stages": [
+      "1-1",
+      "1-2",
+      "1-3",
+      "1-4",
+      "1-5"
+    ],
+    "extraEntry": true,
+    "pageErrors": []
+  },
+  "productionUploaded": false,
+  "firebaseSettingsChanged": false,
+  "notRetested": [
+    "Real Google login and Firestore writes",
+    "Full boss battle completions",
+    "Windows launcher"
+  ]
+}

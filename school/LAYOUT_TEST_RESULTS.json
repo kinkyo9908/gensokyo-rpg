@@ -1,0 +1,75 @@
+{
+  "entry": true,
+  "layout": {
+    "props": [
+      {
+        "id": "teacher-platform"
+      },
+      {
+        "id": "blackboard",
+        "x": 1045.66,
+        "y": 472.962
+      },
+      {
+        "id": "teacher-desk",
+        "x": 961.1,
+        "y": 515.6949999999999
+      },
+      {
+        "id": "bookshelf-left",
+        "x": 690.76,
+        "y": 391.815
+      },
+      {
+        "id": "desk-nw",
+        "x": 698.56,
+        "y": 511.92
+      },
+      {
+        "id": "desk-ne",
+        "x": 1005.2399999999999,
+        "y": 629.84
+      },
+      {
+        "id": "desk-sw",
+        "x": 513.76,
+        "y": 605.31
+      },
+      {
+        "id": "desk-se",
+        "x": 820.4399999999998,
+        "y": 723.23
+      }
+    ],
+    "residentCount": 5,
+    "teacher": {
+      "id": "school-keine",
+      "name": "ケイネ",
+      "kind": "resident",
+      "x": 1124.33,
+      "y": 551.0500000000001,
+      "sprite": "school-keine",
+      "dir": 0,
+      "phase": 0
+    },
+    "talk": {
+      "x": 1034.7299999999998,
+      "y": 596.33
+    },
+    "removedSmallShelf": true,
+    "oldShelfWalkable": true,
+    "teacherDeskSolid": true,
+    "talkWalkable": true,
+    "aisle": true,
+    "deskCollision": true
+  },
+  "walkToTeacher": 2,
+  "teacherReachable": true,
+  "dialogueAndMenu": true,
+  "inventory": true,
+  "walkToExit": 2,
+  "exit": true,
+  "saveUnchanged": true,
+  "reloadPreserved": true,
+  "errors": []
+}

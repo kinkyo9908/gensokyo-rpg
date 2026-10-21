@@ -1,0 +1,80 @@
+[
+  {
+    "source": "단어장_학습화면_펼친두루마리.png",
+    "path": "school/assets/scroll-lesson/scroll.png",
+    "size": [
+      1672,
+      941
+    ],
+    "alpha": [
+      0,
+      255
+    ],
+    "sha256": "99ca74736b481c025d7be1dd89e073a5c098a13e7f6592ce0dc87d5521624a87"
+  },
+  {
+    "source": "단어장_학습화면_선생님안내패널.png",
+    "path": "school/assets/scroll-lesson/teacher-panel.png",
+    "size": [
+      1448,
+      1086
+    ],
+    "alpha": [
+      0,
+      255
+    ],
+    "sha256": "08ea39664dcc876451000a700b5a98f4d4963047462c1d29477f571c407f204c"
+  },
+  {
+    "source": "단어장_학습화면_선택탭.png",
+    "path": "school/assets/scroll-lesson/tab-active.png",
+    "size": [
+      2048,
+      682
+    ],
+    "alpha": [
+      0,
+      254
+    ],
+    "sha256": "ed987313dcdb70de5562c326ae32fddd6bc02005a2bbb6ef6180470bb0f49827"
+  },
+  {
+    "source": "단어장_학습화면_상단제목현판.png",
+    "path": "school/assets/scroll-lesson/title.png",
+    "size": [
+      2048,
+      682
+    ],
+    "alpha": [
+      0,
+      255
+    ],
+    "sha256": "c1368b68bccc977cb4fb422fb6129a729ed658cf3ca0b0369bc288ea837c37bd"
+  },
+  {
+    "source": "단어장_학습화면_일반탭.png",
+    "path": "school/assets/scroll-lesson/tab-idle.png",
+    "size": [
+      2048,
+      682
+    ],
+    "alpha": [
+      0,
+      255
+    ],
+    "sha256": "fcc1410c73fd2adcf72ea3de0af7e050ebb16d47c239d6ef469a9e662ceef79a"
+  },
+  {
+    "source": "단어장_학습화면_단어표시패널.png",
+    "path": "school/assets/scroll-lesson/word-panel.png",
+    "size": [
+      1086,
+      1448
+    ],
+    "alpha": [
+      0,
+      255
+    ],
+    "sha256": "64d6afd6dfd4dc8a1f00512b4eab6f4ffbc33da70e768d2339e2321ba190f87c"
+  }
+]

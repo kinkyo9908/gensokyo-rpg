@@ -1,0 +1,27 @@
+{
+  "passed": true,
+  "progressRecords": 101,
+  "milestones": [
+    10,
+    20,
+    30,
+    40,
+    50,
+    60,
+    70,
+    80,
+    90,
+    100
+  ],
+  "originalSaveAccepted": true,
+  "invalidFutureSchemaBlocked": true,
+  "quotaFailureRollback": true,
+  "duplicateCommitNoWrite": true,
+  "mockCloudUploadDownload": true,
+  "offlinePreserved": true,
+  "conflictRequiresChoice": true,
+  "documentBytes": 5863,
+  "mockReads": 4,
+  "mockCommits": 2,
+  "liveFirebaseTested": false
+}

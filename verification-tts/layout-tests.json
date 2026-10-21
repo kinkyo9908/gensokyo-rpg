@@ -1,0 +1,90 @@
+{
+  "results": [
+    {
+      "name": "multi-reading talisman control geometry",
+      "passed": true,
+      "size": {
+        "width": 1280,
+        "height": 720
+      },
+      "voice": "ja-JP",
+      "top": 605.671875,
+      "bottom": 653.671875,
+      "workspaceBottom": 719.984375,
+      "withinWorkspace": true,
+      "width": 289.40625
+    },
+    {
+      "name": "multi-reading talisman control geometry",
+      "passed": true,
+      "size": {
+        "width": 1280,
+        "height": 720
+      },
+      "voice": "ko-KR",
+      "top": 622.171875,
+      "bottom": 670.171875,
+      "workspaceBottom": 719.984375,
+      "withinWorkspace": true,
+      "width": 289.40625
+    },
+    {
+      "name": "multi-reading talisman control geometry",
+      "passed": true,
+      "size": {
+        "width": 1366,
+        "height": 768
+      },
+      "voice": "ja-JP",
+      "top": 629.1875,
+      "bottom": 677.1875,
+      "workspaceBottom": 767.984375,
+      "withinWorkspace": true,
+      "width": 312.4375
+    },
+    {
+      "name": "multi-reading talisman control geometry",
+      "passed": true,
+      "size": {
+        "width": 1366,
+        "height": 768
+      },
+      "voice": "ko-KR",
+      "top": 645.6875,
+      "bottom": 693.6875,
+      "workspaceBottom": 767.984375,
+      "withinWorkspace": true,
+      "width": 312.4375
+    },
+    {
+      "name": "multi-reading talisman control geometry",
+      "passed": true,
+      "size": {
+        "width": 1024,
+        "height": 768
+      },
+      "voice": "ja-JP",
+      "top": 647.046875,
+      "bottom": 695.046875,
+      "workspaceBottom": 788.046875,
+      "withinWorkspace": true,
+      "width": 510
+    },
+    {
+      "name": "multi-reading talisman control geometry",
+      "passed": true,
+      "size": {
+        "width": 1024,
+        "height": 768
+      },
+      "voice": "ko-KR",
+      "top": 647.046875,
+      "bottom": 695.046875,
+      "workspaceBottom": 788.046875,
+      "withinWorkspace": true,
+      "width": 510
+    }
+  ],
+  "errors": [],
+  "voiceTesting": "Native browser capability/absence checked; deterministic mock verifies requests/cancellation; actual Japanese audio quality not heard."
+}

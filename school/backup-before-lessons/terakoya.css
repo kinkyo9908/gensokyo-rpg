@@ -1,0 +1,32 @@
+/* Uses the existing resident dialogue frame; only the classroom menu layout is local. */
+#schoolLessonChoices[hidden]{display:none!important}
+#schoolLessonChoices{grid-template-columns:repeat(2,minmax(0,1fr));gap:8px;margin-top:10px}
+#schoolLessonChoices button{min-height:43px;font:inherit}
+#schoolLessonChoices button:last-child{grid-column:1/-1}
+.school-conversation #residentNpcPortrait{image-rendering:pixelated;object-fit:contain}
+.school-conversation .yujin-vn-portrait.right{max-height:62vh}
+.school-conversation .yujin-vn-box{max-height:none;overflow:visible}
+@media(max-width:600px){#schoolLessonChoices{gap:6px}#schoolLessonChoices button{font-size:13px;min-height:40px}.school-conversation .yujin-vn-box{max-height:none}}
+@media(prefers-reduced-motion:reduce){.school-conversation *{animation:none!important}}
+
+.school-conversation #schoolLessonChoices{max-height:min(40vh,280px);overflow-y:auto}
+
+/* School-only phase 2 trial. Original dialogue DOM and global styles stay intact. */
+#residentDialogue.school-dialogue-trial .yujin-vn-stage{width:100%;overflow:visible}
+#residentDialogue.school-dialogue-trial .yujin-vn-box{width:min(900px,calc(100vw - 48px));box-sizing:border-box;max-height:50dvh;overflow-y:auto;padding:26px 28px 18px}
+#residentDialogue.school-dialogue-trial .yujin-vn-portrait{bottom:calc(var(--school-box-height,240px) + 28px);height:min(52dvh,510px);width:32vw;max-width:360px;max-height:calc(100dvh - var(--school-box-height,240px) - 65px);opacity:1;filter:none;transform:none;transition:none}
+#residentDialogue.school-dialogue-trial .yujin-vn-portrait.left{left:max(24px,calc(50% - 520px))}
+#residentDialogue.school-dialogue-trial .yujin-vn-portrait.right{right:max(24px,calc(50% - 520px))}
+#residentDialogue.school-dialogue-trial .yujin-vn-portrait img{width:100%;height:100%;max-width:100%;max-height:100%;object-fit:contain;object-position:center bottom;transform:none}
+#residentDialogue.school-dialogue-trial .yujin-vn-name{position:relative;left:auto;top:auto;display:table;margin:-10px 0 12px;padding:6px 16px;max-width:100%;box-sizing:border-box}
+#residentDialogue.school-dialogue-trial .yujin-vn-text{min-height:54px}
+#residentDialogue.school-dialogue-trial #schoolLessonChoices{max-height:none;overflow:visible}
+@media(max-width:600px){
+ #residentDialogue.school-dialogue-trial .yujin-vn-box{width:calc(100vw - 24px);padding:20px 16px 14px;max-height:54dvh}
+ #residentDialogue.school-dialogue-trial .yujin-vn-portrait{width:43vw;height:38dvh;max-height:calc(100dvh - var(--school-box-height,260px) - 60px)}
+ #residentDialogue.school-dialogue-trial .yujin-vn-portrait.left{left:12px}
+ #residentDialogue.school-dialogue-trial .yujin-vn-portrait.right{right:12px}
+ #residentDialogue.school-dialogue-trial .yujin-vn-name{font-size:16px;letter-spacing:0}
+ #residentDialogue.school-dialogue-trial .yujin-vn-name small{display:block;margin:3px 0 0}
+ #residentDialogue.school-dialogue-trial .yujin-vn-text{font-size:16px;line-height:1.65}
+}
