@@ -1,0 +1,1355 @@
+{
+  "schemaVersion": 1,
+  "bookId": "volume-1",
+  "sourceContainer": "REGION_BATTLE_DOCUMENT/ENEMY_CONFIGS[].pool",
+  "sourceTotal": 101,
+  "enabledCount": 101,
+  "entries": [
+    {
+      "sourceOrdinal": 1,
+      "spelling": "評価",
+      "readings": [
+        "ひょうか"
+      ],
+      "meanings": [
+        "평가"
+      ],
+      "explanation": null,
+      "example": null,
+      "translation": null
+    },
+    {
+      "sourceOrdinal": 2,
+      "spelling": "客",
+      "readings": [
+        "きゃく"
+      ],
+      "meanings": [
+        "손님",
+        "고객"
+      ],
+      "explanation": null,
+      "example": null,
+      "translation": null
+    },
+    {
+      "sourceOrdinal": 3,
+      "spelling": "入学",
+      "readings": [
+        "にゅうがく"
+      ],
+      "meanings": [
+        "입학"
+      ],
+      "explanation": null,
+      "example": null,
+      "translation": null
+    },
+    {
+      "sourceOrdinal": 4,
+      "spelling": "注意",
+      "readings": [
+        "ちゅうい"
+      ],
+      "meanings": [
+        "주의"
+      ],
+      "explanation": null,
+      "example": null,
+      "translation": null
+    },
+    {
+      "sourceOrdinal": 5,
+      "spelling": "料理",
+      "readings": [
+        "りょうり"
+      ],
+      "meanings": [
+        "요리"
+      ],
+      "explanation": null,
+      "example": null,
+      "translation": null
+    },
+    {
+      "sourceOrdinal": 6,
+      "spelling": "会社",
+      "readings": [
+        "かいしゃ"
+      ],
+      "meanings": [
+        "회사"
+      ],
+      "explanation": null,
+      "example": null,
+      "translation": null
+    },
+    {
+      "sourceOrdinal": 7,
+      "spelling": "お茶",
+      "readings": [
+        "おちゃ"
+      ],
+      "meanings": [
+        "차"
+      ],
+      "explanation": null,
+      "example": null,
+      "translation": null
+    },
+    {
+      "sourceOrdinal": 8,
+      "spelling": "修理",
+      "readings": [
+        "しゅうり"
+      ],
+      "meanings": [
+        "수리"
+      ],
+      "explanation": null,
+      "example": null,
+      "translation": null
+    },
+    {
+      "sourceOrdinal": 9,
+      "spelling": "物価",
+      "readings": [
+        "ぶっか"
+      ],
+      "meanings": [
+        "물가"
+      ],
+      "explanation": null,
+      "example": null,
+      "translation": null
+    },
+    {
+      "sourceOrdinal": 10,
+      "spelling": "距離",
+      "readings": [
+        "きょり"
+      ],
+      "meanings": [
+        "거리"
+      ],
+      "explanation": null,
+      "example": null,
+      "translation": null
+    },
+    {
+      "sourceOrdinal": 11,
+      "spelling": "勝負",
+      "readings": [
+        "しょうぶ"
+      ],
+      "meanings": [
+        "승부"
+      ],
+      "explanation": null,
+      "example": null,
+      "translation": null
+    },
+    {
+      "sourceOrdinal": 12,
+      "spelling": "きっと",
+      "readings": [
+        "きっと"
+      ],
+      "meanings": [
+        "반드시",
+        "꼭",
+        "틀림없이",
+        "분명히"
+      ],
+      "explanation": null,
+      "example": null,
+      "translation": null
+    },
+    {
+      "sourceOrdinal": 13,
+      "spelling": "学校",
+      "readings": [
+        "がっこう"
+      ],
+      "meanings": [
+        "학교"
+      ],
+      "explanation": null,
+      "example": null,
+      "translation": null
+    },
+    {
+      "sourceOrdinal": 14,
+      "spelling": "雑誌",
+      "readings": [
+        "ざっし"
+      ],
+      "meanings": [
+        "잡지"
+      ],
+      "explanation": null,
+      "example": null,
+      "translation": null
+    },
+    {
+      "sourceOrdinal": 15,
+      "spelling": "切符",
+      "readings": [
+        "きっぷ"
+      ],
+      "meanings": [
+        "표",
+        "승차권",
+        "차표"
+      ],
+      "explanation": null,
+      "example": null,
+      "translation": null
+    },
+    {
+      "sourceOrdinal": 16,
+      "spelling": "切手",
+      "readings": [
+        "きって"
+      ],
+      "meanings": [
+        "우표"
+      ],
+      "explanation": null,
+      "example": null,
+      "translation": null
+    },
+    {
+      "sourceOrdinal": 17,
+      "spelling": "お父さん",
+      "readings": [
+        "おとうさん"
+      ],
+      "meanings": [
+        "아버지",
+        "아빠"
+      ],
+      "explanation": null,
+      "example": null,
+      "translation": null
+    },
+    {
+      "sourceOrdinal": 18,
+      "spelling": "結婚",
+      "readings": [
+        "けっこん"
+      ],
+      "meanings": [
+        "결혼"
+      ],
+      "explanation": null,
+      "example": null,
+      "translation": null
+    },
+    {
+      "sourceOrdinal": 19,
+      "spelling": "欠席",
+      "readings": [
+        "けっせき"
+      ],
+      "meanings": [
+        "결석"
+      ],
+      "explanation": null,
+      "example": null,
+      "translation": null
+    },
+    {
+      "sourceOrdinal": 20,
+      "spelling": "一杯",
+      "readings": [
+        "いっぱい"
+      ],
+      "meanings": [
+        "한 잔",
+        "한 컵"
+      ],
+      "explanation": null,
+      "example": null,
+      "translation": null
+    },
+    {
+      "sourceOrdinal": 21,
+      "spelling": "国家",
+      "readings": [
+        "こっか"
+      ],
+      "meanings": [
+        "국가",
+        "나라"
+      ],
+      "explanation": null,
+      "example": null,
+      "translation": null
+    },
+    {
+      "sourceOrdinal": 22,
+      "spelling": "空気",
+      "readings": [
+        "くうき"
+      ],
+      "meanings": [
+        "공기"
+      ],
+      "explanation": null,
+      "example": null,
+      "translation": null
+    },
+    {
+      "sourceOrdinal": 23,
+      "spelling": "多い",
+      "readings": [
+        "おおい"
+      ],
+      "meanings": [
+        "많다"
+      ],
+      "explanation": null,
+      "example": null,
+      "translation": null
+    },
+    {
+      "sourceOrdinal": 24,
+      "spelling": "お母さん",
+      "readings": [
+        "おかあさん"
+      ],
+      "meanings": [
+        "어머니",
+        "엄마"
+      ],
+      "explanation": null,
+      "example": null,
+      "translation": null
+    },
+    {
+      "sourceOrdinal": 25,
+      "spelling": "お姉さん",
+      "readings": [
+        "おねえさん"
+      ],
+      "meanings": [
+        "언니",
+        "누나"
+      ],
+      "explanation": null,
+      "example": null,
+      "translation": null
+    },
+    {
+      "sourceOrdinal": 26,
+      "spelling": "お兄さん",
+      "readings": [
+        "おにいさん"
+      ],
+      "meanings": [
+        "형",
+        "오빠"
+      ],
+      "explanation": null,
+      "example": null,
+      "translation": null
+    },
+    {
+      "sourceOrdinal": 27,
+      "spelling": "おじいさん",
+      "readings": [
+        "おじいさん"
+      ],
+      "meanings": [
+        "할아버지"
+      ],
+      "explanation": null,
+      "example": null,
+      "translation": null
+    },
+    {
+      "sourceOrdinal": 28,
+      "spelling": "おばあさん",
+      "readings": [
+        "おばあさん"
+      ],
+      "meanings": [
+        "할머니"
+      ],
+      "explanation": null,
+      "example": null,
+      "translation": null
+    },
+    {
+      "sourceOrdinal": 29,
+      "spelling": "尻尾",
+      "readings": [
+        "しっぽ"
+      ],
+      "meanings": [
+        "꼬리"
+      ],
+      "explanation": null,
+      "example": null,
+      "translation": null
+    },
+    {
+      "sourceOrdinal": 30,
+      "spelling": "先生",
+      "readings": [
+        "せんせい"
+      ],
+      "meanings": [
+        "선생님"
+      ],
+      "explanation": null,
+      "example": null,
+      "translation": null
+    },
+    {
+      "sourceOrdinal": 31,
+      "spelling": "一杯",
+      "readings": [
+        "いっぱい"
+      ],
+      "meanings": [
+        "가득"
+      ],
+      "explanation": null,
+      "example": null,
+      "translation": null
+    },
+    {
+      "sourceOrdinal": 32,
+      "spelling": "滑る",
+      "readings": [
+        "すべる"
+      ],
+      "meanings": [
+        "미끄러지다"
+      ],
+      "explanation": null,
+      "example": null,
+      "translation": null
+    },
+    {
+      "sourceOrdinal": 33,
+      "spelling": "届く",
+      "readings": [
+        "とどく"
+      ],
+      "meanings": [
+        "도착하다",
+        "닿다"
+      ],
+      "explanation": null,
+      "example": null,
+      "translation": null
+    },
+    {
+      "sourceOrdinal": 34,
+      "spelling": "天ぷら",
+      "readings": [
+        "てんぷら"
+      ],
+      "meanings": [
+        "덴푸라",
+        "튀김"
+      ],
+      "explanation": null,
+      "example": null,
+      "translation": null
+    },
+    {
+      "sourceOrdinal": 35,
+      "spelling": "ぴかぴか",
+      "readings": [
+        "ぴかぴか"
+      ],
+      "meanings": [
+        "반짝반짝"
+      ],
+      "explanation": null,
+      "example": null,
+      "translation": null
+    },
+    {
+      "sourceOrdinal": 36,
+      "spelling": "ペコペコ",
+      "readings": [
+        "ぺこぺこ"
+      ],
+      "meanings": [
+        "몹시 배고픈 모양"
+      ],
+      "explanation": null,
+      "example": null,
+      "translation": null
+    },
+    {
+      "sourceOrdinal": 37,
+      "spelling": "部分",
+      "readings": [
+        "ぶぶん"
+      ],
+      "meanings": [
+        "부분"
+      ],
+      "explanation": null,
+      "example": null,
+      "translation": null
+    },
+    {
+      "sourceOrdinal": 38,
+      "spelling": "僕",
+      "readings": [
+        "ぼく"
+      ],
+      "meanings": [
+        "나",
+        "저(남성)"
+      ],
+      "explanation": null,
+      "example": null,
+      "translation": null
+    },
+    {
+      "sourceOrdinal": 39,
+      "spelling": "幅",
+      "readings": [
+        "はば"
+      ],
+      "meanings": [
+        "폭",
+        "너비"
+      ],
+      "explanation": null,
+      "example": null,
+      "translation": null
+    },
+    {
+      "sourceOrdinal": 40,
+      "spelling": "大事",
+      "readings": [
+        "だいじ"
+      ],
+      "meanings": [
+        "중요함",
+        "소중함"
+      ],
+      "explanation": null,
+      "example": null,
+      "translation": null
+    },
+    {
+      "sourceOrdinal": 41,
+      "spelling": "残念",
+      "readings": [
+        "ざんねん"
+      ],
+      "meanings": [
+        "아쉬움",
+        "유감"
+      ],
+      "explanation": null,
+      "example": null,
+      "translation": null
+    },
+    {
+      "sourceOrdinal": 42,
+      "spelling": "続く",
+      "readings": [
+        "つづく"
+      ],
+      "meanings": [
+        "계속되다"
+      ],
+      "explanation": null,
+      "example": null,
+      "translation": null
+    },
+    {
+      "sourceOrdinal": 43,
+      "spelling": "水",
+      "readings": [
+        "みず"
+      ],
+      "meanings": [
+        "물"
+      ],
+      "explanation": null,
+      "example": null,
+      "translation": null
+    },
+    {
+      "sourceOrdinal": 44,
+      "spelling": "出る",
+      "readings": [
+        "でる"
+      ],
+      "meanings": [
+        "나오다",
+        "나가다"
+      ],
+      "explanation": null,
+      "example": null,
+      "translation": null
+    },
+    {
+      "sourceOrdinal": 45,
+      "spelling": "文字",
+      "readings": [
+        "もじ"
+      ],
+      "meanings": [
+        "문자",
+        "글자"
+      ],
+      "explanation": null,
+      "example": null,
+      "translation": null
+    },
+    {
+      "sourceOrdinal": 46,
+      "spelling": "望む",
+      "readings": [
+        "のぞむ"
+      ],
+      "meanings": [
+        "바라다",
+        "원하다"
+      ],
+      "explanation": null,
+      "example": null,
+      "translation": null
+    },
+    {
+      "sourceOrdinal": 47,
+      "spelling": "小銭",
+      "readings": [
+        "こぜに"
+      ],
+      "meanings": [
+        "잔돈",
+        "동전"
+      ],
+      "explanation": null,
+      "example": null,
+      "translation": null
+    },
+    {
+      "sourceOrdinal": 48,
+      "spelling": "縮む",
+      "readings": [
+        "ちぢむ"
+      ],
+      "meanings": [
+        "줄어들다",
+        "오그라들다"
+      ],
+      "explanation": null,
+      "example": null,
+      "translation": null
+    },
+    {
+      "sourceOrdinal": 49,
+      "spelling": "りんご",
+      "readings": [
+        "りんご"
+      ],
+      "meanings": [
+        "사과"
+      ],
+      "explanation": null,
+      "example": null,
+      "translation": null
+    },
+    {
+      "sourceOrdinal": 50,
+      "spelling": "家",
+      "readings": [
+        "いえ"
+      ],
+      "meanings": [
+        "집"
+      ],
+      "explanation": null,
+      "example": null,
+      "translation": null
+    },
+    {
+      "sourceOrdinal": 51,
+      "spelling": "買う",
+      "readings": [
+        "かう"
+      ],
+      "meanings": [
+        "사다"
+      ],
+      "explanation": null,
+      "example": null,
+      "translation": null
+    },
+    {
+      "sourceOrdinal": 52,
+      "spelling": "上",
+      "readings": [
+        "うえ"
+      ],
+      "meanings": [
+        "위"
+      ],
+      "explanation": null,
+      "example": null,
+      "translation": null
+    },
+    {
+      "sourceOrdinal": 53,
+      "spelling": "池",
+      "readings": [
+        "いけ"
+      ],
+      "meanings": [
+        "연못"
+      ],
+      "explanation": null,
+      "example": null,
+      "translation": null
+    },
+    {
+      "sourceOrdinal": 54,
+      "spelling": "秋",
+      "readings": [
+        "あき"
+      ],
+      "meanings": [
+        "가을"
+      ],
+      "explanation": null,
+      "example": null,
+      "translation": null
+    },
+    {
+      "sourceOrdinal": 55,
+      "spelling": "青い",
+      "readings": [
+        "あおい"
+      ],
+      "meanings": [
+        "파랗다",
+        "푸르다"
+      ],
+      "explanation": null,
+      "example": null,
+      "translation": null
+    },
+    {
+      "sourceOrdinal": 56,
+      "spelling": "愛",
+      "readings": [
+        "あい"
+      ],
+      "meanings": [
+        "사랑"
+      ],
+      "explanation": null,
+      "example": null,
+      "translation": null
+    },
+    {
+      "sourceOrdinal": 57,
+      "spelling": "濃い",
+      "readings": [
+        "こい"
+      ],
+      "meanings": [
+        "진하다"
+      ],
+      "explanation": null,
+      "example": null,
+      "translation": null
+    },
+    {
+      "sourceOrdinal": 58,
+      "spelling": "追う",
+      "readings": [
+        "おう"
+      ],
+      "meanings": [
+        "쫓다",
+        "뒤따르다"
+      ],
+      "explanation": null,
+      "example": null,
+      "translation": null
+    },
+    {
+      "sourceOrdinal": 59,
+      "spelling": "悔い",
+      "readings": [
+        "くい"
+      ],
+      "meanings": [
+        "후회"
+      ],
+      "explanation": null,
+      "example": null,
+      "translation": null
+    },
+    {
+      "sourceOrdinal": 60,
+      "spelling": "黒",
+      "readings": [
+        "くろ"
+      ],
+      "meanings": [
+        "검정",
+        "검은색"
+      ],
+      "explanation": null,
+      "example": null,
+      "translation": null
+    },
+    {
+      "sourceOrdinal": 61,
+      "spelling": "私",
+      "readings": [
+        "わたし"
+      ],
+      "meanings": [
+        "나",
+        "저"
+      ],
+      "explanation": null,
+      "example": null,
+      "translation": null
+    },
+    {
+      "sourceOrdinal": 62,
+      "spelling": "来る",
+      "readings": [
+        "くる"
+      ],
+      "meanings": [
+        "오다"
+      ],
+      "explanation": null,
+      "example": null,
+      "translation": null
+    },
+    {
+      "sourceOrdinal": 63,
+      "spelling": "鍵",
+      "readings": [
+        "かぎ"
+      ],
+      "meanings": [
+        "열쇠"
+      ],
+      "explanation": null,
+      "example": null,
+      "translation": null
+    },
+    {
+      "sourceOrdinal": 64,
+      "spelling": "歴史",
+      "readings": [
+        "れきし"
+      ],
+      "meanings": [
+        "역사"
+      ],
+      "explanation": null,
+      "example": null,
+      "translation": null
+    },
+    {
+      "sourceOrdinal": 65,
+      "spelling": "家具",
+      "readings": [
+        "かぐ"
+      ],
+      "meanings": [
+        "가구"
+      ],
+      "explanation": null,
+      "example": null,
+      "translation": null
+    },
+    {
+      "sourceOrdinal": 66,
+      "spelling": "棘",
+      "readings": [
+        "とげ"
+      ],
+      "meanings": [
+        "가시"
+      ],
+      "explanation": null,
+      "example": null,
+      "translation": null
+    },
+    {
+      "sourceOrdinal": 67,
+      "spelling": "画家",
+      "readings": [
+        "がか"
+      ],
+      "meanings": [
+        "화가"
+      ],
+      "explanation": null,
+      "example": null,
+      "translation": null
+    },
+    {
+      "sourceOrdinal": 68,
+      "spelling": "扇子",
+      "readings": [
+        "せんす"
+      ],
+      "meanings": [
+        "부채"
+      ],
+      "explanation": null,
+      "example": null,
+      "translation": null
+    },
+    {
+      "sourceOrdinal": 69,
+      "spelling": "絵を描く",
+      "readings": [
+        "えをかく"
+      ],
+      "meanings": [
+        "그림을 그리다"
+      ],
+      "explanation": null,
+      "example": null,
+      "translation": null
+    },
+    {
+      "sourceOrdinal": 70,
+      "spelling": "虫",
+      "readings": [
+        "むし"
+      ],
+      "meanings": [
+        "벌레"
+      ],
+      "explanation": null,
+      "example": null,
+      "translation": null
+    },
+    {
+      "sourceOrdinal": 71,
+      "spelling": "空",
+      "readings": [
+        "そら"
+      ],
+      "meanings": [
+        "하늘"
+      ],
+      "explanation": null,
+      "example": null,
+      "translation": null
+    },
+    {
+      "sourceOrdinal": 72,
+      "spelling": "道",
+      "readings": [
+        "みち"
+      ],
+      "meanings": [
+        "길"
+      ],
+      "explanation": null,
+      "example": null,
+      "translation": null
+    },
+    {
+      "sourceOrdinal": 73,
+      "spelling": "本屋",
+      "readings": [
+        "ほんや"
+      ],
+      "meanings": [
+        "서점"
+      ],
+      "explanation": null,
+      "example": null,
+      "translation": null
+    },
+    {
+      "sourceOrdinal": 74,
+      "spelling": "眼鏡",
+      "readings": [
+        "めがね"
+      ],
+      "meanings": [
+        "안경"
+      ],
+      "explanation": null,
+      "example": null,
+      "translation": null
+    },
+    {
+      "sourceOrdinal": 75,
+      "spelling": "町",
+      "readings": [
+        "まち"
+      ],
+      "meanings": [
+        "마을",
+        "동네"
+      ],
+      "explanation": null,
+      "example": null,
+      "translation": null
+    },
+    {
+      "sourceOrdinal": 76,
+      "spelling": "読む",
+      "readings": [
+        "よむ"
+      ],
+      "meanings": [
+        "읽다"
+      ],
+      "explanation": null,
+      "example": null,
+      "translation": null
+    },
+    {
+      "sourceOrdinal": 77,
+      "spelling": "床",
+      "readings": [
+        "ゆか"
+      ],
+      "meanings": [
+        "바닥",
+        "마루"
+      ],
+      "explanation": null,
+      "example": null,
+      "translation": null
+    },
+    {
+      "sourceOrdinal": 78,
+      "spelling": "桃",
+      "readings": [
+        "もも"
+      ],
+      "meanings": [
+        "복숭아"
+      ],
+      "explanation": null,
+      "example": null,
+      "translation": null
+    },
+    {
+      "sourceOrdinal": 79,
+      "spelling": "蟻",
+      "readings": [
+        "あり"
+      ],
+      "meanings": [
+        "개미"
+      ],
+      "explanation": null,
+      "example": null,
+      "translation": null
+    },
+    {
+      "sourceOrdinal": 80,
+      "spelling": "塗る",
+      "readings": [
+        "ぬる"
+      ],
+      "meanings": [
+        "바르다",
+        "칠하다"
+      ],
+      "explanation": null,
+      "example": null,
+      "translation": null
+    },
+    {
+      "sourceOrdinal": 81,
+      "spelling": "船",
+      "readings": [
+        "ふね"
+      ],
+      "meanings": [
+        "배",
+        "선박"
+      ],
+      "explanation": null,
+      "example": null,
+      "translation": null
+    },
+    {
+      "sourceOrdinal": 82,
+      "spelling": "下手",
+      "readings": [
+        "へた"
+      ],
+      "meanings": [
+        "서투름"
+      ],
+      "explanation": null,
+      "example": null,
+      "translation": null
+    },
+    {
+      "sourceOrdinal": 83,
+      "spelling": "兄",
+      "readings": [
+        "あに"
+      ],
+      "meanings": [
+        "형",
+        "오빠"
+      ],
+      "explanation": null,
+      "example": null,
+      "translation": null
+    },
+    {
+      "sourceOrdinal": 84,
+      "spelling": "弾く",
+      "readings": [
+        "ひく"
+      ],
+      "meanings": [
+        "연주하다"
+      ],
+      "explanation": null,
+      "example": null,
+      "translation": null
+    },
+    {
+      "sourceOrdinal": 85,
+      "spelling": "箸",
+      "readings": [
+        "はし"
+      ],
+      "meanings": [
+        "젓가락"
+      ],
+      "explanation": null,
+      "example": null,
+      "translation": null
+    },
+    {
+      "sourceOrdinal": 86,
+      "spelling": "徒歩",
+      "readings": [
+        "とほ"
+      ],
+      "meanings": [
+        "도보"
+      ],
+      "explanation": null,
+      "example": null,
+      "translation": null
+    },
+    {
+      "sourceOrdinal": 87,
+      "spelling": "種",
+      "readings": [
+        "たね"
+      ],
+      "meanings": [
+        "씨앗"
+      ],
+      "explanation": null,
+      "example": null,
+      "translation": null
+    },
+    {
+      "sourceOrdinal": 88,
+      "spelling": "退く",
+      "readings": [
+        "どく"
+      ],
+      "meanings": [
+        "비키다"
+      ],
+      "explanation": null,
+      "example": null,
+      "translation": null
+    },
+    {
+      "sourceOrdinal": 89,
+      "spelling": "穴",
+      "readings": [
+        "あな"
+      ],
+      "meanings": [
+        "구멍"
+      ],
+      "explanation": null,
+      "example": null,
+      "translation": null
+    },
+    {
+      "sourceOrdinal": 90,
+      "spelling": "嘘",
+      "readings": [
+        "うそ"
+      ],
+      "meanings": [
+        "거짓말"
+      ],
+      "explanation": null,
+      "example": null,
+      "translation": null
+    },
+    {
+      "sourceOrdinal": 91,
+      "spelling": "机",
+      "readings": [
+        "つくえ"
+      ],
+      "meanings": [
+        "책상"
+      ],
+      "explanation": null,
+      "example": null,
+      "translation": null
+    },
+    {
+      "sourceOrdinal": 92,
+      "spelling": "塩",
+      "readings": [
+        "しお"
+      ],
+      "meanings": [
+        "소금"
+      ],
+      "explanation": null,
+      "example": null,
+      "translation": null
+    },
+    {
+      "sourceOrdinal": 93,
+      "spelling": "椅子",
+      "readings": [
+        "いす"
+      ],
+      "meanings": [
+        "의자"
+      ],
+      "explanation": null,
+      "example": null,
+      "translation": null
+    },
+    {
+      "sourceOrdinal": 94,
+      "spelling": "咲く",
+      "readings": [
+        "さく"
+      ],
+      "meanings": [
+        "피다"
+      ],
+      "explanation": null,
+      "example": null,
+      "translation": null
+    },
+    {
+      "sourceOrdinal": 95,
+      "spelling": "時",
+      "readings": [
+        "とき"
+      ],
+      "meanings": [
+        "때",
+        "시간"
+      ],
+      "explanation": null,
+      "example": null,
+      "translation": null
+    },
+    {
+      "sourceOrdinal": 96,
+      "spelling": "知恵",
+      "readings": [
+        "ちえ"
+      ],
+      "meanings": [
+        "지혜"
+      ],
+      "explanation": null,
+      "example": null,
+      "translation": null
+    },
+    {
+      "sourceOrdinal": 97,
+      "spelling": "敵",
+      "readings": [
+        "てき"
+      ],
+      "meanings": [
+        "적"
+      ],
+      "explanation": null,
+      "example": null,
+      "translation": null
+    },
+    {
+      "sourceOrdinal": 98,
+      "spelling": "汗",
+      "readings": [
+        "あせ"
+      ],
+      "meanings": [
+        "땀"
+      ],
+      "explanation": null,
+      "example": null,
+      "translation": null
+    },
+    {
+      "sourceOrdinal": 99,
+      "spelling": "たこ",
+      "readings": [
+        "たこ"
+      ],
+      "meanings": [
+        "문어"
+      ],
+      "explanation": null,
+      "example": null,
+      "translation": null
+    },
+    {
+      "sourceOrdinal": 100,
+      "spelling": "花火",
+      "readings": [
+        "はなび"
+      ],
+      "meanings": [
+        "불꽃놀이"
+      ],
+      "explanation": null,
+      "example": null,
+      "translation": null
+    },
+    {
+      "sourceOrdinal": 101,
+      "spelling": "金融",
+      "readings": [
+        "きんゆう"
+      ],
+      "meanings": [
+        "금융"
+      ],
+      "explanation": null,
+      "example": null,
+      "translation": null
+    }
+  ]
+}

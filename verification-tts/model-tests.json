@@ -1,0 +1,50 @@
+[
+  {
+    "name": "all450 registered entries and 462 reading variants valid; no spelling fallback",
+    "passed": true
+  },
+  {
+    "name": "Japanese only selection, local voice preferred, no Korean default",
+    "passed": true
+  },
+  {
+    "name": "constructing service, reading availability and voiceschanged never autoplay",
+    "passed": true
+  },
+  {
+    "name": "exact kana, explicit jaJP voice and learning rate; no saved state",
+    "passed": true
+  },
+  {
+    "name": "repeated clicks cancel before replace, stale callbacks do not modify new status",
+    "passed": true
+  },
+  {
+    "name": "empty Japanese voices never speak; late voices only update until another click",
+    "passed": true
+  },
+  {
+    "name": "unsupported API and query exceptions are contained",
+    "passed": true
+  },
+  {
+    "name": "forbidden states and invalid readings never enter speech API",
+    "passed": true
+  },
+  {
+    "name": "screen/map guard stops outstanding speech and clears timers",
+    "passed": true
+  },
+  {
+    "name": "hide, pagehide and destruction cancel owned utterances without auto-resume",
+    "passed": true
+  },
+  {
+    "name": "engine errors and synchronous speak exceptions give retry guidance",
+    "passed": true
+  },
+  {
+    "name": "nonresponding engine is cancelled; no automatic retry",
+    "passed": true
+  }
+]

@@ -1,0 +1,85 @@
+{
+  "results": [
+    {
+      "name": "native Chromium capability, no autoplay and missing Japanese voice guidance",
+      "passed": true,
+      "api": true,
+      "utterance": true,
+      "voices": [],
+      "speaking": false,
+      "pending": false
+    },
+    {
+      "name": "description click uses registered hiragana, explicit Japanese voice and rate; save unchanged",
+      "passed": true
+    },
+    {
+      "name": "repeat clicks cancel before replacement without overlap",
+      "passed": true
+    },
+    {
+      "name": "quiz hides controls, immediately cancels previous sound and rejects stale button",
+      "passed": true
+    },
+    {
+      "name": "checked new-lesson answer can be heard; no mistake collection or extra progress from TTS",
+      "passed": true
+    },
+    {
+      "name": "continue learning uses next registered word and close cancels",
+      "passed": true
+    },
+    {
+      "name": "learned-word revisit has variant controls; its quiz still hides answers; grade and audio preserve progress",
+      "passed": true
+    },
+    {
+      "name": "hiragana-only and katakana spelling both use registered hiragana",
+      "passed": true
+    },
+    {
+      "name": "same spelling middle items keep distinct reading and changing word cancels",
+      "passed": true
+    },
+    {
+      "name": "talisman question/wrong retry protected; revealed/correct buttons work; seal/next preserved",
+      "passed": true
+    },
+    {
+      "name": "mistake retry protected, reveal retains target, correct graduates, TTS changes neither result",
+      "passed": true
+    },
+    {
+      "name": "Korean-only voice rejected; voiceschanged never triggers deferred autoplay",
+      "passed": true
+    },
+    {
+      "name": "leaving school cancels speech and stale open overlay cannot play outside school",
+      "passed": true
+    },
+    {
+      "name": "1280x720 book pronunciation controls fit",
+      "passed": true,
+      "horizontalOverflow": false,
+      "buttonInside": true
+    },
+    {
+      "name": "actual ordinary and boss battle frames contain no school TTS controls",
+      "passed": true
+    },
+    {
+      "name": "local reload retains school progress/mistakes and resources, no TTS save field",
+      "passed": true
+    },
+    {
+      "name": "unsupported Web Speech API shows disabled control and explanation without breaking learning",
+      "passed": true
+    },
+    {
+      "name": "no JavaScript page errors in native/mocked/unsupported contexts",
+      "passed": true
+    }
+  ],
+  "errors": [],
+  "voiceTesting": "Native browser capability/absence checked; deterministic mock verifies requests/cancellation; actual Japanese audio quality not heard."
+}

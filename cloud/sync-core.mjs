@@ -1,3 +1,5 @@
+import {validateMistakes} from '../school/mistake-review.mjs';
+import {validateSchoolLearning} from '../school/learning-state.mjs';
 export const SAVE_KEY='gensokyo-rpg:permanent';
 export const LIMIT=900*1024; // Conservative headroom for Firestore's 1 MiB document limit.
 const encoder=new TextEncoder();
@@ -11,6 +13,8 @@ export function validateSave(raw){
  if(value.farm?.plots!==undefined&&(!Array.isArray(value.farm.plots)||value.farm.plots.length!==6))throw new Error('밭 저장 데이터 형식 오류');
  for(const counts of [value.inventory?.items,value.farm?.seeds,value.farm?.produce])if(counts!==undefined){if(!object(counts)||Object.values(counts).some(n=>!Number.isSafeInteger(n)||n<0))throw new Error('아이템 수량 데이터 형식 오류');}
  if(value.regionStages?.cleared!==undefined&&(!Array.isArray(value.regionStages.cleared)||value.regionStages.cleared.length!==5||value.regionStages.cleared.some(n=>typeof n!=='boolean')))throw new Error('스테이지 클리어 데이터 형식 오류');
+ if(value.schoolLearning!==undefined)validateSchoolLearning(value.schoolLearning);
+ if(value.schoolMistakes!==undefined)validateMistakes(value.schoolMistakes);
  const visit=(v,depth=0)=>{if(depth>40)throw new Error('저장 데이터 깊이 초과');if(v&&typeof v==='object')for(const [k,x] of Object.entries(v)){if(k==='__proto__')throw new Error('안전하지 않은 저장 키');visit(x,depth+1);}};visit(value);
  return value;
 }

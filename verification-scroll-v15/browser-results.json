@@ -1,0 +1,168 @@
+{
+  "results": [
+    {
+      "name": "v14 shelf 10 slots retained",
+      "pass": true
+    },
+    {
+      "name": "shelf opens new scroll lesson",
+      "pass": true
+    },
+    {
+      "name": "original main scroll decoded",
+      "pass": true
+    },
+    {
+      "name": "learn tab active",
+      "pass": true
+    },
+    {
+      "name": "learn TTS visible",
+      "pass": true
+    },
+    {
+      "name": "no automatic TTS",
+      "pass": true
+    },
+    {
+      "name": "registered hiragana sent to TTS",
+      "pass": true
+    },
+    {
+      "name": "repeat speech cancels previous",
+      "pass": true
+    },
+    {
+      "name": "quiz hides TTS",
+      "pass": true
+    },
+    {
+      "name": "quiz stops prior speech",
+      "pass": true
+    },
+    {
+      "name": "quiz tab active",
+      "pass": true
+    },
+    {
+      "name": "wrong answer existing grading",
+      "pass": true
+    },
+    {
+      "name": "grade tab active",
+      "pass": true
+    },
+    {
+      "name": "grade displays original four reference fields",
+      "pass": true
+    },
+    {
+      "name": "original case-insensitive strict romaji accepted",
+      "pass": true
+    },
+    {
+      "name": "next word preserved",
+      "pass": true
+    },
+    {
+      "name": "same-word regrade did not double-count progress",
+      "pass": true
+    },
+    {
+      "name": "continue from shelf preserved",
+      "pass": true
+    },
+    {
+      "name": "no document overflow 1366",
+      "pass": true
+    },
+    {
+      "name": "input accessible 1366",
+      "pass": true
+    },
+    {
+      "name": "no document overflow 1024",
+      "pass": true
+    },
+    {
+      "name": "input accessible 1024",
+      "pass": true
+    },
+    {
+      "name": "no document overflow 390",
+      "pass": true
+    },
+    {
+      "name": "narrow quiz input fully visible",
+      "pass": true,
+      "detail": {
+        "x": 49.0625,
+        "y": 500.84375,
+        "width": 292.46875,
+        "height": 46
+      }
+    },
+    {
+      "name": "input accessible 390",
+      "pass": true
+    },
+    {
+      "name": "all 450 spellings/readings/meanings rendered without horizontal clipping",
+      "pass": true,
+      "detail": {
+        "counts": [
+          101,
+          105,
+          82,
+          82,
+          80
+        ],
+        "problems": [],
+        "glyphs": "評価ひょうか客きゃく入学にゅが注意ちい料理り会社しお茶修物ぶっ距離勝負と校こ雑誌ざ切符ぷ手て父さん結婚け欠席せ一杯ぱ国家空気多母あ姉ねえ兄じば尻尾ぽ先生滑るすべ届ど天らぴペコぺ部分僕ぼ幅は大事だ残念続つづ水みず出で文字も望むのぞ小銭ぜ縮ぢご買上池秋青愛濃追悔黒ろ私わた来鍵ぎ歴史れ具ぐ棘げ画扇子絵を描虫そ道本屋ほや眼鏡め町ま読よ床ゆ桃蟻塗ぬ船ふ下へ弾箸徒歩種退穴な嘘机塩椅咲時知恵敵汗花火び金融怖面白週寒新安長重持軽ン良ホラー今朝勉強服少食赤黄色カメ飯ノト休卒業式携帯電話輩皆明日願遊テス誕キピクニッ釣ショグ店見映議友達ジギ半行宅去年ソウル阪以前仕員専主婦居妹弟両親歳身趣味族名順調何久元韓人オリア中ナダ月番語皿ヵ頃階過枚菓弁当エレベタ間パ側台回腹洗巡酒風呂プロムヒャツワブポズボセゼ誰ビドイフュネィぃ初バハチォぉケマ曇昼夜昨毎聞書飲帰起寝働泳走立座開閉作使待売借貸教習忘覚思言呼歌笑泣死住乗降着置送消車駅自転飛機港右左後外隣近遠高低広狭早遅暑暖涼"
+      }
+    },
+    {
+      "name": "reload restores real local progress",
+      "pass": true
+    },
+    {
+      "name": "learned-word review retains previous appearance",
+      "pass": true
+    },
+    {
+      "name": "talisman screen unchanged",
+      "pass": true
+    },
+    {
+      "name": "mistake screen excluded",
+      "pass": true
+    },
+    {
+      "name": "no JS runtime errors",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "scroll milestone existing behavior",
+      "pass": true
+    },
+    {
+      "name": "scroll complete existing behavior",
+      "pass": true
+    },
+    {
+      "name": "all registered multiple readings and meanings accepted",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "kana-only retains meaning input only",
+      "pass": true
+    },
+    {
+      "name": "strict small-tsu romanization retained",
+      "pass": true
+    }
+  ],
+  "errors": []
+}

@@ -1,0 +1,34 @@
+[
+  {
+    "name": "first wrong only candidate; retries and eventual correct same opportunity count once",
+    "passed": true
+  },
+  {
+    "name": "correct next distinct opportunity clears candidate",
+    "passed": true
+  },
+  {
+    "name": "two distinct mistakes promote; active unaffected by external success/failure",
+    "passed": true
+  },
+  {
+    "name": "minimal exact schema and reload",
+    "passed": true
+  },
+  {
+    "name": "review wrong/reveal keep active; correct graduation resets state; repeat starts candidate",
+    "passed": true
+  },
+  {
+    "name": "no duplicate per cycle; reconciles graduated items; new rounds",
+    "passed": true
+  },
+  {
+    "name": "save failure retains pending memory; explicit retry saves minimal state",
+    "passed": true
+  },
+  {
+    "name": "old saves accepted; new namespace validates; malformed state rejected and preserved",
+    "passed": true
+  }
+]

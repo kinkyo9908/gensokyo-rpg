@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "connection": "Volumes 1–5: read-only battle vocabulary adapters; independent school progress",
+  "volumes": [
+    {
+      "number": 1,
+      "wordCount": 101,
+      "stageId": "1-1"
+    },
+    {
+      "number": 2,
+      "wordCount": 105,
+      "stageId": "1-2"
+    },
+    {
+      "number": 3,
+      "wordCount": 82,
+      "stageId": "1-3"
+    },
+    {
+      "number": 4,
+      "wordCount": 82,
+      "stageId": "1-4"
+    },
+    {
+      "number": 5,
+      "wordCount": 80,
+      "stageId": "1-5"
+    }
+  ]
+}

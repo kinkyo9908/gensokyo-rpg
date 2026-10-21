@@ -1,0 +1,102 @@
+{
+  "logic-comparison": {
+    "passed": true,
+    "checks": {
+      "gradingAndCourses": true,
+      "reviewController": true,
+      "reviewSubmitHandler": true,
+      "school/talisman-review.mjs": true,
+      "school/learning-state.mjs": true,
+      "school/course-sources.mjs": true,
+      "gensokyo_rpg.html": true,
+      "index.html": true
+    }
+  },
+  "model-tests": {
+    "passed": true,
+    "sourceWords": 450,
+    "eligibleFixture": 30,
+    "roundsTested": 20,
+    "sameRoundDuplicates": 0,
+    "adjacentRoundRepeatPrevented": true,
+    "singleItemRepeats": true,
+    "dynamicPoolChanges": true,
+    "unlimitedRetries": 150,
+    "outcomes": [
+      "first_correct",
+      "retry_correct",
+      "revealed"
+    ],
+    "kanaAndMultipleAnswers": true,
+    "learningRecordsUnchanged": true,
+    "sessionHistoryBounded": true
+  },
+  "browser-tests": {
+    "passed": true,
+    "questionsReviewed": 90,
+    "eligibleWords": 30,
+    "rounds": 3,
+    "checks": [
+      "No graded words → guidance and New Learning; Escape returns to Keine menu",
+      "Three complete 30-item cycles: learned items only, cross-volume mixing, no duplicates or boundary repeats; three outcomes and all learning/save fields unchanged",
+      "Continue remains volume 2 word 11; volume 1 20/101 preserved; five-volume shelf intact",
+      "Reload preserves all learning data; session review outcomes intentionally reset",
+      "One-word repetition, repeated wrong answers, empty-field handling and stale submit guard",
+      "IME guard, mobile portrait/landscape layout, and exit from resolved/unresolved states"
+    ],
+    "outcomeCounts": {
+      "first_correct": 30,
+      "retry_correct": 30,
+      "revealed": 30
+    },
+    "javascriptErrors": [],
+    "learningAndSaveUnchanged": true,
+    "liveFirebaseTested": false
+  },
+  "regression-tests": {
+    "passed": true,
+    "ordinaryLearningGradeStillPersists": true,
+    "newlyGradedTargetIncluded": 31,
+    "fullyLearnedTargetCount": 450,
+    "longWordFits": true,
+    "learningAfterReviewPreserved": true,
+    "javascriptErrors": []
+  },
+  "visual-tests": {
+    "passed": true,
+    "portraitNormalSmileStable": true,
+    "originalPortraitsUnchanged": true,
+    "noVisibleTitleBanner": true,
+    "outcomeStates": true,
+    "emptyArtSlots": true,
+    "layouts": [
+      {
+        "width": 390,
+        "height": 844,
+        "portraitFit": true,
+        "noHorizontalOverflow": true
+      },
+      {
+        "width": 844,
+        "height": 390,
+        "portraitFit": true,
+        "noHorizontalOverflow": true
+      },
+      {
+        "width": 1024,
+        "height": 768,
+        "portraitFit": true,
+        "noHorizontalOverflow": true
+      },
+      {
+        "width": 1920,
+        "height": 1080,
+        "portraitFit": true,
+        "noHorizontalOverflow": true
+      }
+    ],
+    "reducedMotion": true,
+    "saveUnchanged": true,
+    "javascriptErrors": []
+  }
+}

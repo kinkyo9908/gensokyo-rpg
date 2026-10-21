@@ -1,0 +1,147 @@
+[
+  {
+    "role": "dialogue",
+    "originalName": "대사창_패널.png",
+    "path": "school/assets/talisman-ui/dialogue.png",
+    "size": [
+      1774,
+      887
+    ],
+    "alpha": [
+      0,
+      255
+    ],
+    "transparentPercent": 60.365,
+    "alpha32Bounds": [
+      56,
+      260,
+      1718,
+      630
+    ],
+    "displayCrop": [
+      50,
+      252,
+      1676,
+      387
+    ],
+    "sourceCorner": 75,
+    "sha256": "6e485c88b04254dc525ef7d795622adc65ec6271e41cdd8dbf74a1345e9f290d",
+    "originalPixelsUnchanged": true
+  },
+  {
+    "role": "panel",
+    "originalName": "오른쪽_입력패널.png",
+    "path": "school/assets/talisman-ui/panel.png",
+    "size": [
+      1122,
+      1402
+    ],
+    "alpha": [
+      0,
+      255
+    ],
+    "transparentPercent": 22.521,
+    "alpha32Bounds": [
+      87,
+      64,
+      1035,
+      1335
+    ],
+    "displayCrop": [
+      79,
+      57,
+      964,
+      1286
+    ],
+    "sourceCorner": 75,
+    "sha256": "03fef36906465c81965386a2b727760356089e3e3ad8383ac2371083fac97b4a",
+    "originalPixelsUnchanged": true
+  },
+  {
+    "role": "input",
+    "originalName": "입력칸_배경.png",
+    "path": "school/assets/talisman-ui/input.png",
+    "size": [
+      2048,
+      682
+    ],
+    "alpha": [
+      0,
+      254
+    ],
+    "transparentPercent": 50.851,
+    "alpha32Bounds": [
+      62,
+      167,
+      1987,
+      514
+    ],
+    "displayCrop": [
+      56,
+      160,
+      1937,
+      362
+    ],
+    "sourceCorner": 65,
+    "sha256": "dfe81e2640a5c5f1682c601b40ecc9cff62bcb8bc4f73642d54e49c976d4aadf",
+    "originalPixelsUnchanged": true
+  },
+  {
+    "role": "primary",
+    "originalName": "메인버튼_붉은색.png",
+    "path": "school/assets/talisman-ui/primary.png",
+    "size": [
+      1774,
+      887
+    ],
+    "alpha": [
+      0,
+      255
+    ],
+    "transparentPercent": 56.171,
+    "alpha32Bounds": [
+      71,
+      225,
+      1704,
+      638
+    ],
+    "displayCrop": [
+      64,
+      218,
+      1648,
+      427
+    ],
+    "sourceCorner": 80,
+    "sha256": "a4391aedd25c0587cf7c228f3128908f506f5dde33f90d0c2cc647aeeb47d679",
+    "originalPixelsUnchanged": true
+  },
+  {
+    "role": "secondary",
+    "originalName": "보조버튼_밝은색.png",
+    "path": "school/assets/talisman-ui/secondary.png",
+    "size": [
+      2048,
+      682
+    ],
+    "alpha": [
+      0,
+      254
+    ],
+    "transparentPercent": 52.331,
+    "alpha32Bounds": [
+      65,
+      172,
+      1983,
+      511
+    ],
+    "displayCrop": [
+      58,
+      165,
+      1936,
+      353
+    ],
+    "sourceCorner": 70,
+    "sha256": "944845d09cc3c6c0eac79aafedd7a7083ca69c879732b15b97ca255875ea9042",
+    "originalPixelsUnchanged": true
+  }
+]

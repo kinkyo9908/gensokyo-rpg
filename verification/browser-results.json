@@ -1,0 +1,52 @@
+{
+  "passed": true,
+  "errors": [],
+  "layouts": [
+    {
+      "width": 390,
+      "overflow": false,
+      "book": {
+        "x": 12,
+        "y": 16,
+        "width": 366,
+        "height": 1056.25,
+        "top": 16,
+        "right": 378,
+        "bottom": 1072.25,
+        "left": 12
+      }
+    },
+    {
+      "width": 844,
+      "overflow": false,
+      "book": {
+        "x": 28,
+        "y": 28,
+        "width": 788,
+        "height": 655.671875,
+        "top": 28,
+        "right": 816,
+        "bottom": 683.671875,
+        "left": 28
+      }
+    }
+  ],
+  "tests": [
+    "Real village entry / school door / walk to teacher / F conversation / lesson menu",
+    "Study → quiz (no reading, meaning or example leak) → correct / incorrect grading",
+    "All 3 test words, relearn, next, finish and restart",
+    "Keyboard text entry does not move character or open game UI",
+    "IME composition and commit Enter guard",
+    "Empty-answer validation",
+    "Kana/katakana meaning-only rule (pure helper test)",
+    "390×844 and 844×390 input, submit and scrolling",
+    "Escape returns to menu and restores focus; normal school exit",
+    "Save snapshot unchanged throughout lesson",
+    "Local reload preserves currency, riceball, seeds, produce, dungeons and vocabulary"
+  ],
+  "unverified": [
+    "Live Google login and Firestore network sync",
+    "Every stage/boss/farm/shop action end to end",
+    "Physical mobile keyboard / Windows launcher"
+  ]
+}

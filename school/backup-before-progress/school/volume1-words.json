@@ -1,0 +1,139 @@
+{
+  "schemaVersion": 1,
+  "sourceContainer": "REGION_BATTLE_DOCUMENT/ENEMY_CONFIGS[].pool",
+  "sourceTotal": 101,
+  "enabledCount": 10,
+  "entries": [
+    {
+      "sourceOrdinal": 1,
+      "spelling": "評価",
+      "readings": [
+        "ひょうか"
+      ],
+      "meanings": [
+        "평가"
+      ],
+      "explanation": null,
+      "example": null,
+      "translation": null
+    },
+    {
+      "sourceOrdinal": 2,
+      "spelling": "客",
+      "readings": [
+        "きゃく"
+      ],
+      "meanings": [
+        "손님",
+        "고객"
+      ],
+      "explanation": null,
+      "example": null,
+      "translation": null
+    },
+    {
+      "sourceOrdinal": 3,
+      "spelling": "入学",
+      "readings": [
+        "にゅうがく"
+      ],
+      "meanings": [
+        "입학"
+      ],
+      "explanation": null,
+      "example": null,
+      "translation": null
+    },
+    {
+      "sourceOrdinal": 4,
+      "spelling": "注意",
+      "readings": [
+        "ちゅうい"
+      ],
+      "meanings": [
+        "주의"
+      ],
+      "explanation": null,
+      "example": null,
+      "translation": null
+    },
+    {
+      "sourceOrdinal": 5,
+      "spelling": "料理",
+      "readings": [
+        "りょうり"
+      ],
+      "meanings": [
+        "요리"
+      ],
+      "explanation": null,
+      "example": null,
+      "translation": null
+    },
+    {
+      "sourceOrdinal": 6,
+      "spelling": "会社",
+      "readings": [
+        "かいしゃ"
+      ],
+      "meanings": [
+        "회사"
+      ],
+      "explanation": null,
+      "example": null,
+      "translation": null
+    },
+    {
+      "sourceOrdinal": 7,
+      "spelling": "お茶",
+      "readings": [
+        "おちゃ"
+      ],
+      "meanings": [
+        "차"
+      ],
+      "explanation": null,
+      "example": null,
+      "translation": null
+    },
+    {
+      "sourceOrdinal": 8,
+      "spelling": "修理",
+      "readings": [
+        "しゅうり"
+      ],
+      "meanings": [
+        "수리"
+      ],
+      "explanation": null,
+      "example": null,
+      "translation": null
+    },
+    {
+      "sourceOrdinal": 9,
+      "spelling": "物価",
+      "readings": [
+        "ぶっか"
+      ],
+      "meanings": [
+        "물가"
+      ],
+      "explanation": null,
+      "example": null,
+      "translation": null
+    },
+    {
+      "sourceOrdinal": 10,
+      "spelling": "距離",
+      "readings": [
+        "きょり"
+      ],
+      "meanings": [
+        "거리"
+      ],
+      "explanation": null,
+      "example": null,
+      "translation": null
+    }
+  ]
+}

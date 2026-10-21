@@ -1,0 +1,14 @@
+{
+  "results": [
+    {
+      "name": "Enter/Space activate the focused pronunciation button once without submitting a quiz or saving",
+      "passed": true
+    },
+    {
+      "name": "actual EXTRA iframe entry has no pronunciation controls or outstanding school voice",
+      "passed": true
+    }
+  ],
+  "errors": [],
+  "voiceTesting": "Native browser capability/absence checked; deterministic mock verifies requests/cancellation; actual Japanese audio quality not heard."
+}

@@ -1,0 +1,9 @@
+{
+  "results": [
+    {
+      "name": "normal counterattack final outcome also records and clears candidates",
+      "passed": true
+    }
+  ],
+  "errors": []
+}

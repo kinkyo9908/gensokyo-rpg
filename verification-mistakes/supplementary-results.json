@@ -1,0 +1,29 @@
+{
+  "results": [
+    {
+      "name": "all450 shared grade and strict uppercase romaji; duplicate spelling distinct",
+      "passed": true,
+      "kana": 156,
+      "kanji": 294,
+      "checks": 955,
+      "twoMiddleEntriesSeparate": true,
+      "maximumNamespaceBytes": 9554
+    },
+    {
+      "name": "actual review four-target cycle without duplicates and re-shuffle; kana only omits reading",
+      "passed": true
+    },
+    {
+      "name": "updated embedded Japanese font and 1280x720 layout verified",
+      "passed": true
+    },
+    {
+      "name": "cloud serialization/hash validator and stale session gate",
+      "passed": true,
+      "saveBytes": 15237,
+      "hashLength": 64,
+      "staleBattleSessionRejected": true
+    }
+  ],
+  "errors": []
+}

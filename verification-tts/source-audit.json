@@ -1,0 +1,16 @@
+{
+  "baseline": "gensokyo_rpg_school_lessons_v12_dev.zip",
+  "baselineSHA256": "5d6731fe8d5111e0510549caaa5bdecd6940727effd662a1ddb627325398a5dc",
+  "modified": [
+    "school/terakoya.css",
+    "school/terakoya.js"
+  ],
+  "added": [
+    "school/pronunciation.mjs"
+  ],
+  "removed": [],
+  "unchangedOriginalFiles": 269,
+  "battleGameHTMLUnchanged": true,
+  "cloudAndSaveModelsUnchanged": true,
+  "originalAssetsUnchanged": true
+}

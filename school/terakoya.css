@@ -1,0 +1,336 @@
+/* Uses the existing resident dialogue frame; only the classroom menu layout is local. */
+#schoolLessonChoices[hidden]{display:none!important}
+#schoolLessonChoices{grid-template-columns:repeat(2,minmax(0,1fr));gap:8px;margin-top:10px}
+#schoolLessonChoices button{min-height:43px;font:inherit}
+#schoolLessonChoices button:last-child{grid-column:1/-1}
+.school-conversation #residentNpcPortrait{image-rendering:pixelated;object-fit:contain}
+.school-conversation .yujin-vn-portrait.right{max-height:62vh}
+.school-conversation .yujin-vn-box{max-height:none;overflow:visible}
+@media(max-width:600px){#schoolLessonChoices{gap:6px}#schoolLessonChoices button{font-size:13px;min-height:40px}.school-conversation .yujin-vn-box{max-height:none}}
+@media(prefers-reduced-motion:reduce){.school-conversation *{animation:none!important}}
+
+.school-conversation #schoolLessonChoices{max-height:min(40vh,280px);overflow-y:auto}
+
+/* School-only phase 2 trial. Original dialogue DOM and global styles stay intact. */
+#residentDialogue.school-dialogue-trial .yujin-vn-stage{width:100%;overflow:visible}
+#residentDialogue.school-dialogue-trial .yujin-vn-box{width:min(900px,calc(100vw - 48px));box-sizing:border-box;max-height:50dvh;overflow-y:auto;padding:26px 28px 18px}
+#residentDialogue.school-dialogue-trial .yujin-vn-portrait{bottom:calc(var(--school-box-height,240px) + 28px);height:min(52dvh,510px);width:32vw;max-width:360px;max-height:calc(100dvh - var(--school-box-height,240px) - 65px);opacity:1;filter:none;transform:none;transition:none}
+#residentDialogue.school-dialogue-trial .yujin-vn-portrait.left{left:max(24px,calc(50% - 520px))}
+#residentDialogue.school-dialogue-trial .yujin-vn-portrait.right{right:max(24px,calc(50% - 520px))}
+#residentDialogue.school-dialogue-trial .yujin-vn-portrait img{width:100%;height:100%;max-width:100%;max-height:100%;object-fit:contain;object-position:center bottom;transform:none}
+#residentDialogue.school-dialogue-trial .yujin-vn-name{position:relative;left:auto;top:auto;display:table;margin:-10px 0 12px;padding:6px 16px;max-width:100%;box-sizing:border-box}
+#residentDialogue.school-dialogue-trial .yujin-vn-text{min-height:54px}
+#residentDialogue.school-dialogue-trial #schoolLessonChoices{max-height:none;overflow:visible}
+@media(max-width:600px){
+ #residentDialogue.school-dialogue-trial .yujin-vn-box{width:calc(100vw - 24px);padding:20px 16px 14px;max-height:54dvh}
+ #residentDialogue.school-dialogue-trial .yujin-vn-portrait{width:43vw;height:38dvh;max-height:calc(100dvh - var(--school-box-height,260px) - 60px)}
+ #residentDialogue.school-dialogue-trial .yujin-vn-portrait.left{left:12px}
+ #residentDialogue.school-dialogue-trial .yujin-vn-portrait.right{right:12px}
+ #residentDialogue.school-dialogue-trial .yujin-vn-name{font-size:16px;letter-spacing:0}
+ #residentDialogue.school-dialogue-trial .yujin-vn-name small{display:block;margin:3px 0 0}
+ #residentDialogue.school-dialogue-trial .yujin-vn-text{font-size:16px;line-height:1.65}
+}
+
+/* Lesson prototype: entirely scoped, independent of world and save UI. */
+.school-book-overlay[hidden]{display:none!important}
+.school-book-overlay,.school-book-overlay *{box-sizing:border-box}
+.school-book-open{overflow:hidden}
+.school-book-overlay{position:fixed;inset:0;z-index:20000;overflow-y:auto;overscroll-behavior:contain;display:flex;align-items:flex-start;justify-content:center;padding:28px;background:rgba(24,17,15,.73);backdrop-filter:blur(3px);color:#422b22;font-family:'Noto Sans KR','Malgun Gothic',sans-serif;line-height:1.65}
+.lesson-book{position:relative;flex-shrink:0;margin-block:auto;width:min(1120px,100%);padding:24px 30px 16px;background:repeating-linear-gradient(0deg,#613d2b 0px,#613d2b 3px,#704a32 4px,#704a32 8px);border:3px solid #c39b50;border-radius:14px 16px 18px 14px;box-shadow:0 0 0 6px #35231c,0 0 0 8px #987442,0 20px 65px #080605c9;isolation:isolate}
+.lesson-book:before,.lesson-book:after{content:'✦';position:absolute;color:#e3bd70;font-size:22px;top:8px;pointer-events:none}.lesson-book:before{left:8px}.lesson-book:after{right:8px}
+.lesson-header{display:flex;align-items:center;justify-content:space-between;gap:18px;padding:0 12px 18px;color:#f6e9ca}
+.lesson-series{display:block;color:#d9bd86;font-size:12px;letter-spacing:.12em}
+.lesson-header h1{font-family:serif;font-size:clamp(22px,2.2vw,30px);font-weight:700;margin:3px 0 0;letter-spacing:.06em;color:#fff2cf;line-height:1.4}
+.lesson-bookmark{position:absolute;top:-6px;right:22%;width:22px;height:55px;background:#a82e36;border:1px solid #d2826c;clip-path:polygon(0 0,100% 0,100% 100%,50% 80%,0 100%);z-index:-1}
+.lesson-progress{display:flex;justify-content:center;gap:4px;padding:8px 12px;border:1px solid #b18d58;border-bottom:0;background:#e7d5ae;box-shadow:inset 0 2px #fff0ce;font-size:12px;color:#7c654c}
+.lesson-progress span{padding:3px 20px;border-radius:2px}.lesson-progress .is-current{background:#7d3e36;color:#fff3d3;box-shadow:inset 0 0 0 1px #b57a58}
+.lesson-spread{display:grid;grid-template-columns:1fr 1fr;min-height:490px;background:#f1e2bf;border:1px solid #c2a26b;box-shadow:3px 4px 0 #c4ac80,5px 6px 0 #8d704d,0 8px 16px #24140d88;position:relative}
+.lesson-spread:after{content:'';position:absolute;top:0;bottom:0;left:50%;width:24px;transform:translateX(-50%);background:linear-gradient(90deg,transparent,#6d462e35 48%,#65432b50 50%,#fff4dc88 55%,transparent);pointer-events:none}
+.lesson-page{min-width:0;padding:25px 36px 28px;background-image:repeating-linear-gradient(0deg,transparent 0px,transparent 3px,#8d653b06 4px),radial-gradient(ellipse at top,#fff5de80,transparent);overflow-wrap:anywhere}
+.lesson-page:first-child{border-right:1px solid #98764455}
+.lesson-kicker{font-size:11px;letter-spacing:.09em;color:#866745;border-bottom:1px solid #b99a6366;margin:0 0 20px;padding-bottom:10px}
+.lesson-page h2{font-family:serif;font-size:24px;line-height:1.55;letter-spacing:.01em;margin:7px 0 14px;color:#4e3025}
+.lesson-page h2.lesson-word{font-family:'Noto Sans JP','Yu Mincho',serif;font-size:clamp(44px,5vw,66px);font-weight:700;text-align:center;letter-spacing:.12em;line-height:1.3;margin:4px 0 7px;color:#3c2924}
+.lesson-reading{text-align:center;font-size:21px;letter-spacing:.16em;color:#82543e;margin:0 0 13px}
+.lesson-meaning{text-align:center;font-family:serif;font-size:27px;margin:0 0 20px;padding-bottom:16px;border-bottom:1px solid #b89a6b80;color:#7f3b32}
+.lesson-copy{font-size:14px;line-height:1.95;margin:12px 0 18px}
+.lesson-note{margin-top:22px;padding:14px 17px;background:#d9c39933;border:1px solid #b79b6b77;border-left:3px solid #9d674b}
+.lesson-note small{font-size:11px;color:#916b46}.lesson-note p{margin:4px 0;font-size:13px}.lesson-note p.lesson-example{font-size:19px;color:#49362b}
+.lesson-teacher{font-size:14px;line-height:1.95;white-space:pre-line;background:#dac8a13b;border-top:1px solid #b99b6b;border-bottom:1px solid #b99b6b;padding:17px 14px;margin:22px 0;color:#73513b}
+.lesson-button{font:inherit;font-size:13px;line-height:1.5;cursor:pointer;min-height:44px;border:1px solid #a78550;border-radius:3px;padding:10px 18px;color:#573e2d;background:linear-gradient(#fff0cf,#e0c793);box-shadow:0 2px 0 #9c7447;text-align:center;transition:filter .12s}
+.lesson-button:hover{filter:brightness(1.06)}.lesson-button:active{transform:translateY(1px);box-shadow:none}.lesson-button:focus-visible,.lesson-form input:focus-visible{outline:3px solid #ad7137;outline-offset:3px}
+.lesson-button.lesson-primary{background:linear-gradient(#925044,#723c35);color:#fff0d1;border-color:#b28a55;box-shadow:0 2px 0 #47251f}
+.lesson-header>.lesson-button{background:#3c2a21;color:#e6d1a4;border-color:#b09155;flex-shrink:0;font-size:12px;box-shadow:none}
+.lesson-question{font-size:36px!important;font-family:'Noto Sans JP','Yu Mincho',serif!important;letter-spacing:.1em}
+.lesson-form label{display:block;font-size:12px;color:#7b593d;margin:14px 0}
+.lesson-form input{display:block;margin-top:6px;width:100%;min-width:0;min-height:44px;padding:10px 12px;border:1px solid #ad8b58;border-radius:3px;background:#fff8e8;color:#3f2d25;font-family:inherit;font-size:18px;box-shadow:inset 0 2px 4px #72523018}
+.lesson-actions{display:flex;flex-wrap:wrap;gap:10px;margin:20px 0 5px}.lesson-validation{font-size:13px;color:#913e32;min-height:1em;margin:8px 0}
+.lesson-success{color:#486346!important}.lesson-retry{color:#8c4338!important}
+.lesson-answers{font-size:14px;margin:12px 0}.lesson-answers dt{font-size:11px;font-weight:700;color:#8c6a45;margin:14px 0 3px;padding-top:9px;border-top:1px solid #bea47366}.lesson-answers dd{margin:3px 0}.lesson-given{color:#7c6953}.lesson-correct{font-size:18px;color:#492f26}
+.lesson-footer{display:flex;justify-content:space-between;gap:10px;color:#e0c99c;font-size:11px;padding:17px 6px 0}
+@media(max-width:700px){.school-book-overlay{padding:16px 12px;align-items:flex-start}.lesson-book{padding:17px 12px 13px;border-radius:9px}.lesson-header{padding:0 5px 14px;gap:8px}.lesson-series{font-size:10px;letter-spacing:0}.lesson-header h1{font-size:20px}.lesson-header>.lesson-button{padding:8px 10px;min-height:40px;font-size:11px}.lesson-spread{min-height:0;grid-template-columns:1fr}.lesson-spread:after{display:none}.lesson-page{padding:21px 23px}.lesson-page:first-child{border-right:0;border-bottom:2px solid #ae8d5a}.lesson-kicker{margin-bottom:12px}.lesson-page h2{font-size:21px}.lesson-copy{font-size:14px}.lesson-page h2.lesson-word{font-size:48px}.lesson-reading{font-size:19px}.lesson-teacher{margin:15px 0;padding:13px}.lesson-note{margin-top:16px}.lesson-progress{padding:6px 0}.lesson-progress span{padding:3px 13px}.lesson-footer{font-size:10px;flex-wrap:wrap}.lesson-bookmark{right:43%;height:40px}.lesson-question{font-size:33px!important}}
+@media(prefers-reduced-motion:reduce){.school-book-overlay *{transition:none!important}}
+
+/* Reading confirmation: fixed reference fields, independent of answer format. */
+.lesson-reference{display:grid;grid-template-columns:minmax(90px,auto) 1fr;gap:9px 18px;margin:22px 0;padding:18px 0;border-top:1px solid #bea47388;border-bottom:1px solid #bea47388;align-items:baseline}
+.lesson-reference dt{font-size:12px;color:#866345}.lesson-reference dd{min-width:0;margin:0;font-size:21px;color:#493127;overflow-wrap:anywhere}
+.lesson-allowed{font-size:12px;color:#7a5c42;margin:5px 0 14px}
+.lesson-answers dt.lesson-field-correct{color:#486346}.lesson-answers dt.lesson-field-wrong{color:#963e33}
+.lesson-answers .lesson-given{font-size:17px;color:#493127;white-space:pre-wrap;overflow-wrap:anywhere}
+
+/* Catalog shelf: ten registered-volume slots; no fabricated future books. */
+.school-shelf{max-width:1120px}.shelf-paper{padding:25px 30px;background:#f0e1bd;border:1px solid #c2a26b;box-shadow:inset 0 0 22px #a77e4822,3px 4px 0 #bd9f6e}
+.shelf-titleline{display:flex;justify-content:space-between;align-items:center;gap:12px}.shelf-titleline h2{font-family:serif;font-size:25px;margin:0;color:#4c3224}.shelf-titleline>span{font-size:12px;color:#886642;white-space:nowrap}.shelf-caption{font-size:12px;line-height:1.8;color:#87684b;margin:9px 0 14px}
+.shelf-nav{display:flex;justify-content:space-between;align-items:center;gap:10px;margin:17px 0 13px}.shelf-page-count{font-size:13px;color:#694b33}.school-shelf button:disabled{opacity:.42;cursor:default;filter:none;transform:none}
+.shelf-rack{display:grid;grid-template-columns:repeat(10,minmax(0,1fr));gap:6px;padding:18px 16px 0;background:linear-gradient(90deg,#33261e,#513725 50%,#30231c);border:8px solid #775235;border-bottom-width:18px;box-shadow:inset 0 8px 20px #0007,0 3px 0 #b28b51,0 6px 8px #684b3a44;align-items:end}
+.shelf-volume{position:relative;display:flex;flex-direction:column;align-items:center;justify-content:space-between;gap:8px;width:100%;min-width:0;min-height:218px;padding:12px 3px 13px;cursor:pointer;color:#fae6bd;background:linear-gradient(90deg,#382c26aa,transparent 15%,#ffffff0c 85%,#28190d88),#635346;border:1px solid #b99a61;border-radius:3px 5px 1px 1px;box-shadow:3px 0 0 #1f160b66,inset 0 0 0 3px #3e251f55;font-family:inherit;line-height:1.5;text-align:center}
+.shelf-volume[data-tone="1"]{background-color:#556252;min-height:231px}.shelf-volume[data-tone="2"]{background-color:#805345;min-height:214px}.shelf-volume[data-tone="3"]{background-color:#65566b;min-height:235px}.shelf-volume[data-tone="4"]{background-color:#836b42;min-height:224px}
+.shelf-volume[aria-pressed="true"]{outline:3px solid #f0ce80;outline-offset:3px;z-index:1}.shelf-volume:focus-visible{outline:3px solid #fff5ca;outline-offset:3px}.shelf-volume:hover{filter:brightness(1.14)}
+.shelf-spine-label{writing-mode:vertical-rl;text-orientation:upright;font-family:serif;font-size:24px;font-weight:700;letter-spacing:.15em;line-height:1.3;padding:6px 3px;border-top:1px solid #dec084;border-bottom:1px solid #dec084;text-shadow:1px 1px #20140a}
+.shelf-word-count{font-size:10px;white-space:nowrap;color:#e4c99a}.shelf-volume-status{font-size:10px;line-height:1.4;border:1px solid #e3c58477;padding:3px 2px;border-radius:2px;background:#271b1555;overflow-wrap:anywhere}
+.shelf-empty{height:200px;border-left:1px solid #c3a27615;border-right:1px solid #c3a27615;display:flex;align-items:end;justify-content:center;padding:0 0 17px;font-size:10px;color:#d0b59255}
+.shelf-jump{display:flex;align-items:center;gap:10px;flex-wrap:wrap;margin:23px 0 18px;font-size:13px;color:#745136}.shelf-jump input{width:90px;min-width:0;min-height:44px;border:1px solid #af8b59;border-radius:3px;padding:8px 12px;font:inherit;background:#fff8e7;color:#493124}.shelf-jump input:focus-visible{outline:3px solid #ad7137;outline-offset:3px}.shelf-error{flex-basis:100%;font-size:13px;color:#923b33;margin:0}.shelf-selection{border:1px solid #b69a6a;border-left:4px solid #8c5540;padding:18px 21px;background:#fff4dc77}.shelf-selection .lesson-kicker{margin:0 0 8px;padding-bottom:8px}.shelf-selection h2{font:700 27px/1.4 serif;margin:0 0 8px;color:#5d3a29}.shelf-meta{font-size:14px;color:#664730;margin:8px 0}.shelf-demo-notice{font-size:13px;line-height:1.8;color:#734b39;max-width:760px;margin:12px 0 17px}
+@media(max-width:700px){.shelf-paper{padding:20px 15px}.shelf-titleline{align-items:flex-start;flex-direction:column;gap:4px}.shelf-titleline h2{font-size:22px}.shelf-rack{grid-template-columns:repeat(5,minmax(0,1fr));gap:15px 5px;padding:12px 10px 8px;border-width:6px;border-bottom-width:12px}.shelf-volume,.shelf-volume[data-tone]{min-height:172px;padding:9px 2px}.shelf-spine-label{font-size:20px;padding:4px 2px}.shelf-empty{height:155px}.shelf-volume-status,.shelf-word-count{font-size:9px}.shelf-nav .lesson-button{padding:9px 10px;font-size:12px}.shelf-page-count{font-size:11px}.shelf-jump{gap:8px}.shelf-jump input{width:65px}.shelf-selection{padding:15px}.shelf-selection h2{font-size:25px}}
+
+.lesson-missing{font-size:12px;color:#8b765d;border-top:1px dashed #b89b7277;padding-top:15px;margin-top:22px}
+.shelf-selection>.lesson-button{margin-right:10px;margin-bottom:6px}
+
+/* Local, subsetted OFL font: Japanese lesson glyphs never depend on OS language packs. */
+@font-face{font-family:'School Lesson JP';src:url('assets/lesson-jp.woff') format('woff');font-style:normal;font-weight:400;font-display:swap}
+.school-book-overlay [lang="ja"]{font-family:'School Lesson JP','Noto Sans JP','Yu Mincho',sans-serif}
+
+.lesson-save-error{font-size:14px;line-height:1.8;color:#993e31;padding:12px;border:1px solid #b5745c;background:#ecd2bb}
+.lesson-page h2.lesson-milestone-title{font-size:23px;color:#7a4430;margin-bottom:10px}
+.shelf-progress-count{font-size:15px;color:#62442f;margin:12px 0 17px;font-weight:700}
+.lesson-review-nav{padding:12px 20px;margin:16px 0 0;background:#f0e1bd;border:1px solid #b89b6b}.lesson-review-nav label{display:flex;align-items:center;gap:12px;flex-wrap:wrap}
+
+/* Approved original images only. Art coordinates use a contained 1672×941
+   canvas; controls remain live HTML. No CSS substitutes for paper/hands/seal. */
+.school-book-overlay.talisman-overlay{padding:0;display:flex;align-items:center;justify-content:center;background:#241b16;backdrop-filter:none;overflow-y:auto}
+.talisman-workspace{position:relative;isolation:isolate;container-type:inline-size;width:min(100%,177.6833156dvh);aspect-ratio:1672/941;min-height:0;flex-shrink:0;margin:auto;padding:0;overflow:hidden;color:#422b21;font-family:inherit;background:#493020}
+.talisman-asset-window{overflow:hidden;pointer-events:none}
+.talisman-asset-window>img{position:absolute;display:block;max-width:none;max-height:none;object-fit:fill;user-select:none;pointer-events:none;image-rendering:auto}
+.talisman-scene,.talisman-tabletop{position:absolute;inset:0;width:100%;height:100%;aspect-ratio:auto!important}
+.talisman-scene{z-index:0}.talisman-tabletop{z-index:2;clip-path:inset(57.3% 0 0)}
+.talisman-heading{position:absolute;right:2%;top:2%;z-index:9;margin:0}
+.talisman-heading h1{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip-path:inset(50%);white-space:nowrap;border:0}
+.talisman-heading .lesson-button{background:#39291fe6;color:#fff1d1;border:1px solid #b7925b;box-shadow:none;min-height:44px}
+.talisman-desk{display:contents}
+.talisman-teacher{position:absolute;left:10%;top:4%;width:24%;height:53.3%;z-index:1;padding:0;margin:0}
+.talisman-portrait{position:relative;display:block;width:100%;height:100%;object-fit:contain;object-position:center bottom;image-rendering:pixelated}
+.talisman-guide{position:absolute;left:-25%;top:112%;width:118%;min-height:0;padding:12px 16px;margin:0;background:#fff0d1ed;border:1px solid #ac8655;box-shadow:0 3px 7px #321b1a33;color:#483022;font-size:clamp(12px,1cqw,16px);line-height:1.7;z-index:7}
+/* Teacher and guidance need distinct layers so the real foreground desk can
+   occlude the lower portrait without obscuring its dialogue. */
+.talisman-teacher{z-index:auto}.talisman-portrait{z-index:1}
+.talisman-paper{position:absolute;left:50%;top:56%;width:10.32%;height:auto;aspect-ratio:635/1420;margin:0;padding:0;background:none;border:0;outline:0;box-shadow:none;transform:translateX(-50%) rotate(-3deg);z-index:3;isolation:isolate;filter:drop-shadow(3px 6px 4px #39211466)}
+.talisman-paper-art{position:absolute;inset:0;width:100%;height:100%}
+.talisman-prompt{position:absolute;z-index:2;top:10%;left:14%;width:72%;max-height:45%;font-size:clamp(17px,1.25cqw,24px);line-height:1.5;text-align:center;color:#2a231f;overflow-wrap:anywhere;word-break:normal}
+.talisman-blank{position:absolute;z-index:2;bottom:3%;left:10%;width:80%;font-size:clamp(10px,.7cqw,13px);line-height:1.5;letter-spacing:.06em;text-align:center;color:#6d5140;min-height:0;padding:0;border:0;background:none;transform:none}
+.talisman-stamp{position:absolute;left:50%;bottom:9%;width:34%;height:auto;z-index:1;opacity:.9;transform:rotate(-7deg);animation:talisman-seal-in .42s ease-out both}
+.talisman-hands{position:absolute;inset:0;z-index:4;pointer-events:none}
+.talisman-hand{position:absolute;height:auto;filter:drop-shadow(2px 4px 2px #20171033)}
+.talisman-hand-left{left:21%;bottom:-3%;width:28%}
+.talisman-hand-right{right:15.6%;bottom:-13%;width:41%;transform-origin:100% 100%;transform:rotate(20deg)}
+.talisman-controls{position:absolute;right:3%;top:49%;width:27%;max-height:47%;z-index:8;overflow:auto;padding:14px 16px;background:#fff0d2f0;border:1px solid #ab8451;box-shadow:2px 4px 8px #39201444;color:#422f23;border-radius:0}
+.talisman-form label{display:grid;gap:6px;margin:0 0 10px;font-size:clamp(12px,.9cqw,15px);line-height:1.5}
+.talisman-form input{width:100%;min-width:0;min-height:42px;box-sizing:border-box;padding:8px 10px;border:0;border-bottom:1px solid #9f7951;border-radius:0;background:#fffaf2aa;color:#35271c;font:inherit;font-size:18px}
+.talisman-form input:focus{outline:2px solid #8b623a;outline-offset:2px}
+.talisman-feedback{min-height:1.5em;margin:3px 0 10px;font-size:13px;line-height:1.5;color:#8b372d}
+.talisman-actions{display:flex;gap:8px;flex-wrap:wrap}
+.talisman-controls .lesson-button{min-height:44px;font-size:clamp(12px,.85cqw,14px);padding:9px 10px}
+.talisman-actions .lesson-button{flex:1;min-width:100px}
+.talisman-outcome{font-weight:600;font-size:14px;line-height:1.6;margin:0 0 10px;color:#694b30}
+.talisman-reference{display:grid;grid-template-columns:auto minmax(0,1fr);gap:6px 12px;margin:0 0 12px;font-size:16px;line-height:1.5}
+.talisman-reference dt{margin:0;font-size:11px;color:#8a6540}.talisman-reference dd{margin:0;overflow-wrap:anywhere}
+.talisman-controls>.lesson-button{width:100%}
+.talisman-controls .lesson-allowed{font-size:12px;line-height:1.5;margin:8px 0}
+.talisman-footer{position:absolute;left:2%;bottom:1%;max-width:42%;margin:0;padding:5px 9px;z-index:8;background:#35251ad1;color:#f9e8c5;font-size:10px;line-height:1.6}
+.talisman-empty{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);width:min(90%,560px);z-index:8;padding:24px;background:#fff0d2f5;border:1px solid #ac8759}
+.talisman-empty .talisman-guide{position:static;width:auto;border:0;box-shadow:none;background:none;padding:0;margin:0 0 20px;font-size:15px}
+.talisman-workspace[data-state='empty'] .talisman-hands{display:none}
+.talisman-workspace[data-state='first_correct'] .talisman-hand-right,.talisman-workspace[data-state='retry_correct'] .talisman-hand-right{animation:talisman-brush-write .5s ease-in-out both}
+.talisman-workspace[data-state='first_correct'] .talisman-prompt,.talisman-workspace[data-state='retry_correct'] .talisman-prompt{animation:talisman-word-ink .45s ease-out both}
+.talisman-workspace[data-state='revealed'] .talisman-blank{color:#6e6759}
+@keyframes talisman-seal-in{from{opacity:0;transform:rotate(-7deg) scale(1.12)}to{opacity:.9;transform:rotate(-7deg) scale(1)}}
+@keyframes talisman-brush-write{0%,100%{transform:rotate(20deg)}50%{transform:translate(-3px,2px) rotate(19.4deg)}}
+@keyframes talisman-word-ink{from{opacity:.35}to{opacity:1}}
+@media(max-width:1099px),(max-height:619px){
+ .school-book-overlay.talisman-overlay{display:block;background:#493020}
+ .talisman-workspace{--room-h:clamp(190px,56.28vw,280px);width:100%;aspect-ratio:auto;min-height:100dvh;padding:0 0 20px;overflow:hidden;container-type:inline-size}
+ .talisman-scene{height:var(--room-h);bottom:auto}.talisman-scene>img{object-fit:contain;background:#302219}
+ .talisman-tabletop{top:var(--room-h);height:560px;bottom:auto;clip-path:none;overflow:hidden}
+ .talisman-tabletop>img{width:2329px!important;height:1311px!important;left:calc(50% - 1164.5px)!important;top:auto!important;bottom:0}
+ .talisman-heading{right:10px;top:10px}
+ .talisman-desk{display:flex;flex-direction:column;align-items:center;position:relative;z-index:auto}
+ .talisman-teacher{position:relative;left:auto;top:auto;width:100%;height:var(--room-h);padding:15px 20px;display:flex;align-items:center;gap:16px}
+ .talisman-portrait{width:28%;height:100%;object-position:center bottom;flex-shrink:0}
+ .talisman-guide{position:relative;left:auto;top:auto;width:auto;max-width:380px;padding:10px 12px;font-size:12px;line-height:1.7;flex:1}
+ .talisman-paper{position:relative;left:auto;top:auto;width:170px;aspect-ratio:635/1420;margin:20px 0 0;transform:rotate(-3deg);flex-shrink:0}
+ .talisman-prompt{font-size:20px}.talisman-blank{font-size:11px}
+ .talisman-hands{top:var(--room-h);height:460px;bottom:auto}
+ .talisman-hand-left{left:0;width:62%;max-width:340px;bottom:0}
+ .talisman-hand-right{right:-11%;width:62%;max-width:340px;bottom:30px}
+ .talisman-controls{position:relative;right:auto;top:auto;width:min(calc(100% - 28px),560px);max-height:none;padding:18px 20px;margin:22px 0 0;flex-shrink:0}
+ .talisman-form label{font-size:13px;margin-bottom:12px}.talisman-controls .lesson-button{font-size:13px}
+ .talisman-reference{font-size:16px}.talisman-footer{position:relative;left:auto;bottom:auto;max-width:calc(100% - 28px);width:fit-content;margin:20px auto 0}
+ .talisman-empty{position:relative;left:auto;top:auto;transform:none;margin:calc(var(--room-h) + 15px) auto 30px}
+}
+@media(prefers-reduced-motion:reduce){.talisman-workspace *{animation:none!important;transition:none!important}}
+
+/* v10: actual supplied UI artwork. Nine display windows retain corner geometry;
+   CSS supplies layout, interaction and focus only. Existing scene coordinates stay. */
+.talisman-image-ui{isolation:isolate}
+.talisman-ui-skin{position:absolute;inset:0;z-index:-1;display:grid;grid-template-columns:var(--ui-edge,22px) minmax(0,1fr) var(--ui-edge,22px);grid-template-rows:var(--ui-edge,22px) minmax(0,1fr) var(--ui-edge,22px);pointer-events:none;user-select:none}
+.talisman-ui-skin>span{position:relative;display:block;overflow:hidden;min-width:0;min-height:0}
+.talisman-ui-skin img{position:absolute;display:block;max-width:none;max-height:none;pointer-events:none;user-select:none}
+.talisman-overlay .talisman-guide{--ui-edge:23px;background:transparent;border:0;box-shadow:none;padding:20px 25px;min-height:76px;box-sizing:border-box}
+.talisman-overlay .talisman-controls{--ui-edge:25px;background:transparent;border:0;border-radius:0;box-shadow:none;padding:27px 28px;min-height:325px;overflow:visible}
+.talisman-input-shell{--ui-edge:11px;position:relative;display:block;min-width:0}
+.talisman-overlay .talisman-form input{position:relative;background:transparent;border:0;border-radius:0;box-shadow:none;min-height:49px;padding:10px 18px;line-height:1.5}
+.talisman-overlay .lesson-button{--ui-edge:17px;position:relative;background:transparent!important;border:0!important;border-radius:0;box-shadow:none!important;min-height:48px;padding:12px 20px;color:#533820;line-height:1.5;white-space:normal;overflow-wrap:anywhere;font-family:inherit}
+.talisman-overlay .lesson-primary{color:#fff6dc;text-shadow:0 1px 1px #482013}
+.talisman-overlay .lesson-button:hover{filter:brightness(1.08);transform:none}
+.talisman-overlay .lesson-button:focus-visible,.talisman-overlay .talisman-form input:focus-visible{outline:2px solid #81512f;outline-offset:3px}
+.talisman-overlay .talisman-heading .lesson-button{min-width:104px;font-size:13px}
+.talisman-overlay .talisman-actions{gap:9px}
+.talisman-overlay .talisman-reference{gap:7px 12px}
+.talisman-overlay .talisman-empty{--ui-edge:27px;background:transparent;border:0;padding:32px}
+.talisman-overlay .talisman-empty .talisman-guide{position:relative;min-height:0;padding:18px 22px;margin-bottom:20px}
+@media(max-width:1099px),(max-height:619px){
+ .talisman-overlay .talisman-guide{--ui-edge:17px;padding:17px 20px;min-height:70px}
+ .talisman-overlay .talisman-controls{--ui-edge:24px;min-height:0;padding:27px 25px}
+ .talisman-overlay .talisman-empty{padding:28px}
+}
+
+/* v11: hand translation and actual Japanese writing modes only.
+   The paper, teacher, scene, seal and image UI keep their v10 coordinates. */
+.talisman-hand-left{left:18.5%;bottom:-4%}
+.talisman-hand-right{right:11.2%}
+.talisman-prompt{left:17%;top:12%;width:66%;height:59%;max-height:none;display:flex;align-items:center;justify-content:center;padding:0;margin:0;overflow:visible}
+.talisman-ink{display:block;flex:none;width:max-content;height:max-content;max-width:100%;font-size:40px;line-height:1.12;letter-spacing:.025em;font-weight:400;text-align:center;color:#27201c;font-feature-settings:'vert' 1,'vrt2' 1}
+.talisman-prompt[data-direction='vertical'] .talisman-ink{writing-mode:vertical-rl;text-orientation:mixed;white-space:nowrap;max-width:none;overflow-wrap:normal;word-break:normal;line-break:strict}
+.talisman-prompt[data-direction='horizontal'] .talisman-ink{writing-mode:horizontal-tb;text-orientation:mixed;white-space:normal;overflow-wrap:anywhere;word-break:normal;line-break:strict;font-feature-settings:normal}
+@media(max-width:1099px),(max-height:619px){
+ .talisman-hand-left{left:-6%;bottom:-10px}
+ .talisman-hand-right{right:-15%}
+}
+/* A definite horizontal line width lets CJK wrap before font reduction. */
+.talisman-prompt[data-direction='horizontal'] .talisman-ink{width:100%;height:auto;min-width:0}
+@media(max-width:500px){.talisman-hand-left{left:calc(-6% - 36px);bottom:-30px}}
+
+/* v12: existing open book and portraits, no replacement scene art. */
+.school-mistake-book .lesson-page h2.mistake-word{font-family:'School Lesson JP','Noto Sans JP',sans-serif;font-size:clamp(30px,4vw,56px);line-height:1.6;overflow-wrap:anywhere;word-break:normal}
+.mistake-teacher{display:flex;align-items:center;gap:12px;min-width:0}.mistake-teacher img{width:75px;height:110px;object-fit:contain;flex:none}.mistake-teacher p{margin:0;white-space:normal}
+.school-mistake-save{position:fixed;left:12px;bottom:12px;z-index:21000;max-width:min(600px,95vw);padding:12px;background:#fff1d7;color:#542b24;border:1px solid #9e714c}.school-mistake-save[hidden]{display:none}
+
+/* v13: small pronunciation controls; existing artwork and layouts are retained. */
+.school-pronunciation{max-width:100%;margin:8px 0 12px;font-family:inherit;text-align:left}
+.school-pronunciation-actions{display:flex;flex-wrap:wrap;gap:5px;align-items:center}
+.school-pronunciation .lesson-button{font-size:12px;line-height:1.4;min-height:32px;padding:6px 10px;letter-spacing:normal;white-space:normal;overflow-wrap:anywhere}
+.school-pronunciation-status{display:block;margin-top:4px;font-size:11px;line-height:1.5;color:#785a3f;overflow-wrap:anywhere}
+.school-pronunciation-status:empty{display:none}
+.talisman-overlay .school-pronunciation .lesson-button{--ui-edge:12px;min-height:32px;padding:7px 11px;font-size:12px}
+@media(max-width:700px){.school-pronunciation .lesson-button{font-size:12px;min-height:36px}.school-pronunciation{margin:6px 0 10px}}
+/* Recovered v14 selector styles. Whole original PNGs, selector-only scope. */
+.scroll-shelf.school-shelf{width:min(1080px,100%);max-width:1080px;padding:0;background:none;border:0;box-shadow:none;border-radius:0;color:#f3dfb7}
+.scroll-shelf.lesson-book:before,.scroll-shelf.lesson-book:after,.scroll-shelf .lesson-bookmark{display:none}
+.scroll-shelf .lesson-header{padding:0 12px 8px}.scroll-shelf .shelf-paper{padding:0;background:none;border:0;box-shadow:none;display:flex;flex-wrap:wrap;align-items:center}
+.scroll-shelf .shelf-titleline,.scroll-shelf .shelf-paper>.shelf-caption{display:none}.scroll-shelf .shelf-page-count,.scroll-shelf .shelf-jump{color:#e1cba8}.scroll-shelf .lesson-footer{padding-top:8px}
+.scroll-shelf .shelf-nav{display:flex;justify-content:space-between;align-items:center;gap:8px;order:1;width:50%;margin:0;padding:4px 10px}.scroll-shelf .scroll-page-button{width:180px;aspect-ratio:2171/724;min-height:0;padding:12px 25px;background:transparent url('assets/scroll-shelf/page-button.png') center/contain no-repeat;border:0;box-shadow:none;font-size:13px;color:#5c3826}
+.scroll-shelf .scroll-rack-viewport{order:0;width:100%;flex:0 0 100%;overflow-x:auto;overflow-y:hidden;padding:0 0 6px;scrollbar-color:#a98650 #3b291f}
+.scroll-shelf .shelf-rack{position:relative;display:block;container-type:inline-size;width:100%;min-width:720px;aspect-ratio:2079/756;padding:0;background:none;border:0;box-shadow:none}
+.scroll-shelf .scroll-cabinet{position:absolute;inset:0;width:100%;height:100%;pointer-events:none}
+.scroll-shelf .scroll-plaque{position:absolute;left:33.6%;top:5%;width:32%;height:16.2%;display:flex;align-items:center;justify-content:center;color:#67412b}
+.scroll-shelf .scroll-plaque h1{margin:0;font:700 clamp(18px,2.6cqw,29px)/1.3 serif;letter-spacing:.05em;color:#67412b}
+.scroll-shelf .shelf-volume{position:absolute;left:calc(5.3% + var(--slot)*9%);top:29.6%;width:9%;height:52%;min-height:0;display:block;padding:0;gap:0;border:0;border-radius:0;background:none;box-shadow:none;outline:0;color:#f2d8b2;transform:none;line-height:1.2}
+.scroll-shelf .shelf-volume:hover{filter:brightness(1.08)}.scroll-shelf .shelf-volume:active{transform:none}.scroll-shelf .shelf-volume:focus-visible{outline:2px dashed #fff0bb;outline-offset:1px}.scroll-shelf .shelf-volume[data-registered="false"]{cursor:default}
+.scroll-shelf .scroll-visual{position:absolute;left:50%;top:0;width:74%;height:88%;transform:translateX(-50%);display:block;aspect-ratio:240/660}
+.scroll-shelf .scroll-image{position:absolute;inset:0;width:100%;height:100%;object-fit:contain;pointer-events:none}
+.scroll-shelf .scroll-selection{position:absolute;left:-7%;top:-3%;width:114%;height:106%;object-fit:contain;pointer-events:none;z-index:2}
+.scroll-shelf .shelf-spine-label{position:absolute;top:27%;left:50%;height:23%;width:38%;transform:translateX(-50%);display:block;text-align:center;writing-mode:vertical-rl;text-orientation:upright;white-space:nowrap;padding:0;border:0;font:700 clamp(12px,1.5cqw,17px)/1.1 serif;letter-spacing:.04em;color:#4e3025;text-shadow:none;z-index:1}
+.scroll-shelf .scroll-numeral{text-combine-upright:all}.scroll-shelf .scroll-visual[data-art="unregistered"] .shelf-spine-label{color:#322c29}
+.scroll-shelf .shelf-volume-status{position:absolute;bottom:0;left:-5%;width:110%;padding:0;border:0;border-radius:0;background:none;font-size:clamp(9px,1cqw,11px);line-height:1.2;color:#ead4af;white-space:nowrap}
+.scroll-shelf .shelf-jump{order:1;width:50%;justify-content:center;margin:0;padding:4px 8px;font-size:12px}.scroll-shelf .shelf-jump input{min-height:34px;width:66px;padding:4px 8px}.scroll-shelf .shelf-jump .lesson-button{min-height:34px;padding:5px 12px;font-size:12px}.scroll-shelf .shelf-jump .shelf-error{text-align:center;margin:0;color:#f1b6a4}
+.scroll-shelf .scroll-information{position:relative;order:2;width:min(660px,100%);flex:0 0 min(660px,100%);aspect-ratio:1536/1024;margin:0 auto;color:#583925}
+.scroll-shelf .scroll-information-art{position:absolute;inset:0;width:100%;height:100%;pointer-events:none}
+.scroll-shelf .shelf-selection{position:absolute;left:12%;right:10%;top:24%;bottom:22%;padding:0;border:0;background:none;overflow-y:auto;scrollbar-width:thin;scrollbar-color:#b99a6a transparent}
+.scroll-shelf .shelf-selection .lesson-kicker{display:none}.scroll-shelf .shelf-selection h2{font-size:24px;margin:0 0 2px}.scroll-shelf .shelf-meta{font-size:13px;margin:3px 0}.scroll-shelf .shelf-selection .shelf-caption{color:#755539;font-size:11px;margin:3px 0}
+.scroll-shelf .shelf-demo-notice{font-size:12px;line-height:1.7;margin:6px 0}.scroll-shelf .shelf-progress-count{font-size:13px;margin:6px 0;color:#62442f}
+.scroll-shelf .scroll-start-button{display:inline-block;width:290px;max-width:100%;aspect-ratio:2172/724;min-height:0;margin:0!important;padding:20px 38px;background:transparent url('assets/scroll-shelf/start-button.png') center/contain no-repeat;color:#fff0d2;border:0;box-shadow:none;font-size:13px;font-weight:700}
+.scroll-shelf .shelf-selection [data-review-start]{min-height:34px;font-size:11px;padding:5px 8px;margin:0 0 0 6px;background:none;border:0;box-shadow:none;text-decoration:underline}
+.scroll-shelf .scroll-demo-link{display:block;order:3;flex-basis:100%;margin:0 auto;text-align:center;min-height:30px;padding:3px 10px;background:none;box-shadow:none;border:0;font-size:11px;color:#dbc39d;text-decoration:underline}.scroll-shelf .shelf-error{color:#923b33}.scroll-shelf .shelf-paper>.lesson-copy{order:-1;flex-basis:100%}
+@media(max-width:760px){.scroll-shelf .scroll-page-button{width:145px;font-size:11px;padding:10px 20px}.scroll-shelf .shelf-page-count{font-size:11px;white-space:nowrap}.scroll-shelf .shelf-nav,.scroll-shelf .shelf-jump{width:100%;flex-basis:100%}.scroll-shelf .shelf-nav{order:-1}.scroll-shelf .shelf-selection h2{font-size:20px}.scroll-shelf .shelf-demo-notice{font-size:11px}.scroll-shelf .shelf-meta,.scroll-shelf .shelf-progress-count{font-size:12px}.scroll-shelf .scroll-start-button{width:260px;font-size:12px;padding:17px 30px}.scroll-shelf .lesson-series{font-size:11px}}
+@media(max-width:500px){.scroll-shelf .scroll-page-button{width:120px;padding:8px 17px;font-size:10px}.scroll-shelf .shelf-selection{top:23%;bottom:20%}.scroll-shelf .shelf-selection .shelf-caption{display:none}.scroll-shelf .shelf-selection h2{margin:0;font-size:16px}.scroll-shelf .shelf-meta{margin:2px 0;font-size:11px}.scroll-shelf .shelf-progress-count{margin:2px 0;font-size:11px}.scroll-shelf .shelf-demo-notice{font-size:9px;line-height:1.3;margin:1px 0}.scroll-shelf .scroll-start-button{width:165px;padding:9px 18px;font-size:9px}.scroll-shelf .shelf-selection [data-review-start]{display:block;margin:0}}
+/* v15: selector/review/talisman screens deliberately retain their original styles.
+   Approved PNGs are displayed whole, with uniform scaling and live HTML content. */
+.school-scroll-lesson.lesson-book{width:min(1460px,100%);padding:0;margin-block:auto;background:none;border:0;border-radius:0;box-shadow:none;color:#493126}
+.school-scroll-lesson.lesson-book:before,.school-scroll-lesson.lesson-book:after,.school-scroll-lesson>.lesson-bookmark{display:none}
+.school-scroll-lesson .lesson-header{position:relative;display:flex;justify-content:center;align-items:flex-start;padding:0;gap:0;min-height:0}
+.school-scroll-lesson .lesson-header>div{position:relative;width:min(500px,70%);aspect-ratio:2048/682;flex-shrink:0;text-align:center}
+.school-scroll-lesson .scroll-lesson-title-art{position:absolute;inset:0;width:100%;height:100%;object-fit:contain;pointer-events:none}
+.school-scroll-lesson .lesson-header h1{position:absolute;left:29%;right:29%;top:22%;height:24%;margin:0;display:flex;align-items:center;justify-content:center;font-size:clamp(15px,1.8vw,24px);line-height:1.3;letter-spacing:0;color:#563824;white-space:nowrap}
+.school-scroll-lesson .lesson-series{position:absolute;top:68%;left:0;right:0;font-size:12px;line-height:1.4;letter-spacing:0;color:#f3dfbb;overflow-wrap:anywhere}
+.school-scroll-lesson .lesson-header>.lesson-button{position:absolute;top:22px;right:2%;min-height:44px;font-size:12px;padding:10px 16px}
+.school-scroll-lesson .lesson-progress{position:relative;display:flex;justify-content:center;gap:6px;margin:-12px 0 -12px;padding:0;border:0;background:none;box-shadow:none;z-index:1}
+.school-scroll-lesson .lesson-progress span{display:flex;align-items:center;justify-content:center;flex:0 1 190px;aspect-ratio:2048/682;max-width:190px;min-height:44px;padding:12px 22px;border:0;border-radius:0;background:transparent url('assets/scroll-lesson/tab-idle.png') center/contain no-repeat;box-shadow:none;color:#62442e;font-size:13px;line-height:1.3;white-space:nowrap}
+.school-scroll-lesson .lesson-progress span.is-current{background:transparent url('assets/scroll-lesson/tab-active.png') center/contain no-repeat;color:#fff1d4;box-shadow:none}
+.school-scroll-lesson .scroll-lesson-viewport{width:100%;overflow-x:auto;overflow-y:hidden;scrollbar-color:#aa8653 #38281d;overscroll-behavior-x:contain}
+.school-scroll-lesson .lesson-spread{position:relative;display:block;min-width:880px;min-height:0;width:100%;aspect-ratio:1672/941;margin:0;background:none;border:0;box-shadow:none;isolation:isolate}
+.school-scroll-lesson .lesson-spread:after{display:none}
+.school-scroll-lesson .scroll-lesson-art{position:absolute;inset:0;width:100%;height:100%;object-fit:contain;pointer-events:none;z-index:-1}
+.school-scroll-lesson .lesson-page{position:absolute;top:22%;bottom:24%;width:34.6%;min-width:0;padding:0 9px;background:none;border:0;overflow-y:auto;overflow-x:hidden;overflow-wrap:anywhere;scrollbar-width:thin;scrollbar-color:#bb986c transparent}
+.school-scroll-lesson .lesson-page:nth-of-type(1){left:12.1%;border:0}.school-scroll-lesson .lesson-page:nth-of-type(2){right:12.1%;border:0}
+.school-scroll-lesson .lesson-kicker{font-size:11px;letter-spacing:.05em;margin:0 0 12px;padding-bottom:8px;color:#916846;border-bottom:1px solid #bda06b66}
+.school-scroll-lesson .lesson-page h2{font-size:24px;line-height:1.45;margin:5px 0 12px;color:#553627}
+.school-scroll-lesson .lesson-page h2.lesson-word{font-size:clamp(40px,4.2vw,64px);letter-spacing:.05em;line-height:1.35;margin:6px 0 8px;text-wrap:balance;overflow-wrap:anywhere}
+.school-scroll-lesson .lesson-reading{font-size:21px;line-height:1.6;letter-spacing:.08em;margin:0 0 10px;overflow-wrap:anywhere}
+.school-scroll-lesson .lesson-meaning{font-size:25px;line-height:1.55;margin:0 0 14px;padding-bottom:10px}
+.school-scroll-lesson .lesson-copy{font-size:14px;line-height:1.85;margin:10px 0 14px}
+.school-scroll-lesson .lesson-teacher{font-size:14px;line-height:1.85;margin:16px 0;padding:12px 10px;background:none}
+.school-scroll-lesson .lesson-note{margin:12px 0;padding:10px 12px}.school-scroll-lesson .lesson-missing{margin:10px 0;font-size:12px;padding-top:8px}
+.school-scroll-lesson .lesson-question{font-size:36px!important;line-height:1.4;overflow-wrap:anywhere}
+.school-scroll-lesson .lesson-form label{margin:9px 0;font-size:12px}.school-scroll-lesson .lesson-form input{min-height:44px;font-size:18px;margin-top:4px;padding:9px 11px}
+.school-scroll-lesson .lesson-actions{margin:12px 0 3px;gap:8px}.school-scroll-lesson .lesson-button{min-height:44px}.school-scroll-lesson .lesson-validation{margin:4px 0}
+.school-scroll-lesson .lesson-reference{grid-template-columns:90px minmax(0,1fr);gap:6px 12px;margin:12px 0;padding:12px 0}.school-scroll-lesson .lesson-reference dd{font-size:19px;line-height:1.5}.school-scroll-lesson .lesson-reference dt{font-size:11px}
+.school-scroll-lesson .lesson-answers{margin:8px 0}.school-scroll-lesson .lesson-answers dt{margin-top:9px;padding-top:6px}.school-scroll-lesson .lesson-answers .lesson-given{font-size:16px}
+.school-scroll-lesson .lesson-allowed{font-size:11px;line-height:1.6;margin:6px 0}.school-scroll-lesson .school-pronunciation{margin:10px 0}.school-scroll-lesson .school-pronunciation-status{font-size:11px}
+.school-scroll-lesson .lesson-footer{display:flex;justify-content:space-between;flex-wrap:wrap;padding:0 7% 12px;margin-top:-2%;color:#eed9af;font-size:12px;gap:8px}
+@media(max-width:1100px){.school-scroll-lesson .lesson-page{top:21%;bottom:23%;padding:0 6px}.school-scroll-lesson .lesson-page h2{font-size:20px}.school-scroll-lesson .lesson-copy,.school-scroll-lesson .lesson-teacher{font-size:13px;line-height:1.75}.school-scroll-lesson .lesson-meaning{font-size:23px}.school-scroll-lesson .lesson-kicker{font-size:10px;margin-bottom:9px;padding-bottom:5px}.school-scroll-lesson .lesson-progress span{flex-basis:165px;font-size:12px}.school-scroll-lesson .lesson-reference dd{font-size:17px}.school-scroll-lesson .lesson-reference{grid-template-columns:76px minmax(0,1fr)}}
+@media(max-width:700px){.school-scroll-lesson .lesson-header>div{width:76%}.school-scroll-lesson .lesson-header h1{font-size:clamp(12px,3vw,19px)}.school-scroll-lesson .lesson-header>.lesson-button{right:0;top:0;padding:7px 9px;font-size:11px}.school-scroll-lesson .lesson-series{font-size:10px;top:75%}.school-scroll-lesson .lesson-progress{gap:0;margin:7px 0 0}.school-scroll-lesson .lesson-progress span{font-size:11px;max-width:150px;padding:10px 13px}.school-scroll-lesson .lesson-footer{font-size:10px;margin:6px 0 0;padding:0 4px 8px}.school-scroll-lesson .lesson-spread{min-width:880px}}
+/* Use the game's existing complete Japanese glyph subset at every heading size. */
+.school-scroll-lesson .lesson-page h2[lang="ja"]{font-family:'School Lesson JP','Noto Sans JP','Yu Mincho',sans-serif!important}
+@media(max-width:880px){.school-scroll-lesson .scroll-lesson-viewport{scroll-snap-type:x proximity;scroll-padding-inline:10px}.school-scroll-lesson .lesson-page{scroll-snap-align:center;scroll-margin-inline:10px}}
+.school-scroll-lesson .scroll-lesson-mobile-hint{display:none}
+.school-scroll-lesson>.lesson-footer{display:flex!important;position:static;inset:auto;visibility:visible;pointer-events:auto;text-shadow:none}
+@media(max-width:880px){.school-scroll-lesson .scroll-lesson-viewport{scroll-snap-type:none}.school-scroll-lesson .scroll-lesson-mobile-hint{display:block;margin:0;padding:4px 8px;font-size:11px;text-align:center;color:#f0d9ae}}
+
+/* v15.1: position only. Keep original scene dimensions, internal layout and art. */
+.school-scroll-lesson .lesson-progress{top:-28px}
+.school-scroll-lesson .scroll-lesson-viewport{position:relative;top:-110px}
+.school-scroll-lesson>.lesson-footer{position:relative;top:-110px}
+.school-scroll-lesson .scroll-lesson-mobile-hint{position:relative;top:-110px}
+@media(max-width:700px){
+ .school-scroll-lesson .lesson-progress{top:-12px}
+ .school-scroll-lesson .scroll-lesson-viewport,.school-scroll-lesson>.lesson-footer,.school-scroll-lesson .scroll-lesson-mobile-hint{top:-50px}
+}
+
+/* v15.2: tighten only the catalog information panel's vertical gap.
+   Balanced block margins retain the shelf/control row and following content positions. */
+.scroll-shelf .scroll-information{margin-block-start:-60px;margin-block-end:60px}
+@media(max-width:760px){.scroll-shelf .scroll-information{margin-block-start:-44px;margin-block-end:44px}}
+/* The original PNG has transparent top padding; keep underlying controls clickable. */
+.scroll-shelf .scroll-information{pointer-events:none}
+.scroll-shelf .shelf-selection{pointer-events:auto}
+
+/* v15.3: presentation only; compact the shelf's transparent lower art margin. */
+.scroll-shelf .scroll-rack-viewport{margin-block-end:-42px}
+.scroll-shelf .shelf-spine-label{display:flex;align-items:center;justify-content:center;font-family:'School Lesson JP','Noto Sans KR','Malgun Gothic','Yu Mincho',serif}
+@media(max-width:760px){
+ .scroll-shelf .shelf-nav{order:1}
+ .scroll-shelf .scroll-rack-viewport{margin-block-end:-26px}
+}
+/* Retain the rack's screen anchor when the centered overlay becomes shorter. */
+.scroll-shelf .shelf-paper{padding-block-end:42px}
+@media(max-width:760px){.scroll-shelf .shelf-paper{padding-block-end:26px}}
+/* Controls sit over only the cabinet PNG's empty lower margin. */
+.scroll-shelf .shelf-nav,.scroll-shelf .shelf-jump{position:relative;z-index:1}

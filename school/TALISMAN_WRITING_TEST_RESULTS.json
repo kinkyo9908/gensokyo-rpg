@@ -1,0 +1,204 @@
+{
+  "passed": true,
+  "checks": [
+    "450 original spellings rendered at 1920/1366/390: 1350 fits, no clipping or data alteration",
+    "60 answered/revealed questions, kana/kanji, strict accepted romaji, no repeats, IME, buttons, seal, exit/continue/reload; save unchanged"
+  ],
+  "kana": 4,
+  "kanji": 56,
+  "javascriptErrors": [],
+  "cloudTested": false,
+  "finalVisualRecheck": true,
+  "viewports": [
+    {
+      "size": [
+        1920,
+        1080
+      ],
+      "testedItems": 450,
+      "uniqueKeys": 450,
+      "fontMin": 32,
+      "fontMax": 64,
+      "vertical": 445,
+      "horizontal": 5,
+      "allFit": true
+    },
+    {
+      "size": [
+        1366,
+        768
+      ],
+      "testedItems": 450,
+      "uniqueKeys": 450,
+      "fontMin": 25,
+      "fontMax": 53,
+      "vertical": 445,
+      "horizontal": 5,
+      "allFit": true
+    },
+    {
+      "size": [
+        390,
+        844
+      ],
+      "testedItems": 450,
+      "uniqueKeys": 450,
+      "fontMin": 30,
+      "fontMax": 64,
+      "vertical": 445,
+      "horizontal": 5,
+      "allFit": true
+    }
+  ],
+  "finalHandScreens": {
+    "passed": true,
+    "geometryCollected": true,
+    "finalScreenshots": true,
+    "seededVisualSelectionOnly": true,
+    "javascriptErrors": []
+  },
+  "comparison": {
+    "passed": true,
+    "sameOriginalWord": "評価",
+    "actualV10CodeAndCss": true
+  },
+  "handCheck": {
+    "sampleStep": 2,
+    "alphaThreshold": 32,
+    "checked": 1350,
+    "overlappingTextBoxes": [],
+    "passed": true
+  },
+  "handCheckMidBrush": {
+    "sampleStep": 2,
+    "alphaThreshold": 32,
+    "checked": 1350,
+    "overlappingTextBoxes": [],
+    "passed": true
+  },
+  "registeredSpellingGlyphsMissing": [],
+  "fontCheck": {
+    "ー": {
+      "glyph": "uni30FC",
+      "verticalSubstitutions": [
+        {
+          "feature": "vert",
+          "substitution": "glyph00893"
+        },
+        {
+          "feature": "vrt2",
+          "substitution": "glyph00893"
+        }
+      ],
+      "hasVerticalMetrics": true
+    },
+    "～": {
+      "glyph": "uni301C",
+      "verticalSubstitutions": [
+        {
+          "feature": "vert",
+          "substitution": "glyph00708"
+        },
+        {
+          "feature": "vrt2",
+          "substitution": "glyph00708"
+        }
+      ],
+      "hasVerticalMetrics": true
+    },
+    "っ": {
+      "glyph": "uni3063",
+      "verticalSubstitutions": [
+        {
+          "feature": "vert",
+          "substitution": "glyph00745"
+        },
+        {
+          "feature": "vrt2",
+          "substitution": "glyph00745"
+        }
+      ],
+      "hasVerticalMetrics": true
+    },
+    "ゃ": {
+      "glyph": "uni3083",
+      "verticalSubstitutions": [
+        {
+          "feature": "vert",
+          "substitution": "glyph00777"
+        },
+        {
+          "feature": "vrt2",
+          "substitution": "glyph00777"
+        }
+      ],
+      "hasVerticalMetrics": true
+    },
+    "ゅ": {
+      "glyph": "uni3085",
+      "verticalSubstitutions": [
+        {
+          "feature": "vert",
+          "substitution": "glyph00779"
+        },
+        {
+          "feature": "vrt2",
+          "substitution": "glyph00779"
+        }
+      ],
+      "hasVerticalMetrics": true
+    },
+    "ょ": {
+      "glyph": "uni3087",
+      "verticalSubstitutions": [
+        {
+          "feature": "vert",
+          "substitution": "glyph00781"
+        },
+        {
+          "feature": "vrt2",
+          "substitution": "glyph00781"
+        }
+      ],
+      "hasVerticalMetrics": true
+    },
+    "、": {
+      "glyph": "uni3001",
+      "verticalSubstitutions": [
+        {
+          "feature": "vert",
+          "substitution": "glyph00649"
+        },
+        {
+          "feature": "vrt2",
+          "substitution": "glyph00649"
+        }
+      ],
+      "hasVerticalMetrics": true
+    },
+    "。": {
+      "glyph": "uni3002",
+      "verticalSubstitutions": [
+        {
+          "feature": "vert",
+          "substitution": "glyph00650"
+        },
+        {
+          "feature": "vrt2",
+          "substitution": "glyph00650"
+        }
+      ],
+      "hasVerticalMetrics": true
+    },
+    "（": {
+      "glyph": null,
+      "verticalSubstitutions": [],
+      "hasVerticalMetrics": false
+    },
+    "）": {
+      "glyph": null,
+      "verticalSubstitutions": [],
+      "hasVerticalMetrics": false
+    }
+  }
+}

@@ -1,0 +1,161 @@
+{
+  "sourceTotal": 101,
+  "connected": 10,
+  "sourceDocumentSha256": "6c9df1fad8da408a08b4e5c7b1ef1b5cc10cd812f9c79a22effa662d7d013951",
+  "records": [
+    {
+      "ordinal": 1,
+      "spelling": "評価",
+      "readings": [
+        "ひょうか"
+      ],
+      "meanings": [
+        "평가"
+      ],
+      "sourceRomajiNotImported": [
+        "hyouka",
+        "hyooka",
+        "hyoka"
+      ],
+      "exactMatch": true
+    },
+    {
+      "ordinal": 2,
+      "spelling": "客",
+      "readings": [
+        "きゃく"
+      ],
+      "meanings": [
+        "손님",
+        "고객"
+      ],
+      "sourceRomajiNotImported": [
+        "kyaku"
+      ],
+      "exactMatch": true
+    },
+    {
+      "ordinal": 3,
+      "spelling": "入学",
+      "readings": [
+        "にゅうがく"
+      ],
+      "meanings": [
+        "입학"
+      ],
+      "sourceRomajiNotImported": [
+        "nyuugaku",
+        "nyugaku"
+      ],
+      "exactMatch": true
+    },
+    {
+      "ordinal": 4,
+      "spelling": "注意",
+      "readings": [
+        "ちゅうい"
+      ],
+      "meanings": [
+        "주의"
+      ],
+      "sourceRomajiNotImported": [
+        "chuui",
+        "chui",
+        "tyuui",
+        "tyui"
+      ],
+      "exactMatch": true
+    },
+    {
+      "ordinal": 5,
+      "spelling": "料理",
+      "readings": [
+        "りょうり"
+      ],
+      "meanings": [
+        "요리"
+      ],
+      "sourceRomajiNotImported": [
+        "ryouri",
+        "ryoori",
+        "ryori"
+      ],
+      "exactMatch": true
+    },
+    {
+      "ordinal": 6,
+      "spelling": "会社",
+      "readings": [
+        "かいしゃ"
+      ],
+      "meanings": [
+        "회사"
+      ],
+      "sourceRomajiNotImported": [
+        "kaisha",
+        "kaisya"
+      ],
+      "exactMatch": true
+    },
+    {
+      "ordinal": 7,
+      "spelling": "お茶",
+      "readings": [
+        "おちゃ"
+      ],
+      "meanings": [
+        "차"
+      ],
+      "sourceRomajiNotImported": [
+        "ocha",
+        "otya"
+      ],
+      "exactMatch": true
+    },
+    {
+      "ordinal": 8,
+      "spelling": "修理",
+      "readings": [
+        "しゅうり"
+      ],
+      "meanings": [
+        "수리"
+      ],
+      "sourceRomajiNotImported": [
+        "shuuri",
+        "shuri",
+        "syuuri",
+        "syuri"
+      ],
+      "exactMatch": true
+    },
+    {
+      "ordinal": 9,
+      "spelling": "物価",
+      "readings": [
+        "ぶっか"
+      ],
+      "meanings": [
+        "물가"
+      ],
+      "sourceRomajiNotImported": [
+        "bukka"
+      ],
+      "exactMatch": true
+    },
+    {
+      "ordinal": 10,
+      "spelling": "距離",
+      "readings": [
+        "きょり"
+      ],
+      "meanings": [
+        "거리"
+      ],
+      "sourceRomajiNotImported": [
+        "kyori"
+      ],
+      "exactMatch": true
+    }
+  ]
+}

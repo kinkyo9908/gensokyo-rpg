@@ -1,0 +1,157 @@
+{
+  "version": 1,
+  "originalPixelsPreserved": true,
+  "runtimeOnlyCropping": true,
+  "assets": [
+    {
+      "role": "room",
+      "sourceName": "ChatGPT 이미지 2026년 10월 20일 오전 08_10_38-1.png",
+      "path": "school/assets/talisman/room.png",
+      "size": [
+        1672,
+        941
+      ],
+      "mode": "RGBA",
+      "alphaRange": [
+        255,
+        255
+      ],
+      "transparentPercent": 0.0,
+      "strongBlackPixelCount": 5076,
+      "displayCrop": [
+        0,
+        0,
+        1672,
+        941
+      ],
+      "alpha8Bounds": [
+        0,
+        0,
+        1672,
+        941
+      ],
+      "originalSHA256": "0bea5581c8037778175d71ccce2042843b275d1489d759f4a356de930ed2538b",
+      "copiedUnchanged": true
+    },
+    {
+      "role": "paper",
+      "sourceName": "ChatGPT 이미지 2026년 10월 20일 오전 08_10_39-2.png",
+      "path": "school/assets/talisman/paper.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        254
+      ],
+      "transparentPercent": 47.199,
+      "strongBlackPixelCount": 1,
+      "displayCrop": [
+        195,
+        60,
+        635,
+        1420
+      ],
+      "alpha8Bounds": [
+        211,
+        79,
+        813,
+        1461
+      ],
+      "originalSHA256": "ca8d8067b5330b990bcba8e49b3ec3af0b9fcddd644898802121340cc0eccea2",
+      "copiedUnchanged": true
+    },
+    {
+      "role": "right",
+      "sourceName": "ChatGPT 이미지 2026년 10월 20일 오전 08_10_41-3.png",
+      "path": "school/assets/talisman/right.png",
+      "size": [
+        1448,
+        1086
+      ],
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ],
+      "transparentPercent": 73.188,
+      "strongBlackPixelCount": 15775,
+      "displayCrop": [
+        375,
+        0,
+        1073,
+        1086
+      ],
+      "alpha8Bounds": [
+        396,
+        6,
+        1448,
+        1086
+      ],
+      "originalSHA256": "690f851bc1188b8107cf7e8a12391f6bb6b7ac9f61bc4a10d79bd19973a5d86f",
+      "copiedUnchanged": true
+    },
+    {
+      "role": "left",
+      "sourceName": "ChatGPT 이미지 2026년 10월 20일 오전 08_10_42-4.png",
+      "path": "school/assets/talisman/left.png",
+      "size": [
+        1448,
+        1086
+      ],
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ],
+      "transparentPercent": 64.627,
+      "strongBlackPixelCount": 0,
+      "displayCrop": [
+        130,
+        55,
+        1155,
+        1031
+      ],
+      "alpha8Bounds": [
+        149,
+        73,
+        1264,
+        1086
+      ],
+      "originalSHA256": "dccb348ea097b701787d213d9984a1ac3fedacf753515c6fb411a5ed8f71b081",
+      "copiedUnchanged": true
+    },
+    {
+      "role": "seal",
+      "sourceName": "ChatGPT 이미지 2026년 10월 20일 오전 08_10_44-5.png",
+      "path": "school/assets/talisman/seal.png",
+      "size": [
+        1254,
+        1254
+      ],
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ],
+      "transparentPercent": 61.496,
+      "strongBlackPixelCount": 0,
+      "displayCrop": [
+        18,
+        25,
+        1220,
+        1215
+      ],
+      "alpha8Bounds": [
+        36,
+        43,
+        1220,
+        1222
+      ],
+      "originalSHA256": "8f4e58c7a353e771269417e60a41d7405ef446a5edcb918d6fbdde64d976d9bf",
+      "copiedUnchanged": true
+    }
+  ]
+}

@@ -1,0 +1,154 @@
+{
+  "browser": {
+    "passed": true,
+    "checks": [
+      "120 reviewed UI questions, correct/retry/reveal fields and seal, two aligned full shuffled rounds; save and progress unchanged",
+      "IME composition and duplicate submit protection",
+      "Exit and ordinary continued lesson volume2 item11",
+      "Reload preserves save, empty learned pool and original five-volume shelf"
+    ],
+    "layouts": [
+      {
+        "width": 1366,
+        "height": 768,
+        "controls": {
+          "x": 955.921875,
+          "y": 376.296875,
+          "width": 368.4375,
+          "height": 325
+        },
+        "inputButtonsAccessible": true,
+        "noHorizontalOverflow": true
+      },
+      {
+        "width": 1024,
+        "height": 768,
+        "controls": {
+          "x": 232,
+          "y": 702.15625,
+          "width": 560,
+          "height": 304.5
+        },
+        "inputButtonsAccessible": true,
+        "noHorizontalOverflow": true
+      },
+      {
+        "width": 390,
+        "height": 844,
+        "controls": {
+          "x": 14,
+          "y": 641.640625,
+          "width": 362,
+          "height": 304.5
+        },
+        "inputButtonsAccessible": true,
+        "noHorizontalOverflow": true
+      },
+      {
+        "width": 844,
+        "height": 390,
+        "controls": {
+          "x": 142,
+          "y": 702.15625,
+          "width": 560,
+          "height": 304.5
+        },
+        "inputButtonsAccessible": true,
+        "noHorizontalOverflow": true
+      }
+    ],
+    "questionOutcomes": {
+      "first_correct": 20,
+      "retry_correct": 20,
+      "revealed": 20
+    },
+    "errors": [],
+    "liveFirebaseTested": false
+  },
+  "longText": {
+    "passed": true,
+    "bounds": [
+      {
+        "total": 450,
+        "width": 1920,
+        "height": 1080,
+        "controlsBottom": 854.1875,
+        "buttonBottom": 765.578125,
+        "longestFields": [
+          {
+            "text": "オーストラリア人",
+            "fits": true
+          },
+          {
+            "text": "にほんじん / にっぽんじん",
+            "fits": true
+          },
+          {
+            "text": "nihonjin / nipponjin",
+            "fits": true
+          },
+          {
+            "text": "반드시, 꼭, 틀림없이, 분명히",
+            "fits": true
+          }
+        ],
+        "guideFits": true,
+        "contained": true
+      },
+      {
+        "total": 450,
+        "width": 1366,
+        "height": 768,
+        "controlsBottom": 701.296875,
+        "buttonBottom": 612.6875,
+        "longestFields": [
+          {
+            "text": "オーストラリア人",
+            "fits": true
+          },
+          {
+            "text": "にほんじん / にっぽんじん",
+            "fits": true
+          },
+          {
+            "text": "nihonjin / nipponjin",
+            "fits": true
+          },
+          {
+            "text": "반드시, 꼭, 틀림없이, 분명히",
+            "fits": true
+          }
+        ],
+        "guideFits": true,
+        "contained": true
+      },
+      {
+        "total": 450,
+        "width": 390,
+        "height": 844,
+        "controlsBottom": 905.03125,
+        "buttonBottom": 878.03125,
+        "longestFields": [
+          {
+            "text": "オーストラリア人",
+            "fits": true
+          },
+          {
+            "text": "にほんじん / にっぽんじん",
+            "fits": true
+          },
+          {
+            "text": "nihonjin / nipponjin",
+            "fits": true
+          },
+          {
+            "text": "반드시, 꼭, 틀림없이, 분명히",
+            "fits": true
+          }
+        ],
+        "guideFits": true,
+        "contained": true
+      }
+    ]
+  }
+}

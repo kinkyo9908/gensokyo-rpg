@@ -1,0 +1,44 @@
+{
+  "keine_dialogue_normal.png": {
+    "size": [
+      1024,
+      1536
+    ],
+    "alphaBounds": [
+      0,
+      0,
+      1024,
+      1536
+    ],
+    "visibleBluePixels": 4164,
+    "transparentPixels": 460036
+  },
+  "keine_map.png": {
+    "size": [
+      1254,
+      1254
+    ],
+    "alphaBounds": [
+      31,
+      9,
+      1240,
+      1254
+    ],
+    "visibleBluePixels": 779,
+    "transparentPixels": 1081385
+  },
+  "keine_dialogue_smile.png": {
+    "size": [
+      1024,
+      1536
+    ],
+    "alphaBounds": [
+      0,
+      0,
+      1024,
+      1536
+    ],
+    "visibleBluePixels": 4357,
+    "transparentPixels": 461574
+  }
+}

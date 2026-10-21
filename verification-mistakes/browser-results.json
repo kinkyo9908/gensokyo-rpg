@@ -1,0 +1,135 @@
+{
+  "results": [
+    {
+      "name": "v11-compatible boot and unchanged 450 course count",
+      "passed": true,
+      "counts": [
+        101,
+        105,
+        82,
+        82,
+        80
+      ]
+    },
+    {
+      "name": "empty target menu message without opening quiz",
+      "passed": true
+    },
+    {
+      "name": "wrong answer in new learning excluded",
+      "passed": true
+    },
+    {
+      "name": "talisman repeated wrong then correct within one opportunity counts once",
+      "passed": true
+    },
+    {
+      "name": "correct in next opportunity clears candidate",
+      "passed": true
+    },
+    {
+      "name": "two separate wrong opportunities promote; external correct keeps active",
+      "passed": true
+    },
+    {
+      "name": "review wrong unlimited retry; no automatic answer exposure",
+      "passed": true
+    },
+    {
+      "name": "reveal retains target; next cycle revisits it",
+      "passed": true
+    },
+    {
+      "name": "strict romaji correct graduates immediately; duplicate submit and IME guarded",
+      "passed": true
+    },
+    {
+      "name": "review/talisman preserve progress, inventory, farm, vocabulary and resources",
+      "passed": true
+    },
+    {
+      "name": "normal battle 1 wrong candidate and next-opportunity correct clear",
+      "passed": true,
+      "word": "入学"
+    },
+    {
+      "name": "Cirno distinct projectile timeouts promote without changing original answer rules",
+      "passed": true
+    },
+    {
+      "name": "normal battle 2 wrong candidate and next-opportunity correct clear",
+      "passed": true,
+      "word": "先週"
+    },
+    {
+      "name": "RumiaBoss repeated retries count once; next projectile promotes",
+      "passed": true,
+      "word": "去年"
+    },
+    {
+      "name": "normal battle 3 wrong candidate and next-opportunity correct clear",
+      "passed": true,
+      "word": "時"
+    },
+    {
+      "name": "WriggleBoss repeated retries count once; next projectile promotes",
+      "passed": true,
+      "word": "～階"
+    },
+    {
+      "name": "normal battle 4 wrong candidate and next-opportunity correct clear",
+      "passed": true,
+      "word": "スリッパ"
+    },
+    {
+      "name": "NitoriBoss repeated retries count once; next projectile promotes",
+      "passed": true,
+      "word": "バター"
+    },
+    {
+      "name": "normal battle 5 wrong candidate and next-opportunity correct clear",
+      "passed": true,
+      "word": "夜"
+    },
+    {
+      "name": "MystiaBoss repeated retries count once; next projectile promotes",
+      "passed": true,
+      "word": "開く"
+    },
+    {
+      "name": "EXTRA actual selected projectile hook uses original book identity; retries deduplicated",
+      "passed": true,
+      "key": "volume-5:stage5-5",
+      "spelling": "昨日",
+      "source": "1-5:5"
+    },
+    {
+      "name": "reload restores remaining IDs; 1-5 clear and bongma6 preserved; no history fields",
+      "passed": true
+    },
+    {
+      "name": "1280x720 book layout and visible usable controls",
+      "passed": true,
+      "overflow": false,
+      "buttons": [
+        {
+          "text": "복습 종료",
+          "usable": true
+        },
+        {
+          "text": "정답 확인하기",
+          "usable": true
+        },
+        {
+          "text": "정답 보기",
+          "usable": true
+        }
+      ]
+    },
+    {
+      "name": "no JavaScript page errors across school + stages + bosses + EXTRA",
+      "passed": true
+    }
+  ],
+  "errors": []
+}
