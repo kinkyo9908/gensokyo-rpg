@@ -1,0 +1,56 @@
+{
+  "checks": [
+    "Ready and all four Jo’on PNGs decoded",
+    "Test save key isolated",
+    "No cloud SDK scripts or Firebase config",
+    "Start screen enters village",
+    "Jo’on foot anchor at vp(1200,295)",
+    "Feet and four approach points pass current collision checks",
+    "Exactly one fixed Jo’on resident",
+    "Jo’on is nearest interaction",
+    "Actual F key opens Jo’on conversation",
+    "normal portrait loads",
+    "normal full image fits viewport",
+    "smirk portrait loads",
+    "smirk full image fits viewport",
+    "displeased portrait loads",
+    "displeased full image fits viewport",
+    "Escape closes and clears Jo’on-only class",
+    "Dialogue leaves complete game snapshot unchanged",
+    "Board still inspectable by F",
+    "Minoriko F dialogue unaffected",
+    "School entrance remains usable",
+    "Keine dialogue unaffected",
+    "Jo’on styling does not leak to Keine",
+    "All 450 words preserved",
+    "1920x1080 portrait frame fits",
+    "1366x768 portrait frame fits",
+    "800x600 portrait frame fits",
+    "390x844 portrait frame fits",
+    "844x390 portrait frame fits",
+    "Production storage keys untouched",
+    "Test save written",
+    "Reload restores game and fixed NPC",
+    "No external Firebase traffic",
+    "No missing Jo’on or newly introduced resources",
+    "No runtime errors"
+  ],
+  "geometry": {
+    "a": {
+      "x": 3873.8965952080707,
+      "y": 952.3329129886507
+    },
+    "board": {
+      "x": 3825.47288776797,
+      "y": 890.9962168978562,
+      "text": "마을 게시판 · 장날 소식과 분실물 안내가 붙어 있다. 마을 밖 들길을 지날 때는 조심하라는 쪽지도 보인다."
+    },
+    "valid": true,
+    "unique": true
+  },
+  "errors": [],
+  "missing": [],
+  "external": [],
+  "liveFirebaseTested": false,
+  "webDeployed": false
+}

@@ -8,7 +8,7 @@ window.GensokyoJoon = (() => {
   {expression:'displeased',text:'흠…… 아직 안내할 내용은 준비 중이야. 준비가 끝나면 알려 줄게.'}
  ]);
  const definition={name:'요리가미 조온',role:'고블린왕의 징세관',location:'인간마을 · 게시판 옆',portrait:paths.normal,lines:lines.map(l=>l.text)};
- const actor={id:'yorigami-joon',name:definition.name,kind:'resident',...vp(1220,315),sprite:'joon',dir:0,phase:0};
+ const actor={id:'yorigami-joon',name:definition.name,kind:'resident',...vp(1200,295),sprite:'joon',dir:0,phase:0};
  const mapImage=new Image();
  const state={mapReady:false,error:null};
  mapImage.onload=()=>{state.mapReady=true;};
@@ -18,7 +18,18 @@ window.GensokyoJoon = (() => {
  const portraitCache=Object.values(paths).map(src=>{const img=new Image();img.src=src;return img;});
  maps.village.residents.push(actor);
  maps.village.interactions.push({id:actor.id,kind:'npc',x:actor.x,y:actor.y,
-  visual:{x:actor.x,y:actor.y-60},rangeX:70,rangeY:54,hitX:32,hitY:52,label:definition.name});
+  visual:{x:actor.x,y:actor.y-60},rangeX:48,rangeY:35,hitX:32,hitY:52,label:definition.name});
+ // One local canopy uses the existing footpoint depth queue. No new rendering
+ // pipeline, image edits or collision changes; the board itself is untouched.
+ maps.village.occluders.push({id:'joon-board-tree',frontY:368*villageScale,
+  poly:vpoly([[1209,296],[1214,297],[1215,299],[1218,300],[1218,305],
+   [1221,306],[1222,307],[1225,305],[1229,308],[1229,310],[1231,313],
+   [1230,316],[1233,319],[1229,324],[1228,327],[1233,329],[1232,336],
+   [1238,339],[1240,352],[1236,355],[1229,356],[1220,360],[1205,363],
+   [1192,351],[1180,348],[1176,336],[1183,329],[1188,329],[1191,323],
+   [1195,323],[1195,320],[1190,320],[1189,314],[1193,312],[1194,307],
+   [1198,309],[1200,309],[1201,305],[1205,304],[1204,301],[1206,299],
+   [1209,299]])});
  const isTalking=()=>residentDialogue.active&&residentDialogue.definition===definition;
  const priorDraw=drawResident;
  drawResident=function(r){

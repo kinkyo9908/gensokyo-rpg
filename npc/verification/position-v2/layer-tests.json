@@ -1,0 +1,38 @@
+{
+  "checks": [
+    "Board and Joon F ellipses do not overlap",
+    "Four road approach positions reachable",
+    "Only one local tree occluder registered",
+    "F targets Jo’on at NPC footpoint",
+    "F opens Jo’on",
+    "F targets board at original anchor",
+    "Board original text preserved",
+    "Tree covers overlapping NPC pixels with original background",
+    "Occlusion changes confined to local canopy edge",
+    "Actor in front of tree depth remains visible",
+    "Road by board remains passable",
+    "Layer checks leave save snapshot unchanged",
+    "No JavaScript errors"
+  ],
+  "geometry": {
+    "shared": 0,
+    "blocked": 0,
+    "occluderCount": 1,
+    "board": {
+      "x": 3825.47288776797,
+      "y": 890.9962168978562,
+      "rangeX": 48,
+      "rangeY": 35,
+      "text": "마을 게시판 · 장날 소식과 분실물 안내가 붙어 있다. 마을 밖 들길을 지날 때는 조심하라는 쪽지도 보인다."
+    },
+    "ellipseSeparation": 2.022104878973971
+  },
+  "hiddenPixels": 577,
+  "outsideEdgePixels": 9,
+  "frontDiff": 0,
+  "errors": [],
+  "missing": [
+    "http://127.0.0.1:8898/$%7BinventoryIcon(%7Bcategory:iconCategory,crop:key%7D)%7D",
+    "http://127.0.0.1:8898/$%7BinventoryItemDefinitions.riceball.icon%7D"
+  ]
+}
