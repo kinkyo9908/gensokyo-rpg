@@ -1,0 +1,24 @@
+/* Scoped to Jo'on: retain the existing wood/paper/gold dialogue design. */
+#residentDialogue.joon-dialogue .yujin-vn-portrait.right {
+ right:clamp(24px,6vw,100px);
+ bottom:clamp(185px,25vh,248px);
+ width:min(40vw,520px);
+ height:min(54vh,540px);
+ max-width:none;
+ overflow:visible;
+}
+#residentDialogue.joon-dialogue .yujin-vn-portrait.right img {
+ width:100%;height:100%;max-width:100%;max-height:100%;
+ object-fit:contain;object-position:center top;transform:none;
+}
+@media(max-width:700px) {
+ #residentDialogue.joon-dialogue .yujin-vn-portrait.right {
+  right:12px;bottom:clamp(235px,35dvh,300px);
+  width:46vw;height:min(40dvh,390px);
+ }
+}
+@media(max-height:520px) and (orientation:landscape) {
+ #residentDialogue.joon-dialogue .yujin-vn-portrait.right {
+  right:6vw;bottom:150px;width:29vw;height:calc(100dvh - 170px);
+ }
+}
