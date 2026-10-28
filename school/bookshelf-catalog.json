@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "connection": "Volumes 1–5: read-only battle vocabulary adapters; independent school progress",
+  "connection": "Volumes 1–5: existing battle adapters; volumes 6–10: supplied school-only manuscript. Independent per-book progress; no RPG rewards.",
   "volumes": [
     {
       "number": 1,
@@ -26,6 +26,31 @@
       "number": 5,
       "wordCount": 80,
       "stageId": "1-5"
+    },
+    {
+      "number": 6,
+      "wordCount": 80,
+      "stageId": ""
+    },
+    {
+      "number": 7,
+      "wordCount": 80,
+      "stageId": ""
+    },
+    {
+      "number": 8,
+      "wordCount": 80,
+      "stageId": ""
+    },
+    {
+      "number": 9,
+      "wordCount": 80,
+      "stageId": ""
+    },
+    {
+      "number": 10,
+      "wordCount": 80,
+      "stageId": ""
     }
   ]
 }

@@ -1,0 +1,418 @@
+{
+  "version": "1.0-art-review",
+  "frameSize": [
+    96,
+    96
+  ],
+  "anchor": [
+    48,
+    86
+  ],
+  "alpha": "straight RGBA",
+  "recommendedFramePixelToSource": 0.4,
+  "mapIntegration": false,
+  "animations": {
+    "walk_down": {
+      "sheet": "sheets/walk_down.png",
+      "fps": 5,
+      "loop": true,
+      "frames": [
+        {
+          "index": 0,
+          "rect": [
+            0,
+            0,
+            96,
+            96
+          ],
+          "anchor": [
+            48,
+            86
+          ],
+          "durationMs": 200.0
+        },
+        {
+          "index": 1,
+          "rect": [
+            96,
+            0,
+            96,
+            96
+          ],
+          "anchor": [
+            48,
+            86
+          ],
+          "durationMs": 200.0
+        },
+        {
+          "index": 2,
+          "rect": [
+            192,
+            0,
+            96,
+            96
+          ],
+          "anchor": [
+            48,
+            86
+          ],
+          "durationMs": 200.0
+        },
+        {
+          "index": 3,
+          "rect": [
+            288,
+            0,
+            96,
+            96
+          ],
+          "anchor": [
+            48,
+            86
+          ],
+          "durationMs": 200.0
+        }
+      ]
+    },
+    "walk_up": {
+      "sheet": "sheets/walk_up.png",
+      "fps": 5,
+      "loop": true,
+      "frames": [
+        {
+          "index": 0,
+          "rect": [
+            0,
+            0,
+            96,
+            96
+          ],
+          "anchor": [
+            48,
+            86
+          ],
+          "durationMs": 200.0
+        },
+        {
+          "index": 1,
+          "rect": [
+            96,
+            0,
+            96,
+            96
+          ],
+          "anchor": [
+            48,
+            86
+          ],
+          "durationMs": 200.0
+        },
+        {
+          "index": 2,
+          "rect": [
+            192,
+            0,
+            96,
+            96
+          ],
+          "anchor": [
+            48,
+            86
+          ],
+          "durationMs": 200.0
+        },
+        {
+          "index": 3,
+          "rect": [
+            288,
+            0,
+            96,
+            96
+          ],
+          "anchor": [
+            48,
+            86
+          ],
+          "durationMs": 200.0
+        }
+      ]
+    },
+    "walk_left": {
+      "sheet": "sheets/walk_left.png",
+      "fps": 5,
+      "loop": true,
+      "frames": [
+        {
+          "index": 0,
+          "rect": [
+            0,
+            0,
+            96,
+            96
+          ],
+          "anchor": [
+            48,
+            86
+          ],
+          "durationMs": 200.0
+        },
+        {
+          "index": 1,
+          "rect": [
+            96,
+            0,
+            96,
+            96
+          ],
+          "anchor": [
+            48,
+            86
+          ],
+          "durationMs": 200.0
+        },
+        {
+          "index": 2,
+          "rect": [
+            192,
+            0,
+            96,
+            96
+          ],
+          "anchor": [
+            48,
+            86
+          ],
+          "durationMs": 200.0
+        },
+        {
+          "index": 3,
+          "rect": [
+            288,
+            0,
+            96,
+            96
+          ],
+          "anchor": [
+            48,
+            86
+          ],
+          "durationMs": 200.0
+        }
+      ]
+    },
+    "walk_right": {
+      "sheet": "sheets/walk_right.png",
+      "fps": 5,
+      "loop": true,
+      "frames": [
+        {
+          "index": 0,
+          "rect": [
+            0,
+            0,
+            96,
+            96
+          ],
+          "anchor": [
+            48,
+            86
+          ],
+          "durationMs": 200.0
+        },
+        {
+          "index": 1,
+          "rect": [
+            96,
+            0,
+            96,
+            96
+          ],
+          "anchor": [
+            48,
+            86
+          ],
+          "durationMs": 200.0
+        },
+        {
+          "index": 2,
+          "rect": [
+            192,
+            0,
+            96,
+            96
+          ],
+          "anchor": [
+            48,
+            86
+          ],
+          "durationMs": 200.0
+        },
+        {
+          "index": 3,
+          "rect": [
+            288,
+            0,
+            96,
+            96
+          ],
+          "anchor": [
+            48,
+            86
+          ],
+          "durationMs": 200.0
+        }
+      ]
+    },
+    "sit": {
+      "sheet": "sheets/sit.png",
+      "fps": 1,
+      "loop": true,
+      "frames": [
+        {
+          "index": 0,
+          "rect": [
+            0,
+            0,
+            96,
+            96
+          ],
+          "anchor": [
+            48,
+            86
+          ],
+          "durationMs": 1000.0
+        },
+        {
+          "index": 1,
+          "rect": [
+            96,
+            0,
+            96,
+            96
+          ],
+          "anchor": [
+            48,
+            86
+          ],
+          "durationMs": 1000.0
+        }
+      ]
+    },
+    "tail": {
+      "sheet": "sheets/tail.png",
+      "fps": 2,
+      "loop": true,
+      "frames": [
+        {
+          "index": 0,
+          "rect": [
+            0,
+            0,
+            96,
+            96
+          ],
+          "anchor": [
+            48,
+            86
+          ],
+          "durationMs": 500.0
+        },
+        {
+          "index": 1,
+          "rect": [
+            96,
+            0,
+            96,
+            96
+          ],
+          "anchor": [
+            48,
+            86
+          ],
+          "durationMs": 500.0
+        },
+        {
+          "index": 2,
+          "rect": [
+            192,
+            0,
+            96,
+            96
+          ],
+          "anchor": [
+            48,
+            86
+          ],
+          "durationMs": 500.0
+        }
+      ]
+    },
+    "rest": {
+      "sheet": "sheets/rest.png",
+      "fps": 1,
+      "loop": true,
+      "frames": [
+        {
+          "index": 0,
+          "rect": [
+            0,
+            0,
+            96,
+            96
+          ],
+          "anchor": [
+            48,
+            86
+          ],
+          "durationMs": 1000.0
+        },
+        {
+          "index": 1,
+          "rect": [
+            96,
+            0,
+            96,
+            96
+          ],
+          "anchor": [
+            48,
+            86
+          ],
+          "durationMs": 1000.0
+        },
+        {
+          "index": 2,
+          "rect": [
+            192,
+            0,
+            96,
+            96
+          ],
+          "anchor": [
+            48,
+            86
+          ],
+          "durationMs": 1000.0
+        }
+      ]
+    }
+  },
+  "combinedSheet": {
+    "path": "sheets/dog_all.png",
+    "size": [
+      384,
+      672
+    ],
+    "rows": [
+      "walk_down",
+      "walk_up",
+      "walk_left",
+      "walk_right",
+      "sit",
+      "tail",
+      "rest"
+    ],
+    "emptyCellsTransparent": true
+  }
+}

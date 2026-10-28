@@ -1,0 +1,52 @@
+[
+  {
+    "asset": "row-default.png",
+    "uploaded": "tax_row_default(3).png",
+    "sha256": "70123168707b765042558e26d0a36e104393ad431030fa54b7ba7cb9b8530f41"
+  },
+  {
+    "asset": "row-hover.png",
+    "uploaded": "tax_row_hover(3).png",
+    "sha256": "65d5e3548761f51a6bb0e5492352bae401a10ecc9405a60545f9d28d88d7c3d7"
+  },
+  {
+    "asset": "row-today.png",
+    "uploaded": "tax_row_today(3).png",
+    "sha256": "d77857580a614584f03d24d18b2a038186d96292cddb12fe257452dec97fd35c"
+  },
+  {
+    "asset": "seal.png",
+    "uploaded": "붉은 잉크 고블린 왕 도장(2).png",
+    "sha256": "f8ff6a2f91132d627ede5233e3e3c1ce35b3e092c276e8a310403c3f3cbdd29a"
+  },
+  {
+    "asset": "ledger-frame.png",
+    "uploaded": "장부 테두리 프레임(1).png",
+    "sha256": "9376f973d1addd7578b2d949f5f1b4e576facc0d9e34a3dd28d7adf79639b846"
+  },
+  {
+    "asset": "title-plaque.png",
+    "uploaded": "제목 현판  장부 이름판(1).png",
+    "sha256": "2c94a1978b6366632330b0826fc7d328f3ac91f53eee9bd736d1a84a187062f8"
+  },
+  {
+    "asset": "button-pay.png",
+    "uploaded": "징세장부_납부버튼(1).png",
+    "sha256": "b403a08c44555495724e1feb1614ab8adc17517625ca079ef641a3815cc8d861"
+  },
+  {
+    "asset": "button-close.png",
+    "uploaded": "징세장부_닫기버튼(1).png",
+    "sha256": "3fb40542f784f3f49c723f17f0a03e8a396bdbe40fddf7fa32cf7be455ed7a99"
+  },
+  {
+    "asset": "button-bonus.png",
+    "uploaded": "징세장부_보상버튼(1).png",
+    "sha256": "2f1acac25a72622fc8c7c89633f565902e549b8253ab53e721c0a206f16e8765"
+  },
+  {
+    "asset": "button-guide.png",
+    "uploaded": "징세장부_안내버튼(1).png",
+    "sha256": "62b61fd8aa3f8a75b8ee6787355067c2348641665ee6bb05d28cabe846d8ffe1"
+  }
+]

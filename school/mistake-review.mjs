@@ -2,9 +2,9 @@
 // queue order and UI answers live in memory and are never serialized.
 export const emptyMistakes=()=>({version:1,candidates:[],targets:[]});
 export function validateMistakes(value){
- const validKey=k=>typeof k==='string'&&/^volume-[1-5]:(?:ordinal-[1-9]\d{0,2}|stage[2-5]-[1-9]\d{0,2})$/.test(k);
+ const validKey=k=>typeof k==='string'&&/^(?:volume-[1-5]:(?:ordinal-[1-9]\d{0,2}|stage[2-5]-[1-9]\d{0,2})|volume-(?:[6-9]|10):ordinal-(?:[1-9]|[1-7]\d|80))$/.test(k);
  if(!value||value.version!==1||Object.keys(value).sort().join(',')!=='candidates,targets,version'||!Array.isArray(value.candidates)||!Array.isArray(value.targets))throw new Error('오답 목록 형식을 확인할 수 없습니다. 기존 기록은 유지됩니다.');
- const all=[...value.candidates,...value.targets];if(all.length>450||all.some(k=>!validKey(k))||new Set(all).size!==all.length)throw new Error('오답 항목 식별자를 확인할 수 없습니다. 기존 기록은 유지됩니다.');
+ const all=[...value.candidates,...value.targets];if(all.length>850||all.some(k=>!validKey(k))||new Set(all).size!==all.length)throw new Error('오답 항목 식별자를 확인할 수 없습니다. 기존 기록은 유지됩니다.');
  return value;
 }
 export class MistakeStore{

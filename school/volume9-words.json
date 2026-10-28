@@ -1,0 +1,1677 @@
+{
+  "schemaVersion": 1,
+  "bookId": "volume-9",
+  "sourceContainer": "Keine manuscript 2026-10-27",
+  "sourceTotal": 80,
+  "enabledCount": 80,
+  "groups": [
+    {
+      "number": 1,
+      "start": 1,
+      "end": 10,
+      "title": "시작과 움직임"
+    },
+    {
+      "number": 2,
+      "start": 11,
+      "end": 20,
+      "title": "이동과 방향"
+    },
+    {
+      "number": 3,
+      "start": 21,
+      "end": 30,
+      "title": "물건과 행동"
+    },
+    {
+      "number": 4,
+      "start": 31,
+      "end": 40,
+      "title": "선택과 교류"
+    },
+    {
+      "number": 5,
+      "start": 41,
+      "end": 50,
+      "title": "의복과 생활 동작"
+    },
+    {
+      "number": 6,
+      "start": 51,
+      "end": 60,
+      "title": "준비와 변화"
+    },
+    {
+      "number": 7,
+      "start": 61,
+      "end": 70,
+      "title": "상태와 감정"
+    },
+    {
+      "number": 8,
+      "start": 71,
+      "end": 80,
+      "title": "감정과 성질"
+    }
+  ],
+  "entries": [
+    {
+      "id": "ordinal-1",
+      "sourceOrdinal": 1,
+      "spelling": "始まる",
+      "readings": [
+        "はじまる"
+      ],
+      "meanings": [
+        "시작되다"
+      ],
+      "sourceMeanings": [
+        "시작되다"
+      ],
+      "sourceReading": "はじまる",
+      "sourceMeaning": "시작되다",
+      "group": 1,
+      "explanation": null,
+      "example": null,
+      "translation": null
+    },
+    {
+      "id": "ordinal-2",
+      "sourceOrdinal": 2,
+      "spelling": "始める",
+      "readings": [
+        "はじめる"
+      ],
+      "meanings": [
+        "시작하다"
+      ],
+      "sourceMeanings": [
+        "시작하다"
+      ],
+      "sourceReading": "はじめる",
+      "sourceMeaning": "시작하다",
+      "group": 1,
+      "explanation": null,
+      "example": null,
+      "translation": null
+    },
+    {
+      "id": "ordinal-3",
+      "sourceOrdinal": 3,
+      "spelling": "終わる",
+      "readings": [
+        "おわる"
+      ],
+      "meanings": [
+        "끝나다"
+      ],
+      "sourceMeanings": [
+        "끝나다"
+      ],
+      "sourceReading": "おわる",
+      "sourceMeaning": "끝나다",
+      "group": 1,
+      "explanation": null,
+      "example": null,
+      "translation": null
+    },
+    {
+      "id": "ordinal-4",
+      "sourceOrdinal": 4,
+      "spelling": "終える",
+      "readings": [
+        "おえる"
+      ],
+      "meanings": [
+        "끝내다"
+      ],
+      "sourceMeanings": [
+        "끝내다"
+      ],
+      "sourceReading": "おえる",
+      "sourceMeaning": "끝내다",
+      "group": 1,
+      "explanation": null,
+      "example": null,
+      "translation": null
+    },
+    {
+      "id": "ordinal-5",
+      "sourceOrdinal": 5,
+      "spelling": "続ける",
+      "readings": [
+        "つづける"
+      ],
+      "meanings": [
+        "계속하다"
+      ],
+      "sourceMeanings": [
+        "계속하다"
+      ],
+      "sourceReading": "つづける",
+      "sourceMeaning": "계속하다",
+      "group": 1,
+      "explanation": null,
+      "example": null,
+      "translation": null
+    },
+    {
+      "id": "ordinal-6",
+      "sourceOrdinal": 6,
+      "spelling": "止まる",
+      "readings": [
+        "とまる"
+      ],
+      "meanings": [
+        "멈추다"
+      ],
+      "sourceMeanings": [
+        "멈추다"
+      ],
+      "sourceReading": "とまる",
+      "sourceMeaning": "멈추다",
+      "group": 1,
+      "explanation": null,
+      "example": null,
+      "translation": null
+    },
+    {
+      "id": "ordinal-7",
+      "sourceOrdinal": 7,
+      "spelling": "止める",
+      "readings": [
+        "とめる"
+      ],
+      "meanings": [
+        "멈추게 하다",
+        "세우다"
+      ],
+      "sourceMeanings": [
+        "멈추게 하다",
+        "세우다"
+      ],
+      "sourceReading": "とめる",
+      "sourceMeaning": "멈추게 하다, 세우다",
+      "group": 1,
+      "explanation": null,
+      "example": null,
+      "translation": null
+    },
+    {
+      "id": "ordinal-8",
+      "sourceOrdinal": 8,
+      "spelling": "動く",
+      "readings": [
+        "うごく"
+      ],
+      "meanings": [
+        "움직이다"
+      ],
+      "sourceMeanings": [
+        "움직이다"
+      ],
+      "sourceReading": "うごく",
+      "sourceMeaning": "움직이다",
+      "group": 1,
+      "explanation": null,
+      "example": null,
+      "translation": null
+    },
+    {
+      "id": "ordinal-9",
+      "sourceOrdinal": 9,
+      "spelling": "動かす",
+      "readings": [
+        "うごかす"
+      ],
+      "meanings": [
+        "움직이게 하다"
+      ],
+      "sourceMeanings": [
+        "움직이게 하다"
+      ],
+      "sourceReading": "うごかす",
+      "sourceMeaning": "움직이게 하다",
+      "group": 1,
+      "explanation": null,
+      "example": null,
+      "translation": null
+    },
+    {
+      "id": "ordinal-10",
+      "sourceOrdinal": 10,
+      "spelling": "急ぐ",
+      "readings": [
+        "いそぐ"
+      ],
+      "meanings": [
+        "서두르다"
+      ],
+      "sourceMeanings": [
+        "서두르다"
+      ],
+      "sourceReading": "いそぐ",
+      "sourceMeaning": "서두르다",
+      "group": 1,
+      "explanation": null,
+      "example": null,
+      "translation": null
+    },
+    {
+      "id": "ordinal-11",
+      "sourceOrdinal": 11,
+      "spelling": "曲がる",
+      "readings": [
+        "まがる"
+      ],
+      "meanings": [
+        "돌다",
+        "구부러지다"
+      ],
+      "sourceMeanings": [
+        "돌다",
+        "구부러지다"
+      ],
+      "sourceReading": "まがる",
+      "sourceMeaning": "돌다, 구부러지다",
+      "group": 2,
+      "explanation": null,
+      "example": null,
+      "translation": null
+    },
+    {
+      "id": "ordinal-12",
+      "sourceOrdinal": 12,
+      "spelling": "渡る",
+      "readings": [
+        "わたる"
+      ],
+      "meanings": [
+        "건너다"
+      ],
+      "sourceMeanings": [
+        "건너다"
+      ],
+      "sourceReading": "わたる",
+      "sourceMeaning": "건너다",
+      "group": 2,
+      "explanation": null,
+      "example": null,
+      "translation": null
+    },
+    {
+      "id": "ordinal-13",
+      "sourceOrdinal": 13,
+      "spelling": "通る",
+      "readings": [
+        "とおる"
+      ],
+      "meanings": [
+        "지나가다"
+      ],
+      "sourceMeanings": [
+        "지나가다"
+      ],
+      "sourceReading": "とおる",
+      "sourceMeaning": "지나가다",
+      "group": 2,
+      "explanation": null,
+      "example": null,
+      "translation": null
+    },
+    {
+      "id": "ordinal-14",
+      "sourceOrdinal": 14,
+      "spelling": "通う",
+      "readings": [
+        "かよう"
+      ],
+      "meanings": [
+        "다니다"
+      ],
+      "sourceMeanings": [
+        "다니다"
+      ],
+      "sourceReading": "かよう",
+      "sourceMeaning": "다니다",
+      "group": 2,
+      "explanation": null,
+      "example": null,
+      "translation": null
+    },
+    {
+      "id": "ordinal-15",
+      "sourceOrdinal": 15,
+      "spelling": "登る",
+      "readings": [
+        "のぼる"
+      ],
+      "meanings": [
+        "오르다"
+      ],
+      "sourceMeanings": [
+        "오르다"
+      ],
+      "sourceReading": "のぼる",
+      "sourceMeaning": "오르다",
+      "group": 2,
+      "explanation": null,
+      "example": null,
+      "translation": null
+    },
+    {
+      "id": "ordinal-16",
+      "sourceOrdinal": 16,
+      "spelling": "下りる",
+      "readings": [
+        "おりる"
+      ],
+      "meanings": [
+        "내려가다"
+      ],
+      "sourceMeanings": [
+        "내려가다"
+      ],
+      "sourceReading": "おりる",
+      "sourceMeaning": "내려가다",
+      "group": 2,
+      "explanation": null,
+      "example": null,
+      "translation": null
+    },
+    {
+      "id": "ordinal-17",
+      "sourceOrdinal": 17,
+      "spelling": "戻る",
+      "readings": [
+        "もどる"
+      ],
+      "meanings": [
+        "되돌아가다"
+      ],
+      "sourceMeanings": [
+        "되돌아가다"
+      ],
+      "sourceReading": "もどる",
+      "sourceMeaning": "되돌아가다",
+      "group": 2,
+      "explanation": null,
+      "example": null,
+      "translation": null
+    },
+    {
+      "id": "ordinal-18",
+      "sourceOrdinal": 18,
+      "spelling": "向かう",
+      "readings": [
+        "むかう"
+      ],
+      "meanings": [
+        "향하다"
+      ],
+      "sourceMeanings": [
+        "향하다"
+      ],
+      "sourceReading": "むかう",
+      "sourceMeaning": "향하다",
+      "group": 2,
+      "explanation": null,
+      "example": null,
+      "translation": null
+    },
+    {
+      "id": "ordinal-19",
+      "sourceOrdinal": 19,
+      "spelling": "進む",
+      "readings": [
+        "すすむ"
+      ],
+      "meanings": [
+        "나아가다"
+      ],
+      "sourceMeanings": [
+        "나아가다"
+      ],
+      "sourceReading": "すすむ",
+      "sourceMeaning": "나아가다",
+      "group": 2,
+      "explanation": null,
+      "example": null,
+      "translation": null
+    },
+    {
+      "id": "ordinal-20",
+      "sourceOrdinal": 20,
+      "spelling": "運ぶ",
+      "readings": [
+        "はこぶ"
+      ],
+      "meanings": [
+        "나르다"
+      ],
+      "sourceMeanings": [
+        "나르다"
+      ],
+      "sourceReading": "はこぶ",
+      "sourceMeaning": "나르다",
+      "group": 2,
+      "explanation": null,
+      "example": null,
+      "translation": null
+    },
+    {
+      "id": "ordinal-21",
+      "sourceOrdinal": 21,
+      "spelling": "拾う",
+      "readings": [
+        "ひろう"
+      ],
+      "meanings": [
+        "줍다"
+      ],
+      "sourceMeanings": [
+        "줍다"
+      ],
+      "sourceReading": "ひろう",
+      "sourceMeaning": "줍다",
+      "group": 3,
+      "explanation": null,
+      "example": null,
+      "translation": null
+    },
+    {
+      "id": "ordinal-22",
+      "sourceOrdinal": 22,
+      "spelling": "捨てる",
+      "readings": [
+        "すてる"
+      ],
+      "meanings": [
+        "버리다"
+      ],
+      "sourceMeanings": [
+        "버리다"
+      ],
+      "sourceReading": "すてる",
+      "sourceMeaning": "버리다",
+      "group": 3,
+      "explanation": null,
+      "example": null,
+      "translation": null
+    },
+    {
+      "id": "ordinal-23",
+      "sourceOrdinal": 23,
+      "spelling": "探す",
+      "readings": [
+        "さがす"
+      ],
+      "meanings": [
+        "찾다"
+      ],
+      "sourceMeanings": [
+        "찾다"
+      ],
+      "sourceReading": "さがす",
+      "sourceMeaning": "찾다",
+      "group": 3,
+      "explanation": null,
+      "example": null,
+      "translation": null
+    },
+    {
+      "id": "ordinal-24",
+      "sourceOrdinal": 24,
+      "spelling": "見つける",
+      "readings": [
+        "みつける"
+      ],
+      "meanings": [
+        "찾아내다"
+      ],
+      "sourceMeanings": [
+        "찾아내다"
+      ],
+      "sourceReading": "みつける",
+      "sourceMeaning": "찾아내다",
+      "group": 3,
+      "explanation": null,
+      "example": null,
+      "translation": null
+    },
+    {
+      "id": "ordinal-25",
+      "sourceOrdinal": 25,
+      "spelling": "無くす",
+      "readings": [
+        "なくす"
+      ],
+      "meanings": [
+        "잃어버리다"
+      ],
+      "sourceMeanings": [
+        "잃어버리다"
+      ],
+      "sourceReading": "なくす",
+      "sourceMeaning": "잃어버리다",
+      "group": 3,
+      "explanation": null,
+      "example": null,
+      "translation": null
+    },
+    {
+      "id": "ordinal-26",
+      "sourceOrdinal": 26,
+      "spelling": "直す",
+      "readings": [
+        "なおす"
+      ],
+      "meanings": [
+        "고치다"
+      ],
+      "sourceMeanings": [
+        "고치다"
+      ],
+      "sourceReading": "なおす",
+      "sourceMeaning": "고치다",
+      "group": 3,
+      "explanation": null,
+      "example": null,
+      "translation": null
+    },
+    {
+      "id": "ordinal-27",
+      "sourceOrdinal": 27,
+      "spelling": "壊す",
+      "readings": [
+        "こわす"
+      ],
+      "meanings": [
+        "부수다"
+      ],
+      "sourceMeanings": [
+        "부수다"
+      ],
+      "sourceReading": "こわす",
+      "sourceMeaning": "부수다",
+      "group": 3,
+      "explanation": null,
+      "example": null,
+      "translation": null
+    },
+    {
+      "id": "ordinal-28",
+      "sourceOrdinal": 28,
+      "spelling": "壊れる",
+      "readings": [
+        "こわれる"
+      ],
+      "meanings": [
+        "망가지다"
+      ],
+      "sourceMeanings": [
+        "망가지다"
+      ],
+      "sourceReading": "こわれる",
+      "sourceMeaning": "망가지다",
+      "group": 3,
+      "explanation": null,
+      "example": null,
+      "translation": null
+    },
+    {
+      "id": "ordinal-29",
+      "sourceOrdinal": 29,
+      "spelling": "落とす",
+      "readings": [
+        "おとす"
+      ],
+      "meanings": [
+        "떨어뜨리다"
+      ],
+      "sourceMeanings": [
+        "떨어뜨리다"
+      ],
+      "sourceReading": "おとす",
+      "sourceMeaning": "떨어뜨리다",
+      "group": 3,
+      "explanation": null,
+      "example": null,
+      "translation": null
+    },
+    {
+      "id": "ordinal-30",
+      "sourceOrdinal": 30,
+      "spelling": "落ちる",
+      "readings": [
+        "おちる"
+      ],
+      "meanings": [
+        "떨어지다"
+      ],
+      "sourceMeanings": [
+        "떨어지다"
+      ],
+      "sourceReading": "おちる",
+      "sourceMeaning": "떨어지다",
+      "group": 3,
+      "explanation": null,
+      "example": null,
+      "translation": null
+    },
+    {
+      "id": "ordinal-31",
+      "sourceOrdinal": 31,
+      "spelling": "払う",
+      "readings": [
+        "はらう"
+      ],
+      "meanings": [
+        "지불하다"
+      ],
+      "sourceMeanings": [
+        "지불하다"
+      ],
+      "sourceReading": "はらう",
+      "sourceMeaning": "지불하다",
+      "group": 4,
+      "explanation": null,
+      "example": null,
+      "translation": null
+    },
+    {
+      "id": "ordinal-32",
+      "sourceOrdinal": 32,
+      "spelling": "選ぶ",
+      "readings": [
+        "えらぶ"
+      ],
+      "meanings": [
+        "고르다"
+      ],
+      "sourceMeanings": [
+        "고르다"
+      ],
+      "sourceReading": "えらぶ",
+      "sourceMeaning": "고르다",
+      "group": 4,
+      "explanation": null,
+      "example": null,
+      "translation": null
+    },
+    {
+      "id": "ordinal-33",
+      "sourceOrdinal": 33,
+      "spelling": "決める",
+      "readings": [
+        "きめる"
+      ],
+      "meanings": [
+        "정하다"
+      ],
+      "sourceMeanings": [
+        "정하다"
+      ],
+      "sourceReading": "きめる",
+      "sourceMeaning": "정하다",
+      "group": 4,
+      "explanation": null,
+      "example": null,
+      "translation": null
+    },
+    {
+      "id": "ordinal-34",
+      "sourceOrdinal": 34,
+      "spelling": "決まる",
+      "readings": [
+        "きまる"
+      ],
+      "meanings": [
+        "정해지다"
+      ],
+      "sourceMeanings": [
+        "정해지다"
+      ],
+      "sourceReading": "きまる",
+      "sourceMeaning": "정해지다",
+      "group": 4,
+      "explanation": null,
+      "example": null,
+      "translation": null
+    },
+    {
+      "id": "ordinal-35",
+      "sourceOrdinal": 35,
+      "spelling": "頼む",
+      "readings": [
+        "たのむ"
+      ],
+      "meanings": [
+        "부탁하다",
+        "주문하다"
+      ],
+      "sourceMeanings": [
+        "부탁하다",
+        "주문하다"
+      ],
+      "sourceReading": "たのむ",
+      "sourceMeaning": "부탁하다, 주문하다",
+      "group": 4,
+      "explanation": null,
+      "example": null,
+      "translation": null
+    },
+    {
+      "id": "ordinal-36",
+      "sourceOrdinal": 36,
+      "spelling": "手伝う",
+      "readings": [
+        "てつだう"
+      ],
+      "meanings": [
+        "돕다"
+      ],
+      "sourceMeanings": [
+        "돕다"
+      ],
+      "sourceReading": "てつだう",
+      "sourceMeaning": "돕다",
+      "group": 4,
+      "explanation": null,
+      "example": null,
+      "translation": null
+    },
+    {
+      "id": "ordinal-37",
+      "sourceOrdinal": 37,
+      "spelling": "助ける",
+      "readings": [
+        "たすける"
+      ],
+      "meanings": [
+        "도와주다",
+        "구하다"
+      ],
+      "sourceMeanings": [
+        "도와주다",
+        "구하다"
+      ],
+      "sourceReading": "たすける",
+      "sourceMeaning": "도와주다, 구하다",
+      "group": 4,
+      "explanation": null,
+      "example": null,
+      "translation": null
+    },
+    {
+      "id": "ordinal-38",
+      "sourceOrdinal": 38,
+      "spelling": "守る",
+      "readings": [
+        "まもる"
+      ],
+      "meanings": [
+        "지키다"
+      ],
+      "sourceMeanings": [
+        "지키다"
+      ],
+      "sourceReading": "まもる",
+      "sourceMeaning": "지키다",
+      "group": 4,
+      "explanation": null,
+      "example": null,
+      "translation": null
+    },
+    {
+      "id": "ordinal-39",
+      "sourceOrdinal": 39,
+      "spelling": "渡す",
+      "readings": [
+        "わたす"
+      ],
+      "meanings": [
+        "건네주다"
+      ],
+      "sourceMeanings": [
+        "건네주다"
+      ],
+      "sourceReading": "わたす",
+      "sourceMeaning": "건네주다",
+      "group": 4,
+      "explanation": null,
+      "example": null,
+      "translation": null
+    },
+    {
+      "id": "ordinal-40",
+      "sourceOrdinal": 40,
+      "spelling": "受け取る",
+      "readings": [
+        "うけとる"
+      ],
+      "meanings": [
+        "받아들다"
+      ],
+      "sourceMeanings": [
+        "받아들다"
+      ],
+      "sourceReading": "うけとる",
+      "sourceMeaning": "받아들다",
+      "group": 4,
+      "explanation": null,
+      "example": null,
+      "translation": null
+    },
+    {
+      "id": "ordinal-41",
+      "sourceOrdinal": 41,
+      "spelling": "着る",
+      "readings": [
+        "きる"
+      ],
+      "meanings": [
+        "입다(상의)"
+      ],
+      "sourceMeanings": [
+        "입다(상의)"
+      ],
+      "sourceReading": "きる",
+      "sourceMeaning": "입다(상의)",
+      "group": 5,
+      "explanation": null,
+      "example": null,
+      "translation": null
+    },
+    {
+      "id": "ordinal-42",
+      "sourceOrdinal": 42,
+      "spelling": "履く",
+      "readings": [
+        "はく"
+      ],
+      "meanings": [
+        "신다",
+        "입다(하의)"
+      ],
+      "sourceMeanings": [
+        "신다",
+        "입다(하의)"
+      ],
+      "sourceReading": "はく",
+      "sourceMeaning": "신다, 입다(하의)",
+      "group": 5,
+      "explanation": null,
+      "example": null,
+      "translation": null
+    },
+    {
+      "id": "ordinal-43",
+      "sourceOrdinal": 43,
+      "spelling": "脱ぐ",
+      "readings": [
+        "ぬぐ"
+      ],
+      "meanings": [
+        "벗다"
+      ],
+      "sourceMeanings": [
+        "벗다"
+      ],
+      "sourceReading": "ぬぐ",
+      "sourceMeaning": "벗다",
+      "group": 5,
+      "explanation": null,
+      "example": null,
+      "translation": null
+    },
+    {
+      "id": "ordinal-44",
+      "sourceOrdinal": 44,
+      "spelling": "かぶる",
+      "readings": [
+        "かぶる"
+      ],
+      "meanings": [
+        "쓰다(모자)"
+      ],
+      "sourceMeanings": [
+        "쓰다(모자)"
+      ],
+      "sourceReading": "かぶる",
+      "sourceMeaning": "쓰다(모자)",
+      "group": 5,
+      "explanation": null,
+      "example": null,
+      "translation": null
+    },
+    {
+      "id": "ordinal-45",
+      "sourceOrdinal": 45,
+      "spelling": "かける",
+      "readings": [
+        "かける"
+      ],
+      "meanings": [
+        "걸다",
+        "끼다(안경)"
+      ],
+      "sourceMeanings": [
+        "걸다",
+        "끼다(안경)"
+      ],
+      "sourceReading": "かける",
+      "sourceMeaning": "걸다, 끼다(안경)",
+      "group": 5,
+      "explanation": null,
+      "example": null,
+      "translation": null
+    },
+    {
+      "id": "ordinal-46",
+      "sourceOrdinal": 46,
+      "spelling": "磨く",
+      "readings": [
+        "みがく"
+      ],
+      "meanings": [
+        "닦다"
+      ],
+      "sourceMeanings": [
+        "닦다"
+      ],
+      "sourceReading": "みがく",
+      "sourceMeaning": "닦다",
+      "group": 5,
+      "explanation": null,
+      "example": null,
+      "translation": null
+    },
+    {
+      "id": "ordinal-47",
+      "sourceOrdinal": 47,
+      "spelling": "浴びる",
+      "readings": [
+        "あびる"
+      ],
+      "meanings": [
+        "뒤집어쓰다",
+        "샤워하다"
+      ],
+      "sourceMeanings": [
+        "뒤집어쓰다",
+        "샤워하다"
+      ],
+      "sourceReading": "あびる",
+      "sourceMeaning": "뒤집어쓰다, 샤워하다",
+      "group": 5,
+      "explanation": null,
+      "example": null,
+      "translation": null
+    },
+    {
+      "id": "ordinal-48",
+      "sourceOrdinal": 48,
+      "spelling": "切る",
+      "readings": [
+        "きる"
+      ],
+      "meanings": [
+        "자르다"
+      ],
+      "sourceMeanings": [
+        "자르다"
+      ],
+      "sourceReading": "きる",
+      "sourceMeaning": "자르다",
+      "group": 5,
+      "explanation": null,
+      "example": null,
+      "translation": null
+    },
+    {
+      "id": "ordinal-49",
+      "sourceOrdinal": 49,
+      "spelling": "貼る",
+      "readings": [
+        "はる"
+      ],
+      "meanings": [
+        "붙이다"
+      ],
+      "sourceMeanings": [
+        "붙이다"
+      ],
+      "sourceReading": "はる",
+      "sourceMeaning": "붙이다",
+      "group": 5,
+      "explanation": null,
+      "example": null,
+      "translation": null
+    },
+    {
+      "id": "ordinal-50",
+      "sourceOrdinal": 50,
+      "spelling": "包む",
+      "readings": [
+        "つつむ"
+      ],
+      "meanings": [
+        "싸다",
+        "포장하다"
+      ],
+      "sourceMeanings": [
+        "싸다",
+        "포장하다"
+      ],
+      "sourceReading": "つつむ",
+      "sourceMeaning": "싸다, 포장하다",
+      "group": 5,
+      "explanation": null,
+      "example": null,
+      "translation": null
+    },
+    {
+      "id": "ordinal-51",
+      "sourceOrdinal": 51,
+      "spelling": "準備する",
+      "readings": [
+        "じゅんびする"
+      ],
+      "meanings": [
+        "준비하다"
+      ],
+      "sourceMeanings": [
+        "준비하다"
+      ],
+      "sourceReading": "じゅんびする",
+      "sourceMeaning": "준비하다",
+      "group": 6,
+      "explanation": null,
+      "example": null,
+      "translation": null
+    },
+    {
+      "id": "ordinal-52",
+      "sourceOrdinal": 52,
+      "spelling": "片付ける",
+      "readings": [
+        "かたづける"
+      ],
+      "meanings": [
+        "정리하다"
+      ],
+      "sourceMeanings": [
+        "정리하다"
+      ],
+      "sourceReading": "かたづける",
+      "sourceMeaning": "정리하다",
+      "group": 6,
+      "explanation": null,
+      "example": null,
+      "translation": null
+    },
+    {
+      "id": "ordinal-53",
+      "sourceOrdinal": 53,
+      "spelling": "並べる",
+      "readings": [
+        "ならべる"
+      ],
+      "meanings": [
+        "늘어놓다"
+      ],
+      "sourceMeanings": [
+        "늘어놓다"
+      ],
+      "sourceReading": "ならべる",
+      "sourceMeaning": "늘어놓다",
+      "group": 6,
+      "explanation": null,
+      "example": null,
+      "translation": null
+    },
+    {
+      "id": "ordinal-54",
+      "sourceOrdinal": 54,
+      "spelling": "並ぶ",
+      "readings": [
+        "ならぶ"
+      ],
+      "meanings": [
+        "줄 서다"
+      ],
+      "sourceMeanings": [
+        "줄 서다"
+      ],
+      "sourceReading": "ならぶ",
+      "sourceMeaning": "줄 서다",
+      "group": 6,
+      "explanation": null,
+      "example": null,
+      "translation": null
+    },
+    {
+      "id": "ordinal-55",
+      "sourceOrdinal": 55,
+      "spelling": "集める",
+      "readings": [
+        "あつめる"
+      ],
+      "meanings": [
+        "모으다"
+      ],
+      "sourceMeanings": [
+        "모으다"
+      ],
+      "sourceReading": "あつめる",
+      "sourceMeaning": "모으다",
+      "group": 6,
+      "explanation": null,
+      "example": null,
+      "translation": null
+    },
+    {
+      "id": "ordinal-56",
+      "sourceOrdinal": 56,
+      "spelling": "集まる",
+      "readings": [
+        "あつまる"
+      ],
+      "meanings": [
+        "모이다"
+      ],
+      "sourceMeanings": [
+        "모이다"
+      ],
+      "sourceReading": "あつまる",
+      "sourceMeaning": "모이다",
+      "group": 6,
+      "explanation": null,
+      "example": null,
+      "translation": null
+    },
+    {
+      "id": "ordinal-57",
+      "sourceOrdinal": 57,
+      "spelling": "調べる",
+      "readings": [
+        "しらべる"
+      ],
+      "meanings": [
+        "조사하다"
+      ],
+      "sourceMeanings": [
+        "조사하다"
+      ],
+      "sourceReading": "しらべる",
+      "sourceMeaning": "조사하다",
+      "group": 6,
+      "explanation": null,
+      "example": null,
+      "translation": null
+    },
+    {
+      "id": "ordinal-58",
+      "sourceOrdinal": 58,
+      "spelling": "確かめる",
+      "readings": [
+        "たしかめる"
+      ],
+      "meanings": [
+        "확인하다"
+      ],
+      "sourceMeanings": [
+        "확인하다"
+      ],
+      "sourceReading": "たしかめる",
+      "sourceMeaning": "확인하다",
+      "group": 6,
+      "explanation": null,
+      "example": null,
+      "translation": null
+    },
+    {
+      "id": "ordinal-59",
+      "sourceOrdinal": 59,
+      "spelling": "比べる",
+      "readings": [
+        "くらべる"
+      ],
+      "meanings": [
+        "비교하다"
+      ],
+      "sourceMeanings": [
+        "비교하다"
+      ],
+      "sourceReading": "くらべる",
+      "sourceMeaning": "비교하다",
+      "group": 6,
+      "explanation": null,
+      "example": null,
+      "translation": null
+    },
+    {
+      "id": "ordinal-60",
+      "sourceOrdinal": 60,
+      "spelling": "変える",
+      "readings": [
+        "かえる"
+      ],
+      "meanings": [
+        "바꾸다"
+      ],
+      "sourceMeanings": [
+        "바꾸다"
+      ],
+      "sourceReading": "かえる",
+      "sourceMeaning": "바꾸다",
+      "group": 6,
+      "explanation": null,
+      "example": null,
+      "translation": null
+    },
+    {
+      "id": "ordinal-61",
+      "sourceOrdinal": 61,
+      "spelling": "変わる",
+      "readings": [
+        "かわる"
+      ],
+      "meanings": [
+        "변하다"
+      ],
+      "sourceMeanings": [
+        "변하다"
+      ],
+      "sourceReading": "かわる",
+      "sourceMeaning": "변하다",
+      "group": 7,
+      "explanation": null,
+      "example": null,
+      "translation": null
+    },
+    {
+      "id": "ordinal-62",
+      "sourceOrdinal": 62,
+      "spelling": "増える",
+      "readings": [
+        "ふえる"
+      ],
+      "meanings": [
+        "늘어나다"
+      ],
+      "sourceMeanings": [
+        "늘어나다"
+      ],
+      "sourceReading": "ふえる",
+      "sourceMeaning": "늘어나다",
+      "group": 7,
+      "explanation": null,
+      "example": null,
+      "translation": null
+    },
+    {
+      "id": "ordinal-63",
+      "sourceOrdinal": 63,
+      "spelling": "減る",
+      "readings": [
+        "へる"
+      ],
+      "meanings": [
+        "줄어들다"
+      ],
+      "sourceMeanings": [
+        "줄어들다"
+      ],
+      "sourceReading": "へる",
+      "sourceMeaning": "줄어들다",
+      "group": 7,
+      "explanation": null,
+      "example": null,
+      "translation": null
+    },
+    {
+      "id": "ordinal-64",
+      "sourceOrdinal": 64,
+      "spelling": "足りる",
+      "readings": [
+        "たりる"
+      ],
+      "meanings": [
+        "충분하다"
+      ],
+      "sourceMeanings": [
+        "충분하다"
+      ],
+      "sourceReading": "たりる",
+      "sourceMeaning": "충분하다",
+      "group": 7,
+      "explanation": null,
+      "example": null,
+      "translation": null
+    },
+    {
+      "id": "ordinal-65",
+      "sourceOrdinal": 65,
+      "spelling": "残る",
+      "readings": [
+        "のこる"
+      ],
+      "meanings": [
+        "남다"
+      ],
+      "sourceMeanings": [
+        "남다"
+      ],
+      "sourceReading": "のこる",
+      "sourceMeaning": "남다",
+      "group": 7,
+      "explanation": null,
+      "example": null,
+      "translation": null
+    },
+    {
+      "id": "ordinal-66",
+      "sourceOrdinal": 66,
+      "spelling": "余る",
+      "readings": [
+        "あまる"
+      ],
+      "meanings": [
+        "남아돌다"
+      ],
+      "sourceMeanings": [
+        "남아돌다"
+      ],
+      "sourceReading": "あまる",
+      "sourceMeaning": "남아돌다",
+      "group": 7,
+      "explanation": null,
+      "example": null,
+      "translation": null
+    },
+    {
+      "id": "ordinal-67",
+      "sourceOrdinal": 67,
+      "spelling": "慣れる",
+      "readings": [
+        "なれる"
+      ],
+      "meanings": [
+        "익숙해지다"
+      ],
+      "sourceMeanings": [
+        "익숙해지다"
+      ],
+      "sourceReading": "なれる",
+      "sourceMeaning": "익숙해지다",
+      "group": 7,
+      "explanation": null,
+      "example": null,
+      "translation": null
+    },
+    {
+      "id": "ordinal-68",
+      "sourceOrdinal": 68,
+      "spelling": "疲れる",
+      "readings": [
+        "つかれる"
+      ],
+      "meanings": [
+        "피곤해지다"
+      ],
+      "sourceMeanings": [
+        "피곤해지다"
+      ],
+      "sourceReading": "つかれる",
+      "sourceMeaning": "피곤해지다",
+      "group": 7,
+      "explanation": null,
+      "example": null,
+      "translation": null
+    },
+    {
+      "id": "ordinal-69",
+      "sourceOrdinal": 69,
+      "spelling": "困る",
+      "readings": [
+        "こまる"
+      ],
+      "meanings": [
+        "곤란하다"
+      ],
+      "sourceMeanings": [
+        "곤란하다"
+      ],
+      "sourceReading": "こまる",
+      "sourceMeaning": "곤란하다",
+      "group": 7,
+      "explanation": null,
+      "example": null,
+      "translation": null
+    },
+    {
+      "id": "ordinal-70",
+      "sourceOrdinal": 70,
+      "spelling": "喜ぶ",
+      "readings": [
+        "よろこぶ"
+      ],
+      "meanings": [
+        "기뻐하다"
+      ],
+      "sourceMeanings": [
+        "기뻐하다"
+      ],
+      "sourceReading": "よろこぶ",
+      "sourceMeaning": "기뻐하다",
+      "group": 7,
+      "explanation": null,
+      "example": null,
+      "translation": null
+    },
+    {
+      "id": "ordinal-71",
+      "sourceOrdinal": 71,
+      "spelling": "悲しい",
+      "readings": [
+        "かなしい"
+      ],
+      "meanings": [
+        "슬프다"
+      ],
+      "sourceMeanings": [
+        "슬프다"
+      ],
+      "sourceReading": "かなしい",
+      "sourceMeaning": "슬프다",
+      "group": 8,
+      "explanation": null,
+      "example": null,
+      "translation": null
+    },
+    {
+      "id": "ordinal-72",
+      "sourceOrdinal": 72,
+      "spelling": "寂しい",
+      "readings": [
+        "さびしい"
+      ],
+      "meanings": [
+        "외롭다"
+      ],
+      "sourceMeanings": [
+        "외롭다"
+      ],
+      "sourceReading": "さびしい",
+      "sourceMeaning": "외롭다",
+      "group": 8,
+      "explanation": null,
+      "example": null,
+      "translation": null
+    },
+    {
+      "id": "ordinal-73",
+      "sourceOrdinal": 73,
+      "spelling": "恥ずかしい",
+      "readings": [
+        "はずかしい"
+      ],
+      "meanings": [
+        "부끄럽다"
+      ],
+      "sourceMeanings": [
+        "부끄럽다"
+      ],
+      "sourceReading": "はずかしい",
+      "sourceMeaning": "부끄럽다",
+      "group": 8,
+      "explanation": null,
+      "example": null,
+      "translation": null
+    },
+    {
+      "id": "ordinal-74",
+      "sourceOrdinal": 74,
+      "spelling": "痛い",
+      "readings": [
+        "いたい"
+      ],
+      "meanings": [
+        "아프다"
+      ],
+      "sourceMeanings": [
+        "아프다"
+      ],
+      "sourceReading": "いたい",
+      "sourceMeaning": "아프다",
+      "group": 8,
+      "explanation": null,
+      "example": null,
+      "translation": null
+    },
+    {
+      "id": "ordinal-75",
+      "sourceOrdinal": 75,
+      "spelling": "眠い",
+      "readings": [
+        "ねむい"
+      ],
+      "meanings": [
+        "졸리다"
+      ],
+      "sourceMeanings": [
+        "졸리다"
+      ],
+      "sourceReading": "ねむい",
+      "sourceMeaning": "졸리다",
+      "group": 8,
+      "explanation": null,
+      "example": null,
+      "translation": null
+    },
+    {
+      "id": "ordinal-76",
+      "sourceOrdinal": 76,
+      "spelling": "うるさい",
+      "readings": [
+        "うるさい"
+      ],
+      "meanings": [
+        "시끄럽다"
+      ],
+      "sourceMeanings": [
+        "시끄럽다"
+      ],
+      "sourceReading": "うるさい",
+      "sourceMeaning": "시끄럽다",
+      "group": 8,
+      "explanation": null,
+      "example": null,
+      "translation": null
+    },
+    {
+      "id": "ordinal-77",
+      "sourceOrdinal": 77,
+      "spelling": "静か",
+      "readings": [
+        "しずか"
+      ],
+      "meanings": [
+        "조용하다"
+      ],
+      "sourceMeanings": [
+        "조용하다"
+      ],
+      "sourceReading": "しずか",
+      "sourceMeaning": "조용하다",
+      "group": 8,
+      "explanation": null,
+      "example": null,
+      "translation": null
+    },
+    {
+      "id": "ordinal-78",
+      "sourceOrdinal": 78,
+      "spelling": "便利",
+      "readings": [
+        "べんり"
+      ],
+      "meanings": [
+        "편리하다"
+      ],
+      "sourceMeanings": [
+        "편리하다"
+      ],
+      "sourceReading": "べんり",
+      "sourceMeaning": "편리하다",
+      "group": 8,
+      "explanation": null,
+      "example": null,
+      "translation": null
+    },
+    {
+      "id": "ordinal-79",
+      "sourceOrdinal": 79,
+      "spelling": "不便",
+      "readings": [
+        "ふべん"
+      ],
+      "meanings": [
+        "불편하다"
+      ],
+      "sourceMeanings": [
+        "불편하다"
+      ],
+      "sourceReading": "ふべん",
+      "sourceMeaning": "불편하다",
+      "group": 8,
+      "explanation": null,
+      "example": null,
+      "translation": null
+    },
+    {
+      "id": "ordinal-80",
+      "sourceOrdinal": 80,
+      "spelling": "大切",
+      "readings": [
+        "たいせつ"
+      ],
+      "meanings": [
+        "소중하다",
+        "중요하다"
+      ],
+      "sourceMeanings": [
+        "소중하다",
+        "중요하다"
+      ],
+      "sourceReading": "たいせつ",
+      "sourceMeaning": "소중하다, 중요하다",
+      "group": 8,
+      "explanation": null,
+      "example": null,
+      "translation": null
+    }
+  ]
+}

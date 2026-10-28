@@ -1,0 +1,4 @@
+/* Reimu dialogue art: original PNG and aspect ratio; NPC slots are unchanged. */
+#junhaDialoguePortrait,#residentJunhaPortrait,#junhaMinorikoPortrait{object-fit:contain;object-position:center bottom;}
+/* Match Keine's face scale without changing her slot or the dialogue box. */
+#residentDialogue.school-dialogue-trial #residentJunhaPortrait{transform:scale(1.1);transform-origin:center bottom;}

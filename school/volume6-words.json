@@ -1,0 +1,1667 @@
+{
+  "schemaVersion": 1,
+  "bookId": "volume-6",
+  "sourceContainer": "Keine manuscript 2026-10-27",
+  "sourceTotal": 80,
+  "enabledCount": 80,
+  "groups": [
+    {
+      "number": 1,
+      "start": 1,
+      "end": 10,
+      "title": "시간과 일상"
+    },
+    {
+      "number": 2,
+      "start": 11,
+      "end": 20,
+      "title": "요일과 날짜"
+    },
+    {
+      "number": 3,
+      "start": 21,
+      "end": 30,
+      "title": "가족과 사람"
+    },
+    {
+      "number": 4,
+      "start": 31,
+      "end": 40,
+      "title": "집과 주변 환경"
+    },
+    {
+      "number": 5,
+      "start": 41,
+      "end": 50,
+      "title": "시설과 학용품"
+    },
+    {
+      "number": 6,
+      "start": 51,
+      "end": 60,
+      "title": "음식과 식사"
+    },
+    {
+      "number": 7,
+      "start": 61,
+      "end": 70,
+      "title": "자연과 계절"
+    },
+    {
+      "number": 8,
+      "start": 71,
+      "end": 80,
+      "title": "기초 형용사"
+    }
+  ],
+  "entries": [
+    {
+      "id": "ordinal-1",
+      "sourceOrdinal": 1,
+      "spelling": "午前",
+      "readings": [
+        "ごぜん"
+      ],
+      "meanings": [
+        "오전"
+      ],
+      "sourceMeanings": [
+        "오전"
+      ],
+      "sourceReading": "ごぜん",
+      "sourceMeaning": "오전",
+      "group": 1,
+      "explanation": null,
+      "example": null,
+      "translation": null
+    },
+    {
+      "id": "ordinal-2",
+      "sourceOrdinal": 2,
+      "spelling": "午後",
+      "readings": [
+        "ごご"
+      ],
+      "meanings": [
+        "오후"
+      ],
+      "sourceMeanings": [
+        "오후"
+      ],
+      "sourceReading": "ごご",
+      "sourceMeaning": "오후",
+      "group": 1,
+      "explanation": null,
+      "example": null,
+      "translation": null
+    },
+    {
+      "id": "ordinal-3",
+      "sourceOrdinal": 3,
+      "spelling": "夕方",
+      "readings": [
+        "ゆうがた"
+      ],
+      "meanings": [
+        "저녁 무렵"
+      ],
+      "sourceMeanings": [
+        "저녁 무렵"
+      ],
+      "sourceReading": "ゆうがた",
+      "sourceMeaning": "저녁 무렵",
+      "group": 1,
+      "explanation": null,
+      "example": null,
+      "translation": null
+    },
+    {
+      "id": "ordinal-4",
+      "sourceOrdinal": 4,
+      "spelling": "毎朝",
+      "readings": [
+        "まいあさ"
+      ],
+      "meanings": [
+        "매일 아침"
+      ],
+      "sourceMeanings": [
+        "매일 아침"
+      ],
+      "sourceReading": "まいあさ",
+      "sourceMeaning": "매일 아침",
+      "group": 1,
+      "explanation": null,
+      "example": null,
+      "translation": null
+    },
+    {
+      "id": "ordinal-5",
+      "sourceOrdinal": 5,
+      "spelling": "毎晩",
+      "readings": [
+        "まいばん"
+      ],
+      "meanings": [
+        "매일 밤"
+      ],
+      "sourceMeanings": [
+        "매일 밤"
+      ],
+      "sourceReading": "まいばん",
+      "sourceMeaning": "매일 밤",
+      "group": 1,
+      "explanation": null,
+      "example": null,
+      "translation": null
+    },
+    {
+      "id": "ordinal-6",
+      "sourceOrdinal": 6,
+      "spelling": "毎週",
+      "readings": [
+        "まいしゅう"
+      ],
+      "meanings": [
+        "매주"
+      ],
+      "sourceMeanings": [
+        "매주"
+      ],
+      "sourceReading": "まいしゅう",
+      "sourceMeaning": "매주",
+      "group": 1,
+      "explanation": null,
+      "example": null,
+      "translation": null
+    },
+    {
+      "id": "ordinal-7",
+      "sourceOrdinal": 7,
+      "spelling": "毎月",
+      "readings": [
+        "まいつき"
+      ],
+      "meanings": [
+        "매달"
+      ],
+      "sourceMeanings": [
+        "매달"
+      ],
+      "sourceReading": "まいつき",
+      "sourceMeaning": "매달",
+      "group": 1,
+      "explanation": null,
+      "example": null,
+      "translation": null
+    },
+    {
+      "id": "ordinal-8",
+      "sourceOrdinal": 8,
+      "spelling": "毎年",
+      "readings": [
+        "まいとし"
+      ],
+      "meanings": [
+        "매년"
+      ],
+      "sourceMeanings": [
+        "매년"
+      ],
+      "sourceReading": "まいとし",
+      "sourceMeaning": "매년",
+      "group": 1,
+      "explanation": null,
+      "example": null,
+      "translation": null
+    },
+    {
+      "id": "ordinal-9",
+      "sourceOrdinal": 9,
+      "spelling": "今晩",
+      "readings": [
+        "こんばん"
+      ],
+      "meanings": [
+        "오늘 밤"
+      ],
+      "sourceMeanings": [
+        "오늘 밤"
+      ],
+      "sourceReading": "こんばん",
+      "sourceMeaning": "오늘 밤",
+      "group": 1,
+      "explanation": null,
+      "example": null,
+      "translation": null
+    },
+    {
+      "id": "ordinal-10",
+      "sourceOrdinal": 10,
+      "spelling": "今夜",
+      "readings": [
+        "こんや"
+      ],
+      "meanings": [
+        "오늘 밤"
+      ],
+      "sourceMeanings": [
+        "오늘 밤"
+      ],
+      "sourceReading": "こんや",
+      "sourceMeaning": "오늘 밤",
+      "group": 1,
+      "explanation": null,
+      "example": null,
+      "translation": null
+    },
+    {
+      "id": "ordinal-11",
+      "sourceOrdinal": 11,
+      "spelling": "月曜日",
+      "readings": [
+        "げつようび"
+      ],
+      "meanings": [
+        "월요일"
+      ],
+      "sourceMeanings": [
+        "월요일"
+      ],
+      "sourceReading": "げつようび",
+      "sourceMeaning": "월요일",
+      "group": 2,
+      "explanation": null,
+      "example": null,
+      "translation": null
+    },
+    {
+      "id": "ordinal-12",
+      "sourceOrdinal": 12,
+      "spelling": "火曜日",
+      "readings": [
+        "かようび"
+      ],
+      "meanings": [
+        "화요일"
+      ],
+      "sourceMeanings": [
+        "화요일"
+      ],
+      "sourceReading": "かようび",
+      "sourceMeaning": "화요일",
+      "group": 2,
+      "explanation": null,
+      "example": null,
+      "translation": null
+    },
+    {
+      "id": "ordinal-13",
+      "sourceOrdinal": 13,
+      "spelling": "水曜日",
+      "readings": [
+        "すいようび"
+      ],
+      "meanings": [
+        "수요일"
+      ],
+      "sourceMeanings": [
+        "수요일"
+      ],
+      "sourceReading": "すいようび",
+      "sourceMeaning": "수요일",
+      "group": 2,
+      "explanation": null,
+      "example": null,
+      "translation": null
+    },
+    {
+      "id": "ordinal-14",
+      "sourceOrdinal": 14,
+      "spelling": "木曜日",
+      "readings": [
+        "もくようび"
+      ],
+      "meanings": [
+        "목요일"
+      ],
+      "sourceMeanings": [
+        "목요일"
+      ],
+      "sourceReading": "もくようび",
+      "sourceMeaning": "목요일",
+      "group": 2,
+      "explanation": null,
+      "example": null,
+      "translation": null
+    },
+    {
+      "id": "ordinal-15",
+      "sourceOrdinal": 15,
+      "spelling": "金曜日",
+      "readings": [
+        "きんようび"
+      ],
+      "meanings": [
+        "금요일"
+      ],
+      "sourceMeanings": [
+        "금요일"
+      ],
+      "sourceReading": "きんようび",
+      "sourceMeaning": "금요일",
+      "group": 2,
+      "explanation": null,
+      "example": null,
+      "translation": null
+    },
+    {
+      "id": "ordinal-16",
+      "sourceOrdinal": 16,
+      "spelling": "土曜日",
+      "readings": [
+        "どようび"
+      ],
+      "meanings": [
+        "토요일"
+      ],
+      "sourceMeanings": [
+        "토요일"
+      ],
+      "sourceReading": "どようび",
+      "sourceMeaning": "토요일",
+      "group": 2,
+      "explanation": null,
+      "example": null,
+      "translation": null
+    },
+    {
+      "id": "ordinal-17",
+      "sourceOrdinal": 17,
+      "spelling": "日曜日",
+      "readings": [
+        "にちようび"
+      ],
+      "meanings": [
+        "일요일"
+      ],
+      "sourceMeanings": [
+        "일요일"
+      ],
+      "sourceReading": "にちようび",
+      "sourceMeaning": "일요일",
+      "group": 2,
+      "explanation": null,
+      "example": null,
+      "translation": null
+    },
+    {
+      "id": "ordinal-18",
+      "sourceOrdinal": 18,
+      "spelling": "週",
+      "readings": [
+        "しゅう"
+      ],
+      "meanings": [
+        "주"
+      ],
+      "sourceMeanings": [
+        "주"
+      ],
+      "sourceReading": "しゅう",
+      "sourceMeaning": "주",
+      "group": 2,
+      "explanation": null,
+      "example": null,
+      "translation": null
+    },
+    {
+      "id": "ordinal-19",
+      "sourceOrdinal": 19,
+      "spelling": "先月",
+      "readings": [
+        "せんげつ"
+      ],
+      "meanings": [
+        "지난달"
+      ],
+      "sourceMeanings": [
+        "지난달"
+      ],
+      "sourceReading": "せんげつ",
+      "sourceMeaning": "지난달",
+      "group": 2,
+      "explanation": null,
+      "example": null,
+      "translation": null
+    },
+    {
+      "id": "ordinal-20",
+      "sourceOrdinal": 20,
+      "spelling": "来月",
+      "readings": [
+        "らいげつ"
+      ],
+      "meanings": [
+        "다음 달"
+      ],
+      "sourceMeanings": [
+        "다음 달"
+      ],
+      "sourceReading": "らいげつ",
+      "sourceMeaning": "다음 달",
+      "group": 2,
+      "explanation": null,
+      "example": null,
+      "translation": null
+    },
+    {
+      "id": "ordinal-21",
+      "sourceOrdinal": 21,
+      "spelling": "父",
+      "readings": [
+        "ちち"
+      ],
+      "meanings": [
+        "아버지 (자신의 아버지)"
+      ],
+      "sourceMeanings": [
+        "아버지 (자신의 아버지)"
+      ],
+      "sourceReading": "ちち",
+      "sourceMeaning": "아버지 (자신의 아버지)",
+      "group": 3,
+      "explanation": null,
+      "example": null,
+      "translation": null
+    },
+    {
+      "id": "ordinal-22",
+      "sourceOrdinal": 22,
+      "spelling": "母",
+      "readings": [
+        "はは"
+      ],
+      "meanings": [
+        "어머니 (자신의 어머니)"
+      ],
+      "sourceMeanings": [
+        "어머니 (자신의 어머니)"
+      ],
+      "sourceReading": "はは",
+      "sourceMeaning": "어머니 (자신의 어머니)",
+      "group": 3,
+      "explanation": null,
+      "example": null,
+      "translation": null
+    },
+    {
+      "id": "ordinal-23",
+      "sourceOrdinal": 23,
+      "spelling": "祖父",
+      "readings": [
+        "そふ"
+      ],
+      "meanings": [
+        "할아버지 (자신의 할아버지)"
+      ],
+      "sourceMeanings": [
+        "할아버지 (자신의 할아버지)"
+      ],
+      "sourceReading": "そふ",
+      "sourceMeaning": "할아버지 (자신의 할아버지)",
+      "group": 3,
+      "explanation": null,
+      "example": null,
+      "translation": null
+    },
+    {
+      "id": "ordinal-24",
+      "sourceOrdinal": 24,
+      "spelling": "祖母",
+      "readings": [
+        "そぼ"
+      ],
+      "meanings": [
+        "할머니 (자신의 할머니)"
+      ],
+      "sourceMeanings": [
+        "할머니 (자신의 할머니)"
+      ],
+      "sourceReading": "そぼ",
+      "sourceMeaning": "할머니 (자신의 할머니)",
+      "group": 3,
+      "explanation": null,
+      "example": null,
+      "translation": null
+    },
+    {
+      "id": "ordinal-25",
+      "sourceOrdinal": 25,
+      "spelling": "男",
+      "readings": [
+        "おとこ"
+      ],
+      "meanings": [
+        "남자"
+      ],
+      "sourceMeanings": [
+        "남자"
+      ],
+      "sourceReading": "おとこ",
+      "sourceMeaning": "남자",
+      "group": 3,
+      "explanation": null,
+      "example": null,
+      "translation": null
+    },
+    {
+      "id": "ordinal-26",
+      "sourceOrdinal": 26,
+      "spelling": "女",
+      "readings": [
+        "おんな"
+      ],
+      "meanings": [
+        "여자"
+      ],
+      "sourceMeanings": [
+        "여자"
+      ],
+      "sourceReading": "おんな",
+      "sourceMeaning": "여자",
+      "group": 3,
+      "explanation": null,
+      "example": null,
+      "translation": null
+    },
+    {
+      "id": "ordinal-27",
+      "sourceOrdinal": 27,
+      "spelling": "子供",
+      "readings": [
+        "こども"
+      ],
+      "meanings": [
+        "아이",
+        "어린이"
+      ],
+      "sourceMeanings": [
+        "아이",
+        "어린이"
+      ],
+      "sourceReading": "こども",
+      "sourceMeaning": "아이, 어린이",
+      "group": 3,
+      "explanation": null,
+      "example": null,
+      "translation": null
+    },
+    {
+      "id": "ordinal-28",
+      "sourceOrdinal": 28,
+      "spelling": "男の子",
+      "readings": [
+        "おとこのこ"
+      ],
+      "meanings": [
+        "남자아이"
+      ],
+      "sourceMeanings": [
+        "남자아이"
+      ],
+      "sourceReading": "おとこのこ",
+      "sourceMeaning": "남자아이",
+      "group": 3,
+      "explanation": null,
+      "example": null,
+      "translation": null
+    },
+    {
+      "id": "ordinal-29",
+      "sourceOrdinal": 29,
+      "spelling": "女の子",
+      "readings": [
+        "おんなのこ"
+      ],
+      "meanings": [
+        "여자아이"
+      ],
+      "sourceMeanings": [
+        "여자아이"
+      ],
+      "sourceReading": "おんなのこ",
+      "sourceMeaning": "여자아이",
+      "group": 3,
+      "explanation": null,
+      "example": null,
+      "translation": null
+    },
+    {
+      "id": "ordinal-30",
+      "sourceOrdinal": 30,
+      "spelling": "人",
+      "readings": [
+        "ひと"
+      ],
+      "meanings": [
+        "사람"
+      ],
+      "sourceMeanings": [
+        "사람"
+      ],
+      "sourceReading": "ひと",
+      "sourceMeaning": "사람",
+      "group": 3,
+      "explanation": null,
+      "example": null,
+      "translation": null
+    },
+    {
+      "id": "ordinal-31",
+      "sourceOrdinal": 31,
+      "spelling": "部屋",
+      "readings": [
+        "へや"
+      ],
+      "meanings": [
+        "방"
+      ],
+      "sourceMeanings": [
+        "방"
+      ],
+      "sourceReading": "へや",
+      "sourceMeaning": "방",
+      "group": 4,
+      "explanation": null,
+      "example": null,
+      "translation": null
+    },
+    {
+      "id": "ordinal-32",
+      "sourceOrdinal": 32,
+      "spelling": "台所",
+      "readings": [
+        "だいどころ"
+      ],
+      "meanings": [
+        "부엌"
+      ],
+      "sourceMeanings": [
+        "부엌"
+      ],
+      "sourceReading": "だいどころ",
+      "sourceMeaning": "부엌",
+      "group": 4,
+      "explanation": null,
+      "example": null,
+      "translation": null
+    },
+    {
+      "id": "ordinal-33",
+      "sourceOrdinal": 33,
+      "spelling": "玄関",
+      "readings": [
+        "げんかん"
+      ],
+      "meanings": [
+        "현관"
+      ],
+      "sourceMeanings": [
+        "현관"
+      ],
+      "sourceReading": "げんかん",
+      "sourceMeaning": "현관",
+      "group": 4,
+      "explanation": null,
+      "example": null,
+      "translation": null
+    },
+    {
+      "id": "ordinal-34",
+      "sourceOrdinal": 34,
+      "spelling": "庭",
+      "readings": [
+        "にわ"
+      ],
+      "meanings": [
+        "정원",
+        "마당"
+      ],
+      "sourceMeanings": [
+        "정원",
+        "마당"
+      ],
+      "sourceReading": "にわ",
+      "sourceMeaning": "정원, 마당",
+      "group": 4,
+      "explanation": null,
+      "example": null,
+      "translation": null
+    },
+    {
+      "id": "ordinal-35",
+      "sourceOrdinal": 35,
+      "spelling": "窓",
+      "readings": [
+        "まど"
+      ],
+      "meanings": [
+        "창문"
+      ],
+      "sourceMeanings": [
+        "창문"
+      ],
+      "sourceReading": "まど",
+      "sourceMeaning": "창문",
+      "group": 4,
+      "explanation": null,
+      "example": null,
+      "translation": null
+    },
+    {
+      "id": "ordinal-36",
+      "sourceOrdinal": 36,
+      "spelling": "壁",
+      "readings": [
+        "かべ"
+      ],
+      "meanings": [
+        "벽"
+      ],
+      "sourceMeanings": [
+        "벽"
+      ],
+      "sourceReading": "かべ",
+      "sourceMeaning": "벽",
+      "group": 4,
+      "explanation": null,
+      "example": null,
+      "translation": null
+    },
+    {
+      "id": "ordinal-37",
+      "sourceOrdinal": 37,
+      "spelling": "屋根",
+      "readings": [
+        "やね"
+      ],
+      "meanings": [
+        "지붕"
+      ],
+      "sourceMeanings": [
+        "지붕"
+      ],
+      "sourceReading": "やね",
+      "sourceMeaning": "지붕",
+      "group": 4,
+      "explanation": null,
+      "example": null,
+      "translation": null
+    },
+    {
+      "id": "ordinal-38",
+      "sourceOrdinal": 38,
+      "spelling": "階段",
+      "readings": [
+        "かいだん"
+      ],
+      "meanings": [
+        "계단"
+      ],
+      "sourceMeanings": [
+        "계단"
+      ],
+      "sourceReading": "かいだん",
+      "sourceMeaning": "계단",
+      "group": 4,
+      "explanation": null,
+      "example": null,
+      "translation": null
+    },
+    {
+      "id": "ordinal-39",
+      "sourceOrdinal": 39,
+      "spelling": "建物",
+      "readings": [
+        "たてもの"
+      ],
+      "meanings": [
+        "건물"
+      ],
+      "sourceMeanings": [
+        "건물"
+      ],
+      "sourceReading": "たてもの",
+      "sourceMeaning": "건물",
+      "group": 4,
+      "explanation": null,
+      "example": null,
+      "translation": null
+    },
+    {
+      "id": "ordinal-40",
+      "sourceOrdinal": 40,
+      "spelling": "公園",
+      "readings": [
+        "こうえん"
+      ],
+      "meanings": [
+        "공원"
+      ],
+      "sourceMeanings": [
+        "공원"
+      ],
+      "sourceReading": "こうえん",
+      "sourceMeaning": "공원",
+      "group": 4,
+      "explanation": null,
+      "example": null,
+      "translation": null
+    },
+    {
+      "id": "ordinal-41",
+      "sourceOrdinal": 41,
+      "spelling": "教室",
+      "readings": [
+        "きょうしつ"
+      ],
+      "meanings": [
+        "교실"
+      ],
+      "sourceMeanings": [
+        "교실"
+      ],
+      "sourceReading": "きょうしつ",
+      "sourceMeaning": "교실",
+      "group": 5,
+      "explanation": null,
+      "example": null,
+      "translation": null
+    },
+    {
+      "id": "ordinal-42",
+      "sourceOrdinal": 42,
+      "spelling": "図書館",
+      "readings": [
+        "としょかん"
+      ],
+      "meanings": [
+        "도서관"
+      ],
+      "sourceMeanings": [
+        "도서관"
+      ],
+      "sourceReading": "としょかん",
+      "sourceMeaning": "도서관",
+      "group": 5,
+      "explanation": null,
+      "example": null,
+      "translation": null
+    },
+    {
+      "id": "ordinal-43",
+      "sourceOrdinal": 43,
+      "spelling": "病院",
+      "readings": [
+        "びょういん"
+      ],
+      "meanings": [
+        "병원"
+      ],
+      "sourceMeanings": [
+        "병원"
+      ],
+      "sourceReading": "びょういん",
+      "sourceMeaning": "병원",
+      "group": 5,
+      "explanation": null,
+      "example": null,
+      "translation": null
+    },
+    {
+      "id": "ordinal-44",
+      "sourceOrdinal": 44,
+      "spelling": "郵便局",
+      "readings": [
+        "ゆうびんきょく"
+      ],
+      "meanings": [
+        "우체국"
+      ],
+      "sourceMeanings": [
+        "우체국"
+      ],
+      "sourceReading": "ゆうびんきょく",
+      "sourceMeaning": "우체국",
+      "group": 5,
+      "explanation": null,
+      "example": null,
+      "translation": null
+    },
+    {
+      "id": "ordinal-45",
+      "sourceOrdinal": 45,
+      "spelling": "銀行",
+      "readings": [
+        "ぎんこう"
+      ],
+      "meanings": [
+        "은행"
+      ],
+      "sourceMeanings": [
+        "은행"
+      ],
+      "sourceReading": "ぎんこう",
+      "sourceMeaning": "은행",
+      "group": 5,
+      "explanation": null,
+      "example": null,
+      "translation": null
+    },
+    {
+      "id": "ordinal-46",
+      "sourceOrdinal": 46,
+      "spelling": "スーパー",
+      "readings": [
+        "スーパー"
+      ],
+      "meanings": [
+        "슈퍼마켓"
+      ],
+      "sourceMeanings": [
+        "슈퍼마켓"
+      ],
+      "sourceReading": "スーパー",
+      "sourceMeaning": "슈퍼마켓",
+      "group": 5,
+      "explanation": null,
+      "example": null,
+      "translation": null
+    },
+    {
+      "id": "ordinal-47",
+      "sourceOrdinal": 47,
+      "spelling": "本棚",
+      "readings": [
+        "ほんだな"
+      ],
+      "meanings": [
+        "책장"
+      ],
+      "sourceMeanings": [
+        "책장"
+      ],
+      "sourceReading": "ほんだな",
+      "sourceMeaning": "책장",
+      "group": 5,
+      "explanation": null,
+      "example": null,
+      "translation": null
+    },
+    {
+      "id": "ordinal-48",
+      "sourceOrdinal": 48,
+      "spelling": "鉛筆",
+      "readings": [
+        "えんぴつ"
+      ],
+      "meanings": [
+        "연필"
+      ],
+      "sourceMeanings": [
+        "연필"
+      ],
+      "sourceReading": "えんぴつ",
+      "sourceMeaning": "연필",
+      "group": 5,
+      "explanation": null,
+      "example": null,
+      "translation": null
+    },
+    {
+      "id": "ordinal-49",
+      "sourceOrdinal": 49,
+      "spelling": "紙",
+      "readings": [
+        "かみ"
+      ],
+      "meanings": [
+        "종이"
+      ],
+      "sourceMeanings": [
+        "종이"
+      ],
+      "sourceReading": "かみ",
+      "sourceMeaning": "종이",
+      "group": 5,
+      "explanation": null,
+      "example": null,
+      "translation": null
+    },
+    {
+      "id": "ordinal-50",
+      "sourceOrdinal": 50,
+      "spelling": "消しゴム",
+      "readings": [
+        "けしゴム"
+      ],
+      "meanings": [
+        "지우개"
+      ],
+      "sourceMeanings": [
+        "지우개"
+      ],
+      "sourceReading": "けしゴム",
+      "sourceMeaning": "지우개",
+      "group": 5,
+      "explanation": null,
+      "example": null,
+      "translation": null
+    },
+    {
+      "id": "ordinal-51",
+      "sourceOrdinal": 51,
+      "spelling": "野菜",
+      "readings": [
+        "やさい"
+      ],
+      "meanings": [
+        "채소"
+      ],
+      "sourceMeanings": [
+        "채소"
+      ],
+      "sourceReading": "やさい",
+      "sourceMeaning": "채소",
+      "group": 6,
+      "explanation": null,
+      "example": null,
+      "translation": null
+    },
+    {
+      "id": "ordinal-52",
+      "sourceOrdinal": 52,
+      "spelling": "果物",
+      "readings": [
+        "くだもの"
+      ],
+      "meanings": [
+        "과일"
+      ],
+      "sourceMeanings": [
+        "과일"
+      ],
+      "sourceReading": "くだもの",
+      "sourceMeaning": "과일",
+      "group": 6,
+      "explanation": null,
+      "example": null,
+      "translation": null
+    },
+    {
+      "id": "ordinal-53",
+      "sourceOrdinal": 53,
+      "spelling": "肉",
+      "readings": [
+        "にく"
+      ],
+      "meanings": [
+        "고기"
+      ],
+      "sourceMeanings": [
+        "고기"
+      ],
+      "sourceReading": "にく",
+      "sourceMeaning": "고기",
+      "group": 6,
+      "explanation": null,
+      "example": null,
+      "translation": null
+    },
+    {
+      "id": "ordinal-54",
+      "sourceOrdinal": 54,
+      "spelling": "魚",
+      "readings": [
+        "さかな"
+      ],
+      "meanings": [
+        "생선",
+        "물고기"
+      ],
+      "sourceMeanings": [
+        "생선",
+        "물고기"
+      ],
+      "sourceReading": "さかな",
+      "sourceMeaning": "생선, 물고기",
+      "group": 6,
+      "explanation": null,
+      "example": null,
+      "translation": null
+    },
+    {
+      "id": "ordinal-55",
+      "sourceOrdinal": 55,
+      "spelling": "卵",
+      "readings": [
+        "たまご"
+      ],
+      "meanings": [
+        "달걀",
+        "알"
+      ],
+      "sourceMeanings": [
+        "달걀",
+        "알"
+      ],
+      "sourceReading": "たまご",
+      "sourceMeaning": "달걀, 알",
+      "group": 6,
+      "explanation": null,
+      "example": null,
+      "translation": null
+    },
+    {
+      "id": "ordinal-56",
+      "sourceOrdinal": 56,
+      "spelling": "牛乳",
+      "readings": [
+        "ぎゅうにゅう"
+      ],
+      "meanings": [
+        "우유"
+      ],
+      "sourceMeanings": [
+        "우유"
+      ],
+      "sourceReading": "ぎゅうにゅう",
+      "sourceMeaning": "우유",
+      "group": 6,
+      "explanation": null,
+      "example": null,
+      "translation": null
+    },
+    {
+      "id": "ordinal-57",
+      "sourceOrdinal": 57,
+      "spelling": "砂糖",
+      "readings": [
+        "さとう"
+      ],
+      "meanings": [
+        "설탕"
+      ],
+      "sourceMeanings": [
+        "설탕"
+      ],
+      "sourceReading": "さとう",
+      "sourceMeaning": "설탕",
+      "group": 6,
+      "explanation": null,
+      "example": null,
+      "translation": null
+    },
+    {
+      "id": "ordinal-58",
+      "sourceOrdinal": 58,
+      "spelling": "醤油",
+      "readings": [
+        "しょうゆ"
+      ],
+      "meanings": [
+        "간장"
+      ],
+      "sourceMeanings": [
+        "간장"
+      ],
+      "sourceReading": "しょうゆ",
+      "sourceMeaning": "간장",
+      "group": 6,
+      "explanation": null,
+      "example": null,
+      "translation": null
+    },
+    {
+      "id": "ordinal-59",
+      "sourceOrdinal": 59,
+      "spelling": "お湯",
+      "readings": [
+        "おゆ"
+      ],
+      "meanings": [
+        "뜨거운 물"
+      ],
+      "sourceMeanings": [
+        "뜨거운 물"
+      ],
+      "sourceReading": "おゆ",
+      "sourceMeaning": "뜨거운 물",
+      "group": 6,
+      "explanation": null,
+      "example": null,
+      "translation": null
+    },
+    {
+      "id": "ordinal-60",
+      "sourceOrdinal": 60,
+      "spelling": "紅茶",
+      "readings": [
+        "こうちゃ"
+      ],
+      "meanings": [
+        "홍차"
+      ],
+      "sourceMeanings": [
+        "홍차"
+      ],
+      "sourceReading": "こうちゃ",
+      "sourceMeaning": "홍차",
+      "group": 6,
+      "explanation": null,
+      "example": null,
+      "translation": null
+    },
+    {
+      "id": "ordinal-61",
+      "sourceOrdinal": 61,
+      "spelling": "雨",
+      "readings": [
+        "あめ"
+      ],
+      "meanings": [
+        "비"
+      ],
+      "sourceMeanings": [
+        "비"
+      ],
+      "sourceReading": "あめ",
+      "sourceMeaning": "비",
+      "group": 7,
+      "explanation": null,
+      "example": null,
+      "translation": null
+    },
+    {
+      "id": "ordinal-62",
+      "sourceOrdinal": 62,
+      "spelling": "雪",
+      "readings": [
+        "ゆき"
+      ],
+      "meanings": [
+        "눈"
+      ],
+      "sourceMeanings": [
+        "눈"
+      ],
+      "sourceReading": "ゆき",
+      "sourceMeaning": "눈",
+      "group": 7,
+      "explanation": null,
+      "example": null,
+      "translation": null
+    },
+    {
+      "id": "ordinal-63",
+      "sourceOrdinal": 63,
+      "spelling": "風",
+      "readings": [
+        "かぜ"
+      ],
+      "meanings": [
+        "바람"
+      ],
+      "sourceMeanings": [
+        "바람"
+      ],
+      "sourceReading": "かぜ",
+      "sourceMeaning": "바람",
+      "group": 7,
+      "explanation": null,
+      "example": null,
+      "translation": null
+    },
+    {
+      "id": "ordinal-64",
+      "sourceOrdinal": 64,
+      "spelling": "天気",
+      "readings": [
+        "てんき"
+      ],
+      "meanings": [
+        "날씨"
+      ],
+      "sourceMeanings": [
+        "날씨"
+      ],
+      "sourceReading": "てんき",
+      "sourceMeaning": "날씨",
+      "group": 7,
+      "explanation": null,
+      "example": null,
+      "translation": null
+    },
+    {
+      "id": "ordinal-65",
+      "sourceOrdinal": 65,
+      "spelling": "晴れる",
+      "readings": [
+        "はれる"
+      ],
+      "meanings": [
+        "날씨가 개다"
+      ],
+      "sourceMeanings": [
+        "날씨가 개다"
+      ],
+      "sourceReading": "はれる",
+      "sourceMeaning": "날씨가 개다",
+      "group": 7,
+      "explanation": null,
+      "example": null,
+      "translation": null
+    },
+    {
+      "id": "ordinal-66",
+      "sourceOrdinal": 66,
+      "spelling": "春",
+      "readings": [
+        "はる"
+      ],
+      "meanings": [
+        "봄"
+      ],
+      "sourceMeanings": [
+        "봄"
+      ],
+      "sourceReading": "はる",
+      "sourceMeaning": "봄",
+      "group": 7,
+      "explanation": null,
+      "example": null,
+      "translation": null
+    },
+    {
+      "id": "ordinal-67",
+      "sourceOrdinal": 67,
+      "spelling": "夏",
+      "readings": [
+        "なつ"
+      ],
+      "meanings": [
+        "여름"
+      ],
+      "sourceMeanings": [
+        "여름"
+      ],
+      "sourceReading": "なつ",
+      "sourceMeaning": "여름",
+      "group": 7,
+      "explanation": null,
+      "example": null,
+      "translation": null
+    },
+    {
+      "id": "ordinal-68",
+      "sourceOrdinal": 68,
+      "spelling": "冬",
+      "readings": [
+        "ふゆ"
+      ],
+      "meanings": [
+        "겨울"
+      ],
+      "sourceMeanings": [
+        "겨울"
+      ],
+      "sourceReading": "ふゆ",
+      "sourceMeaning": "겨울",
+      "group": 7,
+      "explanation": null,
+      "example": null,
+      "translation": null
+    },
+    {
+      "id": "ordinal-69",
+      "sourceOrdinal": 69,
+      "spelling": "花",
+      "readings": [
+        "はな"
+      ],
+      "meanings": [
+        "꽃"
+      ],
+      "sourceMeanings": [
+        "꽃"
+      ],
+      "sourceReading": "はな",
+      "sourceMeaning": "꽃",
+      "group": 7,
+      "explanation": null,
+      "example": null,
+      "translation": null
+    },
+    {
+      "id": "ordinal-70",
+      "sourceOrdinal": 70,
+      "spelling": "山",
+      "readings": [
+        "やま"
+      ],
+      "meanings": [
+        "산"
+      ],
+      "sourceMeanings": [
+        "산"
+      ],
+      "sourceReading": "やま",
+      "sourceMeaning": "산",
+      "group": 7,
+      "explanation": null,
+      "example": null,
+      "translation": null
+    },
+    {
+      "id": "ordinal-71",
+      "sourceOrdinal": 71,
+      "spelling": "忙しい",
+      "readings": [
+        "いそがしい"
+      ],
+      "meanings": [
+        "바쁘다"
+      ],
+      "sourceMeanings": [
+        "바쁘다"
+      ],
+      "sourceReading": "いそがしい",
+      "sourceMeaning": "바쁘다",
+      "group": 8,
+      "explanation": null,
+      "example": null,
+      "translation": null
+    },
+    {
+      "id": "ordinal-72",
+      "sourceOrdinal": 72,
+      "spelling": "楽しい",
+      "readings": [
+        "たのしい"
+      ],
+      "meanings": [
+        "즐겁다"
+      ],
+      "sourceMeanings": [
+        "즐겁다"
+      ],
+      "sourceReading": "たのしい",
+      "sourceMeaning": "즐겁다",
+      "group": 8,
+      "explanation": null,
+      "example": null,
+      "translation": null
+    },
+    {
+      "id": "ordinal-73",
+      "sourceOrdinal": 73,
+      "spelling": "難しい",
+      "readings": [
+        "むずかしい"
+      ],
+      "meanings": [
+        "어렵다"
+      ],
+      "sourceMeanings": [
+        "어렵다"
+      ],
+      "sourceReading": "むずかしい",
+      "sourceMeaning": "어렵다",
+      "group": 8,
+      "explanation": null,
+      "example": null,
+      "translation": null
+    },
+    {
+      "id": "ordinal-74",
+      "sourceOrdinal": 74,
+      "spelling": "易しい",
+      "readings": [
+        "やさしい"
+      ],
+      "meanings": [
+        "쉽다"
+      ],
+      "sourceMeanings": [
+        "쉽다"
+      ],
+      "sourceReading": "やさしい",
+      "sourceMeaning": "쉽다",
+      "group": 8,
+      "explanation": null,
+      "example": null,
+      "translation": null
+    },
+    {
+      "id": "ordinal-75",
+      "sourceOrdinal": 75,
+      "spelling": "強い",
+      "readings": [
+        "つよい"
+      ],
+      "meanings": [
+        "강하다"
+      ],
+      "sourceMeanings": [
+        "강하다"
+      ],
+      "sourceReading": "つよい",
+      "sourceMeaning": "강하다",
+      "group": 8,
+      "explanation": null,
+      "example": null,
+      "translation": null
+    },
+    {
+      "id": "ordinal-76",
+      "sourceOrdinal": 76,
+      "spelling": "弱い",
+      "readings": [
+        "よわい"
+      ],
+      "meanings": [
+        "약하다"
+      ],
+      "sourceMeanings": [
+        "약하다"
+      ],
+      "sourceReading": "よわい",
+      "sourceMeaning": "약하다",
+      "group": 8,
+      "explanation": null,
+      "example": null,
+      "translation": null
+    },
+    {
+      "id": "ordinal-77",
+      "sourceOrdinal": 77,
+      "spelling": "明るい",
+      "readings": [
+        "あかるい"
+      ],
+      "meanings": [
+        "밝다"
+      ],
+      "sourceMeanings": [
+        "밝다"
+      ],
+      "sourceReading": "あかるい",
+      "sourceMeaning": "밝다",
+      "group": 8,
+      "explanation": null,
+      "example": null,
+      "translation": null
+    },
+    {
+      "id": "ordinal-78",
+      "sourceOrdinal": 78,
+      "spelling": "暗い",
+      "readings": [
+        "くらい"
+      ],
+      "meanings": [
+        "어둡다"
+      ],
+      "sourceMeanings": [
+        "어둡다"
+      ],
+      "sourceReading": "くらい",
+      "sourceMeaning": "어둡다",
+      "group": 8,
+      "explanation": null,
+      "example": null,
+      "translation": null
+    },
+    {
+      "id": "ordinal-79",
+      "sourceOrdinal": 79,
+      "spelling": "汚い",
+      "readings": [
+        "きたない"
+      ],
+      "meanings": [
+        "더럽다"
+      ],
+      "sourceMeanings": [
+        "더럽다"
+      ],
+      "sourceReading": "きたない",
+      "sourceMeaning": "더럽다",
+      "group": 8,
+      "explanation": null,
+      "example": null,
+      "translation": null
+    },
+    {
+      "id": "ordinal-80",
+      "sourceOrdinal": 80,
+      "spelling": "甘い",
+      "readings": [
+        "あまい"
+      ],
+      "meanings": [
+        "달다"
+      ],
+      "sourceMeanings": [
+        "달다"
+      ],
+      "sourceReading": "あまい",
+      "sourceMeaning": "달다",
+      "group": 8,
+      "explanation": null,
+      "example": null,
+      "translation": null
+    }
+  ]
+}

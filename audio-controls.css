@@ -1,0 +1,5 @@
+#schoolAudioControls{position:fixed;right:12px;top:110px;z-index:340;color:#fff0ce;background:#2c241fee;border:1px solid #b99a61;border-radius:5px;padding:8px 12px;font:13px/1.5 'Malgun Gothic',sans-serif;max-width:calc(100vw - 24px);box-sizing:border-box}
+#schoolAudioControls summary{cursor:pointer;min-height:28px;display:list-item;list-style-position:inside}
+#schoolAudioControls label{display:block;margin:10px 0;max-width:250px}#schoolAudioControls output{float:right;margin-left:12px;color:#edcc8f}#schoolAudioControls input{display:block;width:100%;min-height:32px;accent-color:#c4a46b}#schoolAudioControls small{display:block;max-width:250px;color:#d8c3a0;font-size:11px}#schoolAudioControls:has(summary:focus-visible){outline:2px solid #ffdfa1}
+
+@media(max-width:700px){#schoolAudioControls{top:190px}}
